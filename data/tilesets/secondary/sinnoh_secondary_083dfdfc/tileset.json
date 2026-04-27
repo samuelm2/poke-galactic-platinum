@@ -1,0 +1,13 @@
+{
+  "rom_address": "0x083DFDFC",
+  "is_primary": false,
+  "is_secondary_flag": true,
+  "is_compressed": true,
+  "is_compressed_rom_flag": true,
+  "num_metatiles": 512,
+  "num_tiles": 208,
+  "tiles_ptr": "0x08395878",
+  "palettes_ptr": "0x08395678",
+  "metatiles_ptr": "0x083DF392",
+  "attributes_ptr": "0x083DF6A2"
+}

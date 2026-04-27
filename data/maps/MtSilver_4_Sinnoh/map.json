@@ -1,0 +1,72 @@
+{
+  "id": "MAP_MT_SILVER_4_SINNOH",
+  "name": "MtSilver_4_Sinnoh",
+  "layout": "LAYOUT_MT_SILVER_4_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_MT_PYRE",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 21,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_2_SINNOH",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 21,
+      "y": 31,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_INDOOR_2_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 21,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_INDOOR_2_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 39,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_INDOOR_2_SINNOH",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 39,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_INDOOR_2_SINNOH",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 39,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_INDOOR_2_SINNOH",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 35,
+      "y": 31,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_INDOOR_2_SINNOH",
+      "dest_warp_id": "6"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

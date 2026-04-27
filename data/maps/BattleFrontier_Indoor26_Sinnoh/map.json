@@ -1,0 +1,131 @@
+{
+  "id": "MAP_BATTLE_FRONTIER_INDOOR_26_SINNOH",
+  "name": "BattleFrontier_Indoor26_Sinnoh",
+  "layout": "LAYOUT_BATTLE_FRONTIER_INDOOR_26_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_B_PIKE",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_28",
+      "x": 4,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BattleFrontier_Indoor26_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_28",
+      "x": 8,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BattleFrontier_Indoor26_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 3,
+      "elevation": 3,
+      "var": "16385",
+      "var_value": "0",
+      "script": "BattleFrontier_Indoor26_Sinnoh_EventScript_Trigger0"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 3,
+      "elevation": 3,
+      "var": "16385",
+      "var_value": "0",
+      "script": "BattleFrontier_Indoor26_Sinnoh_EventScript_Trigger1"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 3,
+      "elevation": 3,
+      "var": "16385",
+      "var_value": "0",
+      "script": "BattleFrontier_Indoor26_Sinnoh_EventScript_Trigger2"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 10,
+      "elevation": 0,
+      "var": "16387",
+      "var_value": "1",
+      "script": "BattleFrontier_Indoor26_Sinnoh_EventScript_Trigger3"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 10,
+      "elevation": 0,
+      "var": "16387",
+      "var_value": "1",
+      "script": "BattleFrontier_Indoor26_Sinnoh_EventScript_Trigger4"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 9,
+      "elevation": 3,
+      "var": "16386",
+      "var_value": "0",
+      "script": "BattleFrontier_Indoor26_Sinnoh_EventScript_Trigger5"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 9,
+      "elevation": 3,
+      "var": "16386",
+      "var_value": "0",
+      "script": "BattleFrontier_Indoor26_Sinnoh_EventScript_Trigger6"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 9,
+      "elevation": 3,
+      "var": "16386",
+      "var_value": "0",
+      "script": "BattleFrontier_Indoor26_Sinnoh_EventScript_Trigger7"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 10,
+      "elevation": 0,
+      "var": "16387",
+      "var_value": "1",
+      "script": "BattleFrontier_Indoor26_Sinnoh_EventScript_Trigger8"
+    }
+  ],
+  "bg_events": []
+}

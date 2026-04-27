@@ -1,0 +1,160 @@
+{
+  "id": "MAP_RUINS_OF_DECISION_SINNOH",
+  "name": "RuinsOfDecision_Sinnoh",
+  "layout": "LAYOUT_RUINS_OF_DECISION_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_SEALED_CHAMBER",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_0",
+      "x": 16,
+      "y": 0,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RuinsOfDecision_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 8,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RuinsOfDecision_Sinnoh_EventScript_Obj2",
+      "flag": "17145"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 8,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_RUINS_OF_DECISION_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 8,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_RUINS_OF_DECISION_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 8,
+      "y": 29,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE_209_SINNOH",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 25,
+      "elevation": 0,
+      "var": "16386",
+      "var_value": "0",
+      "script": "RuinsOfDecision_Sinnoh_EventScript_Trigger0"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 25,
+      "elevation": 0,
+      "var": "16387",
+      "var_value": "0",
+      "script": "RuinsOfDecision_Sinnoh_EventScript_Trigger1"
+    },
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 23,
+      "elevation": 0,
+      "var": "16388",
+      "var_value": "0",
+      "script": "RuinsOfDecision_Sinnoh_EventScript_Trigger2"
+    },
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 27,
+      "elevation": 0,
+      "var": "16389",
+      "var_value": "0",
+      "script": "RuinsOfDecision_Sinnoh_EventScript_Trigger3"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 25,
+      "elevation": 0,
+      "var": "16390",
+      "var_value": "0",
+      "script": "RuinsOfDecision_Sinnoh_EventScript_Trigger4"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 23,
+      "elevation": 0,
+      "var": "16391",
+      "var_value": "0",
+      "script": "RuinsOfDecision_Sinnoh_EventScript_Trigger5"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 27,
+      "elevation": 0,
+      "var": "16392",
+      "var_value": "0",
+      "script": "RuinsOfDecision_Sinnoh_EventScript_Trigger6"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 20,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "RuinsOfDecision_Sinnoh_EventScript_Sign0"
+    },
+    {
+      "type": "sign",
+      "x": 9,
+      "y": 20,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "RuinsOfDecision_Sinnoh_EventScript_Sign1"
+    },
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 20,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "RuinsOfDecision_Sinnoh_EventScript_Sign2"
+    }
+  ]
+}

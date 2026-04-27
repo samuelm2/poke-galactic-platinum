@@ -1,0 +1,169 @@
+{
+  "id": "MAP_SAFARI_ZONE_2_SINNOH",
+  "name": "SafariZone_2_Sinnoh",
+  "layout": "LAYOUT_SAFARI_ZONE_2_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_SAFARI_ZONE",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "left",
+      "offset": 0,
+      "map": "MAP_SAFARI_ZONE_1_SINNOH"
+    },
+    {
+      "direction": "down",
+      "offset": 0,
+      "map": "MAP_SAFARI_ZONE_4_SINNOH"
+    },
+    {
+      "direction": "right",
+      "offset": 0,
+      "map": "MAP_SAFARI_ZONE_5_SINNOH"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_50",
+      "x": 22,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SafariZone_2_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_65",
+      "x": 6,
+      "y": 29,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SafariZone_2_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 28,
+      "y": 17,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SafariZone_2_Sinnoh_EventScript_Obj3",
+      "flag": "17"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 24,
+      "y": 11,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SafariZone_2_Sinnoh_EventScript_Obj4",
+      "flag": "18"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 27,
+      "y": 14,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SafariZone_2_Sinnoh_EventScript_Obj5",
+      "flag": "19"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 23,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SafariZone_2_Sinnoh_EventScript_Obj6",
+      "flag": "20"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 20,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SafariZone_2_Sinnoh_EventScript_Obj7",
+      "flag": "21"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 28,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SafariZone_2_Sinnoh_EventScript_Obj8",
+      "flag": "22"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 7,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SafariZone_2_Sinnoh_EventScript_Obj9",
+      "flag": "FLAG_ITEM_SAFARI_ZONE_NORTH_CALCIUM"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 27,
+      "y": 18,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SafariZone_2_Sinnoh_EventScript_Obj10",
+      "flag": "23"
+    }
+  ],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": []
+}

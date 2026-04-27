@@ -1,0 +1,350 @@
+{
+  "id": "MAP_ROUTE_211_SINNOH",
+  "name": "Route211_Sinnoh",
+  "layout": "LAYOUT_ROUTE_211_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_ROUTE3",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "left",
+      "offset": -2,
+      "map": "MAP_ETERNA_CITY_SINNOH"
+    },
+    {
+      "direction": "right",
+      "offset": -1,
+      "map": "MAP_CELESTIC_TOWN_1_SINNOH"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 9,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route211_Sinnoh_EventScript_Obj1",
+      "flag": "16919"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 16,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route211_Sinnoh_EventScript_Obj2",
+      "flag": "16920"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 53,
+      "y": 24,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route211_Sinnoh_EventScript_Obj3",
+      "flag": "16921"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 50,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route211_Sinnoh_EventScript_Obj4",
+      "flag": "16922"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 27,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route211_Sinnoh_EventScript_Obj5",
+      "flag": "18"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 50,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route211_Sinnoh_EventScript_Obj6",
+      "flag": "19"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 49,
+      "y": 16,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route211_Sinnoh_EventScript_Obj7",
+      "flag": "20"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 60,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route211_Sinnoh_EventScript_Obj8",
+      "flag": "21"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_60",
+      "x": 58,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "2",
+      "script": "Route211_Sinnoh_EventScript_Obj9",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_60",
+      "x": 59,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "Route211_Sinnoh_EventScript_Obj10",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_60",
+      "x": 57,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "1",
+      "script": "Route211_Sinnoh_EventScript_Obj11",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_60",
+      "x": 60,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "4",
+      "script": "Route211_Sinnoh_EventScript_Obj12",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_82",
+      "x": 43,
+      "y": 22,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route211_Sinnoh_EventScript_Obj13",
+      "flag": "17"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_16",
+      "x": 15,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route211_Sinnoh_EventScript_Obj14",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_55",
+      "x": 25,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route211_Sinnoh_EventScript_Obj15",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_38",
+      "x": 53,
+      "y": 27,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "5",
+      "script": "Route211_Sinnoh_EventScript_Obj16",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_36",
+      "x": 49,
+      "y": 14,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route211_Sinnoh_EventScript_Obj17",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_10",
+      "x": 50,
+      "y": 18,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route211_Sinnoh_EventScript_Obj18",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_16",
+      "x": 52,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route211_Sinnoh_EventScript_Obj19",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_55",
+      "x": 45,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route211_Sinnoh_EventScript_Obj20",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 39,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_MT_CORONET_4_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 28,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_MT_CORONET_4_SINNOH",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 27,
+      "y": 12,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "Route211_Sinnoh_EventScript_Sign0"
+    },
+    {
+      "type": "sign",
+      "x": 40,
+      "y": 15,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "Route211_Sinnoh_EventScript_Sign1"
+    },
+    {
+      "type": "sign",
+      "x": 65,
+      "y": 15,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "Route211_Sinnoh_EventScript_Sign2"
+    },
+    {
+      "type": "sign",
+      "x": 46,
+      "y": 19,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "Route211_Sinnoh_EventScript_Sign3"
+    },
+    {
+      "type": "sign",
+      "x": 1,
+      "y": 15,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "Route211_Sinnoh_EventScript_Sign4"
+    }
+  ]
+}

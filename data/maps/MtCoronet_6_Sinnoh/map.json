@@ -1,0 +1,131 @@
+{
+  "id": "MAP_MT_CORONET_6_SINNOH",
+  "name": "MtCoronet_6_Sinnoh",
+  "layout": "LAYOUT_MT_CORONET_6_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_SEVII_CAVE",
+  "region_map_section": "MAPSEC_SINNOH_MT_CORONET",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 3,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtCoronet_6_Sinnoh_EventScript_Obj1",
+      "flag": "16993"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 3,
+      "y": 31,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtCoronet_6_Sinnoh_EventScript_Obj2",
+      "flag": "16991"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 23,
+      "y": 15,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtCoronet_6_Sinnoh_EventScript_Obj3",
+      "flag": "16990"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 13,
+      "y": 37,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtCoronet_6_Sinnoh_EventScript_Obj4",
+      "flag": "16992"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_87",
+      "x": 14,
+      "y": 22,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtCoronet_6_Sinnoh_EventScript_Obj5",
+      "flag": "17"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 25,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_MT_CORONET_2_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_MT_CORONET_6_SINNOH",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 39,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_MT_CORONET_7_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 41,
+      "y": 37,
+      "elevation": 0,
+      "dest_map": "MAP_MT_CORONET_6_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 45,
+      "y": 30,
+      "elevation": 0,
+      "dest_map": "MAP_MT_CORONET_7_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 3,
+      "y": 36,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE_207_SINNOH",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

@@ -1,0 +1,318 @@
+{
+  "id": "MAP_PASTORIA_CITY_SINNOH",
+  "name": "PastoriaCity_Sinnoh",
+  "layout": "LAYOUT_PASTORIA_CITY_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_SEVII_67",
+  "region_map_section": "MAPSEC_SINNOH_PASTORIA_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "left",
+      "offset": 28,
+      "map": "MAP_ROUTE_212_2_SINNOH"
+    },
+    {
+      "direction": "right",
+      "offset": -6,
+      "map": "MAP_ROUTE_213_1_SINNOH"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 13,
+      "y": 52,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PastoriaCity_Sinnoh_EventScript_Obj1",
+      "flag": "16962"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 42,
+      "y": 34,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PastoriaCity_Sinnoh_EventScript_Obj2",
+      "flag": "16963"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 40,
+      "y": 17,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PastoriaCity_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_39",
+      "x": 16,
+      "y": 42,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PastoriaCity_Sinnoh_EventScript_Obj4",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_15",
+      "x": 21,
+      "y": 33,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PastoriaCity_Sinnoh_EventScript_Obj5",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_23",
+      "x": 31,
+      "y": 36,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PastoriaCity_Sinnoh_EventScript_Obj6",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_17",
+      "x": 31,
+      "y": 28,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PastoriaCity_Sinnoh_EventScript_Obj7",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_17",
+      "x": 18,
+      "y": 18,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PastoriaCity_Sinnoh_EventScript_Obj8",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_44",
+      "x": 23,
+      "y": 12,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PastoriaCity_Sinnoh_EventScript_Obj9",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_32",
+      "x": 32,
+      "y": 14,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PastoriaCity_Sinnoh_EventScript_Obj10",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_20",
+      "x": 42,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PastoriaCity_Sinnoh_EventScript_Obj11",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_23",
+      "x": 25,
+      "y": 29,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PastoriaCity_Sinnoh_EventScript_Obj12",
+      "flag": "16505"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_60",
+      "x": 33,
+      "y": 26,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "68",
+      "script": "PastoriaCity_Sinnoh_EventScript_Obj13",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_60",
+      "x": 32,
+      "y": 26,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "38",
+      "script": "PastoriaCity_Sinnoh_EventScript_Obj14",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_60",
+      "x": 34,
+      "y": 26,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "66",
+      "script": "PastoriaCity_Sinnoh_EventScript_Obj15",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 21,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_PASTORIA_CITY_INDOOR_2_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 34,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_GREAT_MARSH_MAP_3_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_PASTORIA_CITY_INDOOR_4_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 25,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_PETALBURG_CITY_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 25,
+      "y": 28,
+      "elevation": 0,
+      "dest_map": "MAP_PASTORIA_CITY_INDOOR_5_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 48,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_PASTORIA_CITY_INDOOR_1_SINNOH",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 35,
+      "y": 33,
+      "elevation": 0,
+      "dest_map": "MAP_PASTORIA_CITY_INDOOR_1_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 25,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_PASTORIA_CITY_INDOOR_3_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_PASTORIA_CITY_INDOOR_1_SINNOH",
+      "dest_warp_id": "3"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 21,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "PastoriaCity_Sinnoh_EventScript_Sign0"
+    },
+    {
+      "type": "sign",
+      "x": 29,
+      "y": 34,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "PastoriaCity_Sinnoh_EventScript_Sign1"
+    },
+    {
+      "type": "sign",
+      "x": 30,
+      "y": 26,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "PastoriaCity_Sinnoh_EventScript_Sign2"
+    }
+  ]
+}

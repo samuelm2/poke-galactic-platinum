@@ -1,0 +1,97 @@
+{
+  "id": "MAP_IRON_ISLAND_1_SINNOH",
+  "name": "IronIsland_1_Sinnoh",
+  "layout": "LAYOUT_IRON_ISLAND_1_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_SEVII_123",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_140",
+      "x": 3,
+      "y": 22,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "IronIsland_1_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_49",
+      "x": 3,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "IronIsland_1_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_0",
+      "x": 11,
+      "y": 21,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "IronIsland_1_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_0",
+      "x": 13,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "IronIsland_1_Sinnoh_EventScript_Obj4",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 8,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_IRON_ISLAND_7_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 22,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_IRON_ISLAND_2_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 16,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_SINNOH_REGION_MAP_2_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

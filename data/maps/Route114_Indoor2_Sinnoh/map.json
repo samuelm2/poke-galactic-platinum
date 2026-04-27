@@ -1,0 +1,77 @@
+{
+  "id": "MAP_ROUTE_114_INDOOR_2_SINNOH",
+  "name": "Route114_Indoor2_Sinnoh",
+  "layout": "LAYOUT_ROUTE_114_INDOOR_2_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_FALLARBOR",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_39",
+      "x": 5,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route114_Indoor2_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 6,
+      "y": 25,
+      "elevation": 3,
+      "dest_map": "MAP_ROUTE_114_INDOOR_1_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 7,
+      "y": 25,
+      "elevation": 3,
+      "dest_map": "MAP_ROUTE_114_INDOOR_1_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_DESERT_UNDERPASS_1_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 4,
+      "elevation": 3,
+      "var": "VAR_FOSSIL_MANIAC_STATE",
+      "var_value": "1",
+      "script": "Route114_Indoor2_Sinnoh_EventScript_Trigger0"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 4,
+      "elevation": 3,
+      "var": "VAR_FOSSIL_MANIAC_STATE",
+      "var_value": "1",
+      "script": "Route114_Indoor2_Sinnoh_EventScript_Trigger1"
+    }
+  ],
+  "bg_events": []
+}

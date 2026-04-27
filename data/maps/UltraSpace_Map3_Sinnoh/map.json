@@ -1,0 +1,79 @@
+{
+  "id": "MAP_ULTRA_SPACE_MAP_3_SINNOH",
+  "name": "UltraSpace_Map3_Sinnoh",
+  "layout": "LAYOUT_ULTRA_SPACE_MAP_3_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_WEATHER_GROUDON",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_UNDERWATER_BUBBLES",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 2,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "UltraSpace_Map3_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 9,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_PETALBURG_CITY_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 5,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_PETALBURG_WOODS_SINNOH",
+      "dest_warp_id": "8"
+    },
+    {
+      "x": 16,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_SHOAL_CAVE_2_SINNOH",
+      "dest_warp_id": "7"
+    },
+    {
+      "x": 16,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_FLOWER_PARADISE_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_BELLCHIME_TRAIL_INDOOR_1_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 7,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_GRANITE_CAVE_5_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

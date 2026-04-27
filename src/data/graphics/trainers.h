@@ -496,6 +496,109 @@ const u16 gTrainerBackPicPalette_OldMan[] = INCBIN_U16("graphics/trainers/back_p
         .mugshotRotation = DEFAULT_3(0x200, __VA_ARGS__),                      \
     }
 
+// --- BEGIN WIRE_TO_DECOMP_SPRITES sinnoh ---
+const u32 gTrainerFrontPic_Sinnoh0[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/000.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh0[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/000.gbapal");
+const u32 gTrainerFrontPic_Sinnoh1[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/001.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh1[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/001.gbapal");
+const u32 gTrainerFrontPic_Sinnoh2[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/002.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh2[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/002.gbapal");
+const u32 gTrainerFrontPic_Sinnoh3[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/003.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh3[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/003.gbapal");
+const u32 gTrainerFrontPic_Sinnoh4[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/004.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh4[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/004.gbapal");
+const u32 gTrainerFrontPic_Sinnoh5[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/005.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh5[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/005.gbapal");
+const u32 gTrainerFrontPic_Sinnoh6[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/006.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh6[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/006.gbapal");
+const u32 gTrainerFrontPic_Sinnoh7[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/007.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh7[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/007.gbapal");
+const u32 gTrainerFrontPic_Sinnoh8[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/008.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh8[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/008.gbapal");
+const u32 gTrainerFrontPic_Sinnoh9[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/009.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh9[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/009.gbapal");
+const u32 gTrainerFrontPic_Sinnoh10[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/010.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh10[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/010.gbapal");
+const u32 gTrainerFrontPic_Sinnoh11[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/011.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh11[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/011.gbapal");
+const u32 gTrainerFrontPic_Sinnoh12[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/012.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh12[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/012.gbapal");
+const u32 gTrainerFrontPic_Sinnoh13[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/013.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh13[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/013.gbapal");
+const u32 gTrainerFrontPic_Sinnoh14[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/014.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh14[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/014.gbapal");
+const u32 gTrainerFrontPic_Sinnoh15[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/015.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh15[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/015.gbapal");
+const u32 gTrainerFrontPic_Sinnoh16[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/016.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh16[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/016.gbapal");
+const u32 gTrainerFrontPic_Sinnoh17[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/017.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh17[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/017.gbapal");
+const u32 gTrainerFrontPic_Sinnoh18[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/018.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh18[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/018.gbapal");
+const u32 gTrainerFrontPic_Sinnoh19[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/019.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh19[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/019.gbapal");
+const u32 gTrainerFrontPic_Sinnoh20[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/020.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh20[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/020.gbapal");
+const u32 gTrainerFrontPic_Sinnoh21[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/021.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh21[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/021.gbapal");
+const u32 gTrainerFrontPic_Sinnoh22[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/022.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh22[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/022.gbapal");
+const u32 gTrainerFrontPic_Sinnoh23[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/023.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh23[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/023.gbapal");
+const u32 gTrainerFrontPic_Sinnoh24[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/024.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh24[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/024.gbapal");
+const u32 gTrainerFrontPic_Sinnoh25[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/025.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh25[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/025.gbapal");
+const u32 gTrainerFrontPic_Sinnoh26[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/026.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh26[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/026.gbapal");
+const u32 gTrainerFrontPic_Sinnoh27[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/027.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh27[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/027.gbapal");
+const u32 gTrainerFrontPic_Sinnoh28[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/028.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh28[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/028.gbapal");
+const u32 gTrainerFrontPic_Sinnoh29[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/029.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh29[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/029.gbapal");
+const u32 gTrainerFrontPic_Sinnoh30[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/030.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh30[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/030.gbapal");
+const u32 gTrainerFrontPic_Sinnoh31[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/031.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh31[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/031.gbapal");
+const u32 gTrainerFrontPic_Sinnoh32[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/032.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh32[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/032.gbapal");
+const u32 gTrainerFrontPic_Sinnoh33[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/033.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh33[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/033.gbapal");
+const u32 gTrainerFrontPic_Sinnoh34[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/034.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh34[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/034.gbapal");
+const u32 gTrainerFrontPic_Sinnoh35[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/035.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh35[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/035.gbapal");
+const u32 gTrainerFrontPic_Sinnoh36[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/036.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh36[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/036.gbapal");
+const u32 gTrainerFrontPic_Sinnoh37[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/037.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh37[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/037.gbapal");
+const u32 gTrainerFrontPic_Sinnoh38[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/038.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh38[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/038.gbapal");
+const u32 gTrainerFrontPic_Sinnoh39[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/039.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh39[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/039.gbapal");
+const u32 gTrainerFrontPic_Sinnoh40[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/040.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh40[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/040.gbapal");
+const u32 gTrainerFrontPic_Sinnoh41[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/041.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh41[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/041.gbapal");
+const u32 gTrainerFrontPic_Sinnoh42[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/042.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh42[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/042.gbapal");
+const u32 gTrainerFrontPic_Sinnoh43[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/043.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh43[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/043.gbapal");
+const u32 gTrainerFrontPic_Sinnoh44[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/044.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh44[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/044.gbapal");
+const u32 gTrainerFrontPic_Sinnoh45[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/045.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh45[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/045.gbapal");
+const u32 gTrainerFrontPic_Sinnoh46[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/046.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh46[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/046.gbapal");
+const u32 gTrainerFrontPic_Sinnoh47[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/047.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh47[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/047.gbapal");
+const u32 gTrainerFrontPic_Sinnoh48[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/048.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh48[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/048.gbapal");
+const u32 gTrainerFrontPic_Sinnoh49[] = INCBIN_U32("graphics/trainers/front_pics/sinnoh/049.4bpp.smol");
+const u16 gTrainerPalette_Sinnoh49[] = INCBIN_U16("graphics/trainers/front_pics/sinnoh/049.gbapal");
+// --- END WIRE_TO_DECOMP_SPRITES sinnoh ---
+
 const struct TrainerSprite gTrainerSprites[] =
 {
     TRAINER_SPRITE(TRAINER_PIC_FRONT_HIKER, gTrainerFrontPic_Hiker, gTrainerPalette_Hiker),
@@ -653,6 +756,58 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TRAINER_PIC_FRONT_RUIN_MANIAC_FRLG, gTrainerFrontPic_RuinManiacFrlg, gTrainerPalette_RuinManiacFrlg),
     TRAINER_SPRITE(TRAINER_PIC_FRONT_LADY_FRLG, gTrainerFrontPic_LadyFrlg, gTrainerPalette_LadyFrlg),
     TRAINER_SPRITE(TRAINER_PIC_FRONT_PAINTER_FRLG, gTrainerFrontPic_PainterFrlg, gTrainerPalette_PainterFrlg),
+    // --- BEGIN WIRE_TO_DECOMP_TRAINER_SPRITES sinnoh ---
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_0, gTrainerFrontPic_Sinnoh0, gTrainerPalette_Sinnoh0),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_1, gTrainerFrontPic_Sinnoh1, gTrainerPalette_Sinnoh1),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_2, gTrainerFrontPic_Sinnoh2, gTrainerPalette_Sinnoh2),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_3, gTrainerFrontPic_Sinnoh3, gTrainerPalette_Sinnoh3),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_4, gTrainerFrontPic_Sinnoh4, gTrainerPalette_Sinnoh4),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_5, gTrainerFrontPic_Sinnoh5, gTrainerPalette_Sinnoh5),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_6, gTrainerFrontPic_Sinnoh6, gTrainerPalette_Sinnoh6),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_7, gTrainerFrontPic_Sinnoh7, gTrainerPalette_Sinnoh7),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_8, gTrainerFrontPic_Sinnoh8, gTrainerPalette_Sinnoh8),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_9, gTrainerFrontPic_Sinnoh9, gTrainerPalette_Sinnoh9),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_10, gTrainerFrontPic_Sinnoh10, gTrainerPalette_Sinnoh10),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_11, gTrainerFrontPic_Sinnoh11, gTrainerPalette_Sinnoh11),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_12, gTrainerFrontPic_Sinnoh12, gTrainerPalette_Sinnoh12),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_13, gTrainerFrontPic_Sinnoh13, gTrainerPalette_Sinnoh13),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_14, gTrainerFrontPic_Sinnoh14, gTrainerPalette_Sinnoh14),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_15, gTrainerFrontPic_Sinnoh15, gTrainerPalette_Sinnoh15),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_16, gTrainerFrontPic_Sinnoh16, gTrainerPalette_Sinnoh16),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_17, gTrainerFrontPic_Sinnoh17, gTrainerPalette_Sinnoh17),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_18, gTrainerFrontPic_Sinnoh18, gTrainerPalette_Sinnoh18),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_19, gTrainerFrontPic_Sinnoh19, gTrainerPalette_Sinnoh19),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_20, gTrainerFrontPic_Sinnoh20, gTrainerPalette_Sinnoh20),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_21, gTrainerFrontPic_Sinnoh21, gTrainerPalette_Sinnoh21),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_22, gTrainerFrontPic_Sinnoh22, gTrainerPalette_Sinnoh22),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_23, gTrainerFrontPic_Sinnoh23, gTrainerPalette_Sinnoh23),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_24, gTrainerFrontPic_Sinnoh24, gTrainerPalette_Sinnoh24),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_25, gTrainerFrontPic_Sinnoh25, gTrainerPalette_Sinnoh25),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_26, gTrainerFrontPic_Sinnoh26, gTrainerPalette_Sinnoh26),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_27, gTrainerFrontPic_Sinnoh27, gTrainerPalette_Sinnoh27),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_28, gTrainerFrontPic_Sinnoh28, gTrainerPalette_Sinnoh28),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_29, gTrainerFrontPic_Sinnoh29, gTrainerPalette_Sinnoh29),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_30, gTrainerFrontPic_Sinnoh30, gTrainerPalette_Sinnoh30),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_31, gTrainerFrontPic_Sinnoh31, gTrainerPalette_Sinnoh31),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_32, gTrainerFrontPic_Sinnoh32, gTrainerPalette_Sinnoh32),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_33, gTrainerFrontPic_Sinnoh33, gTrainerPalette_Sinnoh33),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_34, gTrainerFrontPic_Sinnoh34, gTrainerPalette_Sinnoh34),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_35, gTrainerFrontPic_Sinnoh35, gTrainerPalette_Sinnoh35),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_36, gTrainerFrontPic_Sinnoh36, gTrainerPalette_Sinnoh36),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_37, gTrainerFrontPic_Sinnoh37, gTrainerPalette_Sinnoh37),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_38, gTrainerFrontPic_Sinnoh38, gTrainerPalette_Sinnoh38),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_39, gTrainerFrontPic_Sinnoh39, gTrainerPalette_Sinnoh39),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_40, gTrainerFrontPic_Sinnoh40, gTrainerPalette_Sinnoh40),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_41, gTrainerFrontPic_Sinnoh41, gTrainerPalette_Sinnoh41),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_42, gTrainerFrontPic_Sinnoh42, gTrainerPalette_Sinnoh42),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_43, gTrainerFrontPic_Sinnoh43, gTrainerPalette_Sinnoh43),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_44, gTrainerFrontPic_Sinnoh44, gTrainerPalette_Sinnoh44),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_45, gTrainerFrontPic_Sinnoh45, gTrainerPalette_Sinnoh45),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_46, gTrainerFrontPic_Sinnoh46, gTrainerPalette_Sinnoh46),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_47, gTrainerFrontPic_Sinnoh47, gTrainerPalette_Sinnoh47),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_48, gTrainerFrontPic_Sinnoh48, gTrainerPalette_Sinnoh48),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_49, gTrainerFrontPic_Sinnoh49, gTrainerPalette_Sinnoh49),
+    // --- END WIRE_TO_DECOMP_TRAINER_SPRITES sinnoh ---
 };
 
 static const union AnimCmd sAnimCmd_Hoenn[] =

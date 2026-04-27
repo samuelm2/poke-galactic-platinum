@@ -1,0 +1,110 @@
+{
+  "id": "MAP_MOSSDEEP_CITY_INDOOR_5_SINNOH",
+  "name": "MossdeepCity_Indoor5_Sinnoh",
+  "layout": "LAYOUT_MOSSDEEP_CITY_INDOOR_5_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_POKE_CENTER",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_85",
+      "x": 6,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MossdeepCity_Indoor5_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_85",
+      "x": 2,
+      "y": 2,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MossdeepCity_Indoor5_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_85",
+      "x": 10,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MossdeepCity_Indoor5_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_223",
+      "x": 1,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MossdeepCity_Indoor5_Sinnoh_EventScript_Obj4",
+      "flag": "FLAG_HIDE_POKEMON_CENTER_2F_MYSTERY_GIFT_MAN"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_34",
+      "x": 11,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MossdeepCity_Indoor5_Sinnoh_EventScript_Obj5",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 1,
+      "y": 6,
+      "elevation": 4,
+      "dest_map": "MAP_MOSSDEEP_CITY_INDOOR_4_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_UNKNOWN_57_INDOOR_35_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_UNKNOWN_57_INDOOR_2_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

@@ -1,0 +1,354 @@
+{
+  "id": "MAP_EVER_GRANDE_CITY_SINNOH",
+  "name": "EverGrandeCity_Sinnoh",
+  "layout": "LAYOUT_EVER_GRANDE_CITY_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_EVER_GRANDE",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "left",
+      "offset": 40,
+      "map": "MAP_ROUTE_128_SINNOH"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_15",
+      "x": 26,
+      "y": 49,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_43",
+      "x": 24,
+      "y": 76,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_116",
+      "x": 27,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_52",
+      "x": 16,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Obj4",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_42",
+      "x": 26,
+      "y": 75,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Obj5",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_163",
+      "x": 18,
+      "y": 41,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Obj6",
+      "flag": "17071"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_153",
+      "x": 5,
+      "y": 67,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Obj7",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_223",
+      "x": 8,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Obj8",
+      "flag": "16562"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_16",
+      "x": 5,
+      "y": 64,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Obj9",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 18,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_EVER_GRANDE_CITY_INDOOR_11_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 27,
+      "y": 48,
+      "elevation": 0,
+      "dest_map": "MAP_EVER_GRANDE_CITY_INDOOR_13_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 18,
+      "y": 41,
+      "elevation": 0,
+      "dest_map": "MAP_VICTORY_ROAD_1_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 18,
+      "y": 27,
+      "elevation": 0,
+      "dest_map": "MAP_VICTORY_ROAD_1_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_VICTORY_ROAD_5_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 28,
+      "y": 62,
+      "elevation": 0,
+      "dest_map": "MAP_TEST_OF_HEART_1_SINNOH",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 12,
+      "y": 62,
+      "elevation": 0,
+      "dest_map": "MAP_TEST_OF_HEART_1_SINNOH",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 58,
+      "elevation": 1,
+      "var": "16385",
+      "var_value": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Trigger0"
+    },
+    {
+      "type": "trigger",
+      "x": 16,
+      "y": 58,
+      "elevation": 1,
+      "var": "16385",
+      "var_value": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Trigger1"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 58,
+      "elevation": 1,
+      "var": "16385",
+      "var_value": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Trigger2"
+    },
+    {
+      "type": "trigger",
+      "x": 19,
+      "y": 58,
+      "elevation": 1,
+      "var": "16385",
+      "var_value": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Trigger3"
+    },
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 58,
+      "elevation": 1,
+      "var": "16385",
+      "var_value": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Trigger4"
+    },
+    {
+      "type": "trigger",
+      "x": 21,
+      "y": 58,
+      "elevation": 1,
+      "var": "16385",
+      "var_value": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Trigger5"
+    },
+    {
+      "type": "trigger",
+      "x": 22,
+      "y": 58,
+      "elevation": 1,
+      "var": "16385",
+      "var_value": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Trigger6"
+    },
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 58,
+      "elevation": 1,
+      "var": "16385",
+      "var_value": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Trigger7"
+    },
+    {
+      "type": "trigger",
+      "x": 24,
+      "y": 58,
+      "elevation": 1,
+      "var": "16385",
+      "var_value": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Trigger8"
+    },
+    {
+      "type": "trigger",
+      "x": 25,
+      "y": 58,
+      "elevation": 1,
+      "var": "16385",
+      "var_value": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Trigger9"
+    },
+    {
+      "type": "trigger",
+      "x": 26,
+      "y": 58,
+      "elevation": 1,
+      "var": "16385",
+      "var_value": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Trigger10"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 42,
+      "elevation": 0,
+      "var": "16394",
+      "var_value": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Trigger11"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 19,
+      "y": 43,
+      "elevation": 5,
+      "player_facing_dir": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Sign0"
+    },
+    {
+      "type": "sign",
+      "x": 28,
+      "y": 48,
+      "elevation": 0,
+      "player_facing_dir": "1",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Sign1"
+    },
+    {
+      "type": "sign",
+      "x": 18,
+      "y": 52,
+      "elevation": 5,
+      "player_facing_dir": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Sign2"
+    },
+    {
+      "type": "sign",
+      "x": 23,
+      "y": 15,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Sign3"
+    },
+    {
+      "type": "sign",
+      "x": 25,
+      "y": 49,
+      "elevation": 0,
+      "player_facing_dir": "1",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Sign4"
+    },
+    {
+      "type": "sign",
+      "x": 18,
+      "y": 52,
+      "elevation": 5,
+      "player_facing_dir": "0",
+      "script": "EverGrandeCity_Sinnoh_EventScript_Sign5"
+    }
+  ]
+}

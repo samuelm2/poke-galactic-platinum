@@ -1,0 +1,274 @@
+{
+  "id": "MAP_ETERNA_CITY_SINNOH",
+  "name": "EternaCity_Sinnoh",
+  "layout": "LAYOUT_ETERNA_CITY_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_FUCHSIA",
+  "region_map_section": "MAPSEC_SINNOH_ETERNA_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "left",
+      "offset": 3,
+      "map": "MAP_ROUTE_205_1_SINNOH"
+    },
+    {
+      "direction": "down",
+      "offset": 2,
+      "map": "MAP_ROUTE_206_SINNOH"
+    },
+    {
+      "direction": "right",
+      "offset": 2,
+      "map": "MAP_ROUTE_211_SINNOH"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 18,
+      "y": 20,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EternaCity_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 21,
+      "y": 20,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EternaCity_Sinnoh_EventScript_Obj2",
+      "flag": "16469"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_11",
+      "x": 45,
+      "y": 17,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EternaCity_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_15",
+      "x": 16,
+      "y": 44,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EternaCity_Sinnoh_EventScript_Obj4",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_8",
+      "x": 24,
+      "y": 38,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EternaCity_Sinnoh_EventScript_Obj5",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_21",
+      "x": 14,
+      "y": 35,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EternaCity_Sinnoh_EventScript_Obj6",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_36",
+      "x": 10,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EternaCity_Sinnoh_EventScript_Obj7",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_36",
+      "x": 18,
+      "y": 23,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EternaCity_Sinnoh_EventScript_Obj8",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 16,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_CITY_MAP_1_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 43,
+      "y": 28,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_CITY_INDOOR_7_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 15,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_CITY_INDOOR_3_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 21,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_CITY_INDOOR_8_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 22,
+      "y": 28,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_CITY_INDOOR_2_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 21,
+      "y": 36,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_CITY_INDOOR_4_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 25,
+      "y": 36,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_CITY_INDOOR_1_SINNOH",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 10,
+      "y": 48,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_CITY_INDOOR_1_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 25,
+      "y": 46,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_CITY_INDOOR_6_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 49,
+      "elevation": 0,
+      "var": "16385",
+      "var_value": "0",
+      "script": "EternaCity_Sinnoh_EventScript_Trigger0"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 14,
+      "y": 12,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "EternaCity_Sinnoh_EventScript_Sign0"
+    },
+    {
+      "type": "sign",
+      "x": 19,
+      "y": 28,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "EternaCity_Sinnoh_EventScript_Sign1"
+    },
+    {
+      "type": "sign",
+      "x": 21,
+      "y": 47,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "EternaCity_Sinnoh_EventScript_Sign2"
+    },
+    {
+      "type": "sign",
+      "x": 41,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "EternaCity_Sinnoh_EventScript_Sign3"
+    },
+    {
+      "type": "sign",
+      "x": 60,
+      "y": 17,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "EternaCity_Sinnoh_EventScript_Sign4"
+    },
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 17,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "EternaCity_Sinnoh_EventScript_Sign5"
+    },
+    {
+      "type": "sign",
+      "x": 21,
+      "y": 18,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "EternaCity_Sinnoh_EventScript_Sign6"
+    }
+  ]
+}

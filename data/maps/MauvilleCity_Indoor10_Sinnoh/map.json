@@ -1,0 +1,30 @@
+{
+  "id": "MAP_MAUVILLE_CITY_INDOOR_10_SINNOH",
+  "name": "MauvilleCity_Indoor10_Sinnoh",
+  "layout": "LAYOUT_MAUVILLE_CITY_INDOOR_10_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_UNION_ROOM",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 1,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_MAUVILLE_CITY_INDOOR_9_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

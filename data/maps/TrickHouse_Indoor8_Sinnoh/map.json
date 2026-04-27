@@ -1,0 +1,318 @@
+{
+  "id": "MAP_TRICK_HOUSE_INDOOR_8_SINNOH",
+  "name": "TrickHouse_Indoor8_Sinnoh",
+  "layout": "LAYOUT_TRICK_HOUSE_INDOOR_8_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_TRICK_HOUSE",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_19",
+      "x": 6,
+      "y": 17,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_19",
+      "x": 0,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_19",
+      "x": 14,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_19",
+      "x": 14,
+      "y": 19,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Obj4",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_19",
+      "x": 10,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Obj5",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 0,
+      "y": 21,
+      "elevation": 3,
+      "dest_map": "MAP_TRICK_HOUSE_INDOOR_1_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 1,
+      "y": 21,
+      "elevation": 3,
+      "dest_map": "MAP_TRICK_HOUSE_INDOOR_1_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 13,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_TRICK_HOUSE_INDOOR_2_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 17,
+      "elevation": 3,
+      "var": "16385",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger0"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 17,
+      "elevation": 3,
+      "var": "16385",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger1"
+    },
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 17,
+      "elevation": 3,
+      "var": "16385",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger2"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 17,
+      "elevation": 3,
+      "var": "16385",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger3"
+    },
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 7,
+      "elevation": 3,
+      "var": "16386",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger4"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 7,
+      "elevation": 3,
+      "var": "16386",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger5"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 10,
+      "elevation": 3,
+      "var": "16387",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger6"
+    },
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 10,
+      "elevation": 3,
+      "var": "16387",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger7"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 10,
+      "elevation": 3,
+      "var": "16387",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger8"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 19,
+      "elevation": 3,
+      "var": "16388",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger9"
+    },
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 19,
+      "elevation": 3,
+      "var": "16388",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger10"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 4,
+      "elevation": 3,
+      "var": "16389",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger11"
+    },
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 17,
+      "elevation": 3,
+      "var": "16385",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger12"
+    },
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 7,
+      "elevation": 3,
+      "var": "16386",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger13"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 7,
+      "elevation": 3,
+      "var": "16386",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger14"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 7,
+      "elevation": 3,
+      "var": "16386",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger15"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 7,
+      "elevation": 3,
+      "var": "16386",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger16"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 10,
+      "elevation": 3,
+      "var": "16387",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger17"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 10,
+      "elevation": 3,
+      "var": "16387",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger18"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 19,
+      "elevation": 3,
+      "var": "16388",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger19"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 19,
+      "elevation": 3,
+      "var": "16388",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger20"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 19,
+      "elevation": 3,
+      "var": "16388",
+      "var_value": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Trigger21"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 11,
+      "y": 21,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "TrickHouse_Indoor8_Sinnoh_EventScript_Sign0"
+    }
+  ]
+}

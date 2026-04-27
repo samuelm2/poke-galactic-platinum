@@ -1,0 +1,65 @@
+{
+  "id": "MAP_ETERNA_CITY_MAP_2_SINNOH",
+  "name": "EternaCity_Map2_Sinnoh",
+  "layout": "LAYOUT_ETERNA_CITY_MAP_2_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_POKE_MANSION",
+  "region_map_section": "MAPSEC_SINNOH_ETERNA_CITY",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 5,
+      "y": 0,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "EternaCity_Map2_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 0,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_CITY_MAP_1_SINNOH",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_CITY_MAP_1_SINNOH",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 12,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_CITY_MAP_3_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 18,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_ETERNA_CITY_MAP_3_SINNOH",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

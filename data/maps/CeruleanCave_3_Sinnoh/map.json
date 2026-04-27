@@ -1,0 +1,171 @@
+{
+  "id": "MAP_CERULEAN_CAVE_3_SINNOH",
+  "name": "CeruleanCave_3_Sinnoh",
+  "layout": "LAYOUT_CERULEAN_CAVE_3_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_POKE_MANSION",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 8,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "2",
+      "script": "CeruleanCave_3_Sinnoh_EventScript_Obj1",
+      "flag": "16787"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 18,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "CeruleanCave_3_Sinnoh_EventScript_Obj2",
+      "flag": "16787"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 33,
+      "y": 14,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CeruleanCave_3_Sinnoh_EventScript_Obj3",
+      "flag": "16784"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 31,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "1",
+      "script": "CeruleanCave_3_Sinnoh_EventScript_Obj4",
+      "flag": "16787"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 19,
+      "y": 16,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "2",
+      "script": "CeruleanCave_3_Sinnoh_EventScript_Obj5",
+      "flag": "16787"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 9,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "5",
+      "script": "CeruleanCave_3_Sinnoh_EventScript_Obj6",
+      "flag": "16787"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 20,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CeruleanCave_3_Sinnoh_EventScript_Obj7",
+      "flag": "16783"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 5,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_CERULEAN_CAVE_1_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_CERULEAN_CAVE_2_SINNOH",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_CERULEAN_CAVE_2_SINNOH",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 7,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_CERULEAN_CAVE_2_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 23,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_CERULEAN_CAVE_2_SINNOH",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 26,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_CERULEAN_CAVE_2_SINNOH",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 33,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_CERULEAN_CAVE_2_SINNOH",
+      "dest_warp_id": "7"
+    },
+    {
+      "x": 4,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_CERULEAN_CAVE_2_SINNOH",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "MAP_ROUTE_122_SINNOH",
+  "name": "Route122_Sinnoh",
+  "layout": "LAYOUT_ROUTE_122_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_ROUTE122",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "up",
+      "offset": -20,
+      "map": "MAP_ROUTE_121_SINNOH"
+    },
+    {
+      "direction": "down",
+      "offset": -100,
+      "map": "MAP_ROUTE_123_SINNOH"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 28,
+      "y": 29,
+      "elevation": 0,
+      "dest_map": "MAP_MT_PYRE_INDOOR_1_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

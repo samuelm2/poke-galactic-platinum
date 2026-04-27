@@ -1,0 +1,122 @@
+{
+  "id": "MAP_LILYCOVE_CITY_INDOOR_2_SINNOH",
+  "name": "LilycoveCity_Indoor2_Sinnoh",
+  "layout": "LAYOUT_LILYCOVE_CITY_INDOOR_2_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_LILYCOVE",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_33",
+      "x": 4,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LilycoveCity_Indoor2_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_46",
+      "x": 1,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LilycoveCity_Indoor2_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_17",
+      "x": 7,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LilycoveCity_Indoor2_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_65",
+      "x": 10,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LilycoveCity_Indoor2_Sinnoh_EventScript_Obj4",
+      "flag": "FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_7",
+      "x": 7,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LilycoveCity_Indoor2_Sinnoh_EventScript_Obj5",
+      "flag": "FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_20",
+      "x": 4,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LilycoveCity_Indoor2_Sinnoh_EventScript_Obj6",
+      "flag": "FLAG_HIDE_LILYCOVE_MOTEL_GAME_DESIGNERS"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_219",
+      "x": 1,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LilycoveCity_Indoor2_Sinnoh_EventScript_Obj7",
+      "flag": "FLAG_HIDE_LILYCOVE_MOTEL_SCOTT"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 2,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_LILYCOVE_CITY_INDOOR_1_SINNOH",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

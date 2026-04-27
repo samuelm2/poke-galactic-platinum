@@ -1,0 +1,136 @@
+{
+  "id": "MAP_RUSTBORO_CITY_INDOOR_3_SINNOH",
+  "name": "RustboroCity_Indoor3_Sinnoh",
+  "layout": "LAYOUT_RUSTBORO_CITY_INDOOR_3_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RUSTBORO",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_27",
+      "x": 17,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RustboroCity_Indoor3_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_23",
+      "x": 3,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RustboroCity_Indoor3_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_RUSTBORO_CITY_DEVON_CORP_3F_EMPLOYEE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_48",
+      "x": 15,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RustboroCity_Indoor3_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_134",
+      "x": 2,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RustboroCity_Indoor3_Sinnoh_EventScript_Obj4",
+      "flag": "16725"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 1,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RustboroCity_Indoor3_Sinnoh_EventScript_Obj5",
+      "flag": "16727"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 3,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RustboroCity_Indoor3_Sinnoh_EventScript_Obj6",
+      "flag": "16727"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 2,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_RUSTBORO_CITY_INDOOR_2_SINNOH",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 3,
+      "elevation": 0,
+      "var": "16385",
+      "var_value": "0",
+      "script": "RustboroCity_Indoor3_Sinnoh_EventScript_Trigger0"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 1,
+      "y": 5,
+      "elevation": 3,
+      "player_facing_dir": "0",
+      "script": "RustboroCity_Indoor3_Sinnoh_EventScript_Sign0"
+    },
+    {
+      "type": "sign",
+      "x": 1,
+      "y": 7,
+      "elevation": 3,
+      "player_facing_dir": "0",
+      "script": "RustboroCity_Indoor3_Sinnoh_EventScript_Sign1"
+    }
+  ]
+}

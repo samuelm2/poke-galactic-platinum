@@ -1,0 +1,290 @@
+{
+  "id": "MAP_LOST_TOWER_INDOOR_1_SINNOH",
+  "name": "LostTower_Indoor1_Sinnoh",
+  "layout": "LAYOUT_LOST_TOWER_INDOOR_1_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_POKE_TOWER",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_FOG_HORIZONTAL",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_29",
+      "x": 70,
+      "y": 14,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "1",
+      "script": "LostTower_Indoor1_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_18",
+      "x": 65,
+      "y": 12,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "4",
+      "script": "LostTower_Indoor1_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_34",
+      "x": 61,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "1",
+      "script": "LostTower_Indoor1_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_33",
+      "x": 60,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "1",
+      "script": "LostTower_Indoor1_Sinnoh_EventScript_Obj4",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_22",
+      "x": 83,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LostTower_Indoor1_Sinnoh_EventScript_Obj5",
+      "flag": "16682"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_22",
+      "x": 82,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LostTower_Indoor1_Sinnoh_EventScript_Obj6",
+      "flag": "16681"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_65",
+      "x": 43,
+      "y": 15,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "8",
+      "script": "LostTower_Indoor1_Sinnoh_EventScript_Obj7",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_22",
+      "x": 70,
+      "y": 15,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "1",
+      "script": "LostTower_Indoor1_Sinnoh_EventScript_Obj8",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_35",
+      "x": 26,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "4",
+      "script": "LostTower_Indoor1_Sinnoh_EventScript_Obj9",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_37",
+      "x": 43,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "6",
+      "script": "LostTower_Indoor1_Sinnoh_EventScript_Obj10",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 4,
+      "y": 3,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LostTower_Indoor1_Sinnoh_EventScript_Obj11",
+      "flag": "16680"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 82,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_COPY_PLAYER",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LostTower_Indoor1_Sinnoh_EventScript_Obj12",
+      "flag": "16480"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 21,
+      "y": 14,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LostTower_Indoor1_Sinnoh_EventScript_Obj13",
+      "flag": "16683"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 82,
+      "y": 14,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "LostTower_Indoor1_Sinnoh_EventScript_Obj14",
+      "flag": "16646"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 6,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE_209_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 7,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE_209_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_LOST_TOWER_INDOOR_1_SINNOH",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 23,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_LOST_TOWER_INDOOR_1_SINNOH",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 28,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_LOST_TOWER_INDOOR_1_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 42,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_LOST_TOWER_INDOOR_1_SINNOH",
+      "dest_warp_id": "8"
+    },
+    {
+      "x": 47,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_LOST_TOWER_INDOOR_1_SINNOH",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 61,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_LOST_TOWER_INDOOR_1_SINNOH",
+      "dest_warp_id": "9"
+    },
+    {
+      "x": 66,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_LOST_TOWER_INDOOR_1_SINNOH",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 85,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_LOST_TOWER_INDOOR_1_SINNOH",
+      "dest_warp_id": "7"
+    },
+    {
+      "x": 82,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_PETALBURG_CITY_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 83,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_PETALBURG_CITY_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

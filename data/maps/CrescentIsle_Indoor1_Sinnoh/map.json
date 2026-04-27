@@ -1,0 +1,44 @@
+{
+  "id": "MAP_CRESCENT_ISLE_INDOOR_1_SINNOH",
+  "name": "CrescentIsle_Indoor1_Sinnoh",
+  "layout": "LAYOUT_CRESCENT_ISLE_INDOOR_1_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_ABANDONED_SHIP",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 7,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_SPACE_MAP_6_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 20,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_CRESCENT_ISLE_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 21,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_CRESCENT_ISLE_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

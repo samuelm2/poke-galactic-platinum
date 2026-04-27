@@ -1,0 +1,53 @@
+{
+  "id": "MAP_COURIWAY_TOWN_INDOOR_6_SINNOH",
+  "name": "CouriwayTown_Indoor6_Sinnoh",
+  "layout": "LAYOUT_COURIWAY_TOWN_INDOOR_6_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_SLATEPORT",
+  "region_map_section": "MAPSEC_SINNOH_COURIWAY_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "left",
+      "offset": -24,
+      "map": "MAP_LAVARIDGE_TOWN_SINNOH"
+    },
+    {
+      "direction": "up",
+      "offset": 0,
+      "map": "MAP_VERDANTURF_TOWN_SINNOH"
+    },
+    {
+      "direction": "left",
+      "offset": 29,
+      "map": "MAP_LITTLEROOT_TOWN_SINNOH"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 4,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_COURIWAY_TOWN_INDOOR_2_SINNOH",
+      "dest_warp_id": "9"
+    },
+    {
+      "x": 5,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_COURIWAY_TOWN_INDOOR_2_SINNOH",
+      "dest_warp_id": "9"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

@@ -1,0 +1,214 @@
+{
+  "id": "MAP_SANDGEM_TOWN_SINNOH",
+  "name": "SandgemTown_Sinnoh",
+  "layout": "LAYOUT_SANDGEM_TOWN_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_OLDALE",
+  "region_map_section": "MAPSEC_SINNOH_SANDGEM_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "left",
+      "offset": 8,
+      "map": "MAP_ROUTE_201_SINNOH"
+    },
+    {
+      "direction": "up",
+      "offset": -2,
+      "map": "MAP_ROUTE_202_SINNOH"
+    },
+    {
+      "direction": "down",
+      "offset": 0,
+      "map": "MAP_ROUTE_219_SINNOH"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_7",
+      "x": 12,
+      "y": 25,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SandgemTown_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_35",
+      "x": 28,
+      "y": 24,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SandgemTown_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_10",
+      "x": 25,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SandgemTown_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 12,
+      "y": 12,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_IN_PLACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SandgemTown_Sinnoh_EventScript_Obj4",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 8,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_SANDGEM_TOWN_INDOOR_4_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 16,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_SANDGEM_TOWN_INDOOR_2_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 27,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_SANDGEM_TOWN_INDOOR_3_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 7,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_SANDGEM_TOWN_INDOOR_1_SINNOH",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 16,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_SANDGEM_TOWN_INDOOR_1_SINNOH",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 0,
+      "elevation": 0,
+      "var": "0",
+      "var_value": "0",
+      "script": "SandgemTown_Sinnoh_EventScript_Trigger0"
+    },
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 0,
+      "elevation": 0,
+      "var": "0",
+      "var_value": "0",
+      "script": "SandgemTown_Sinnoh_EventScript_Trigger1"
+    },
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 0,
+      "elevation": 0,
+      "var": "0",
+      "var_value": "0",
+      "script": "SandgemTown_Sinnoh_EventScript_Trigger2"
+    },
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 0,
+      "elevation": 0,
+      "var": "0",
+      "var_value": "0",
+      "script": "SandgemTown_Sinnoh_EventScript_Trigger3"
+    },
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 0,
+      "elevation": 0,
+      "var": "0",
+      "var_value": "0",
+      "script": "SandgemTown_Sinnoh_EventScript_Trigger4"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "SandgemTown_Sinnoh_EventScript_Sign0"
+    },
+    {
+      "type": "sign",
+      "x": 19,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "SandgemTown_Sinnoh_EventScript_Sign1"
+    },
+    {
+      "type": "sign",
+      "x": 25,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "SandgemTown_Sinnoh_EventScript_Sign2"
+    },
+    {
+      "type": "sign",
+      "x": 24,
+      "y": 21,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "SandgemTown_Sinnoh_EventScript_Sign3"
+    },
+    {
+      "type": "sign",
+      "x": 14,
+      "y": 23,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "SandgemTown_Sinnoh_EventScript_Sign4"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "id": "MAP_RAINBOW_CASTLE_INDOOR_1_SINNOH",
+  "name": "RainbowCastle_Indoor1_Sinnoh",
+  "layout": "LAYOUT_RAINBOW_CASTLE_INDOOR_1_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_ROCKET_HIDEOUT",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 13,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RainbowCastle_Indoor1_Sinnoh_EventScript_Obj1",
+      "flag": "16874"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 10,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "4",
+      "script": "RainbowCastle_Indoor1_Sinnoh_EventScript_Obj2",
+      "flag": "16853"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 16,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "4",
+      "script": "RainbowCastle_Indoor1_Sinnoh_EventScript_Obj3",
+      "flag": "16853"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 11,
+      "y": 3,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "RainbowCastle_Indoor1_Sinnoh_EventScript_Obj4",
+      "flag": "16853"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 15,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "RainbowCastle_Indoor1_Sinnoh_EventScript_Obj5",
+      "flag": "16853"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_134",
+      "x": 12,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RainbowCastle_Indoor1_Sinnoh_EventScript_Obj6",
+      "flag": "17071"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_165",
+      "x": 14,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RainbowCastle_Indoor1_Sinnoh_EventScript_Obj7",
+      "flag": "17071"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 2,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_PETALBURG_CITY_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 24,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_PETALBURG_CITY_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_RAINBOW_CASTLE_INDOOR_2_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_RAINBOW_CASTLE_INDOOR_10_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 12,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_RAINBOW_CASTLE_INDOOR_10_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 14,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_RAINBOW_CASTLE_INDOOR_10_SINNOH",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 18,
+      "elevation": 0,
+      "var": "16394",
+      "var_value": "0",
+      "script": "RainbowCastle_Indoor1_Sinnoh_EventScript_Trigger0"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 18,
+      "elevation": 0,
+      "var": "16394",
+      "var_value": "0",
+      "script": "RainbowCastle_Indoor1_Sinnoh_EventScript_Trigger1"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 18,
+      "elevation": 0,
+      "var": "16394",
+      "var_value": "0",
+      "script": "RainbowCastle_Indoor1_Sinnoh_EventScript_Trigger2"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 2,
+      "y": 16,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "RainbowCastle_Indoor1_Sinnoh_EventScript_Sign0"
+    },
+    {
+      "type": "sign",
+      "x": 24,
+      "y": 16,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "RainbowCastle_Indoor1_Sinnoh_EventScript_Sign1"
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "id": "MAP_MT_SILVER_INDOOR_2_SINNOH",
+  "name": "MtSilver_Indoor2_Sinnoh",
+  "layout": "LAYOUT_MT_SILVER_INDOOR_2_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_GSC_ROUTE38",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_VOLCANIC_ASH",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_84",
+      "x": 39,
+      "y": 28,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "8",
+      "script": "MtSilver_Indoor2_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_55",
+      "x": 39,
+      "y": 54,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "6",
+      "script": "MtSilver_Indoor2_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_33",
+      "x": 38,
+      "y": 18,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "4",
+      "script": "MtSilver_Indoor2_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 26,
+      "y": 42,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtSilver_Indoor2_Sinnoh_EventScript_Obj4",
+      "flag": "16625"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_236",
+      "x": 19,
+      "y": 34,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtSilver_Indoor2_Sinnoh_EventScript_Obj5",
+      "flag": "16625"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 9,
+      "y": 41,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtSilver_Indoor2_Sinnoh_EventScript_Obj6",
+      "flag": "16567"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 18,
+      "y": 41,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtSilver_Indoor2_Sinnoh_EventScript_Obj7",
+      "flag": "16568"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_204",
+      "x": 43,
+      "y": 52,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtSilver_Indoor2_Sinnoh_EventScript_Obj8",
+      "flag": "16628"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_4",
+      "x": 25,
+      "y": 52,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtSilver_Indoor2_Sinnoh_EventScript_Obj9",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 22,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_4_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 17,
+      "y": 52,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_4_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 13,
+      "y": 40,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_5_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 38,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_4_SINNOH",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 38,
+      "y": 35,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_4_SINNOH",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 38,
+      "y": 45,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_4_SINNOH",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 31,
+      "y": 52,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_4_SINNOH",
+      "dest_warp_id": "6"
+    },
+    {
+      "x": 23,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_4_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 25,
+      "y": 52,
+      "elevation": 0,
+      "dest_map": "MAP_MAUVILLE_CITY_INDOOR_2_SINNOH",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

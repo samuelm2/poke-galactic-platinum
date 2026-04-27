@@ -1,0 +1,192 @@
+{
+  "id": "MAP_ULTRA_ALLIANCE_INDOOR_2_SINNOH",
+  "name": "UltraAlliance_Indoor2_Sinnoh",
+  "layout": "LAYOUT_ULTRA_ALLIANCE_INDOOR_2_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_VICTORY_ROAD",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_133",
+      "x": 5,
+      "y": 1,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "UltraAlliance_Indoor2_Sinnoh_EventScript_Obj8",
+      "flag": "16537"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_79",
+      "x": 5,
+      "y": 1,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "UltraAlliance_Indoor2_Sinnoh_EventScript_Obj7",
+      "flag": "16531"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_134",
+      "x": 5,
+      "y": 1,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "UltraAlliance_Indoor2_Sinnoh_EventScript_Obj5",
+      "flag": "16534"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_172",
+      "x": 5,
+      "y": 1,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "UltraAlliance_Indoor2_Sinnoh_EventScript_Obj6",
+      "flag": "16542"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_179",
+      "x": 5,
+      "y": 1,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "UltraAlliance_Indoor2_Sinnoh_EventScript_Obj1",
+      "flag": "16555"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_183",
+      "x": 5,
+      "y": 1,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "UltraAlliance_Indoor2_Sinnoh_EventScript_Obj3",
+      "flag": "16539"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_202",
+      "x": 5,
+      "y": 1,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "UltraAlliance_Indoor2_Sinnoh_EventScript_Obj4",
+      "flag": "16541"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_200",
+      "x": 5,
+      "y": 1,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "UltraAlliance_Indoor2_Sinnoh_EventScript_Obj2",
+      "flag": "16540"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_219",
+      "x": 5,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "UltraAlliance_Indoor2_Sinnoh_EventScript_Obj9",
+      "flag": "16554"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_85",
+      "x": 3,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "UltraAlliance_Indoor2_Sinnoh_EventScript_Obj10",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 5,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_ALLIANCE_INDOOR_1_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 5,
+      "y": 21,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_ALLIANCE_INDOOR_2_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 5,
+      "y": 33,
+      "elevation": 0,
+      "dest_map": "MAP_STEVENS_ISLAND_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_EVER_GRANDE_CITY_INDOOR_9_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 3,
+      "elevation": 0,
+      "var": "16385",
+      "var_value": "0",
+      "script": "UltraAlliance_Indoor2_Sinnoh_EventScript_Trigger0"
+    }
+  ],
+  "bg_events": []
+}

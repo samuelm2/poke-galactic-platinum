@@ -1,0 +1,162 @@
+{
+  "id": "MAP_SEAFLOOR_CAVERN_4_SINNOH",
+  "name": "SeafloorCavern_4_Sinnoh",
+  "layout": "LAYOUT_SEAFLOOR_CAVERN_4_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_MT_CHIMNEY",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_87",
+      "x": 13,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SeafloorCavern_4_Sinnoh_EventScript_Obj1",
+      "flag": "18"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_87",
+      "x": 11,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SeafloorCavern_4_Sinnoh_EventScript_Obj2",
+      "flag": "20"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_87",
+      "x": 12,
+      "y": 9,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SeafloorCavern_4_Sinnoh_EventScript_Obj3",
+      "flag": "21"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_87",
+      "x": 12,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SeafloorCavern_4_Sinnoh_EventScript_Obj4",
+      "flag": "22"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_87",
+      "x": 11,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SeafloorCavern_4_Sinnoh_EventScript_Obj5",
+      "flag": "23"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_87",
+      "x": 12,
+      "y": 11,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SeafloorCavern_4_Sinnoh_EventScript_Obj6",
+      "flag": "24"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_87",
+      "x": 13,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SeafloorCavern_4_Sinnoh_EventScript_Obj7",
+      "flag": "25"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_118",
+      "x": 9,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "6",
+      "script": "SeafloorCavern_4_Sinnoh_EventScript_Obj8",
+      "flag": "FLAG_HIDE_SEAFLOOR_CAVERN_AQUA_GRUNTS"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_117",
+      "x": 5,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "4",
+      "script": "SeafloorCavern_4_Sinnoh_EventScript_Obj9",
+      "flag": "FLAG_HIDE_SEAFLOOR_CAVERN_AQUA_GRUNTS"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 8,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_SEAFLOOR_CAVERN_9_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 9,
+      "y": 13,
+      "elevation": 3,
+      "dest_map": "MAP_SEAFLOOR_CAVERN_8_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "elevation": 3,
+      "dest_map": "MAP_SEAFLOOR_CAVERN_7_SINNOH",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

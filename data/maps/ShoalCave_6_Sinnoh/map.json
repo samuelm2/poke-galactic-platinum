@@ -1,0 +1,22 @@
+{
+  "id": "MAP_SHOAL_CAVE_6_SINNOH",
+  "name": "ShoalCave_6_Sinnoh",
+  "layout": "LAYOUT_SHOAL_CAVE_6_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_MT_PYRE",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": []
+}

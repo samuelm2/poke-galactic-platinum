@@ -1,0 +1,390 @@
+{
+  "id": "MAP_STEVENS_ISLAND_INDOOR_3_SINNOH",
+  "name": "StevensIsland_Indoor3_Sinnoh",
+  "layout": "LAYOUT_STEVENS_ISLAND_INDOOR_3_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_VICTORY_ROAD",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_83",
+      "x": 25,
+      "y": 12,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_46",
+      "x": 9,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_227",
+      "x": 26,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_223",
+      "x": 14,
+      "y": 3,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Obj4",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_223",
+      "x": 15,
+      "y": 3,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Obj5",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_223",
+      "x": 3,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 4,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Obj6",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_227",
+      "x": 21,
+      "y": 3,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Obj7",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_48",
+      "x": 24,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Obj8",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_58",
+      "x": 20,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Obj9",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_223",
+      "x": 5,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Obj10",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_223",
+      "x": 14,
+      "y": 25,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Obj11",
+      "flag": "16720"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_165",
+      "x": 12,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Obj12",
+      "flag": "16722"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 12,
+      "y": 24,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Obj13",
+      "flag": "17137"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 17,
+      "y": 24,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Obj14",
+      "flag": "17137"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_173",
+      "x": 19,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Obj15",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 13,
+      "y": 3,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Obj16",
+      "flag": "16830"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 16,
+      "y": 3,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Obj17",
+      "flag": "16830"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_134",
+      "x": 23,
+      "y": 21,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Obj18",
+      "flag": "17137"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 4,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_STEVENS_ISLAND_MAP_1_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 14,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_ALLIANCE_INDOOR_1_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 15,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_ULTRA_ALLIANCE_INDOOR_1_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 25,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_STEVENS_ISLAND_INDOOR_4_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 14,
+      "y": 27,
+      "elevation": 0,
+      "dest_map": "MAP_STEVENS_ISLAND_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 15,
+      "y": 27,
+      "elevation": 0,
+      "dest_map": "MAP_STEVENS_ISLAND_SINNOH",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 26,
+      "elevation": 0,
+      "var": "16385",
+      "var_value": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Trigger0"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 9,
+      "elevation": 0,
+      "var": "16638",
+      "var_value": "3",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Trigger1"
+    },
+    {
+      "type": "trigger",
+      "x": 15,
+      "y": 26,
+      "elevation": 0,
+      "var": "16385",
+      "var_value": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Trigger2"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 27,
+      "elevation": 0,
+      "var": "16385",
+      "var_value": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Trigger3"
+    },
+    {
+      "type": "trigger",
+      "x": 16,
+      "y": 27,
+      "elevation": 0,
+      "var": "16385",
+      "var_value": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Trigger4"
+    },
+    {
+      "type": "trigger",
+      "x": 25,
+      "y": 8,
+      "elevation": 0,
+      "var": "16385",
+      "var_value": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Trigger5"
+    },
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 4,
+      "elevation": 0,
+      "var": "16385",
+      "var_value": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Trigger6"
+    },
+    {
+      "type": "trigger",
+      "x": 15,
+      "y": 4,
+      "elevation": 0,
+      "var": "16385",
+      "var_value": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Trigger7"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 15,
+      "y": 7,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Sign0"
+    },
+    {
+      "type": "sign",
+      "x": 14,
+      "y": 7,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "StevensIsland_Indoor3_Sinnoh_EventScript_Sign1"
+    }
+  ]
+}

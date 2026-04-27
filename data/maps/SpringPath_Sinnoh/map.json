@@ -1,0 +1,43 @@
+{
+  "id": "MAP_SPRING_PATH_SINNOH",
+  "name": "SpringPath_Sinnoh",
+  "layout": "LAYOUT_SPRING_PATH_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_SEVII_123",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "left",
+      "offset": -62,
+      "map": "MAP_ROUTE_214_SINNOH"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 26,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_SENDOFF_SPRING_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 27,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_SENDOFF_SPRING_SINNOH",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

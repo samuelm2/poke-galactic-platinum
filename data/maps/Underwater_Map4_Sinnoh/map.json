@@ -1,0 +1,56 @@
+{
+  "id": "MAP_UNDERWATER_MAP_4_SINNOH",
+  "name": "Underwater_Map4_Sinnoh",
+  "layout": "LAYOUT_UNDERWATER_MAP_4_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_UNDERWATER",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_UNDERWATER_BUBBLES",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "up",
+      "offset": 0,
+      "map": "MAP_UNDERWATER_MAP_3_SINNOH"
+    },
+    {
+      "direction": "emerge",
+      "offset": 0,
+      "map": "MAP_ROUTE_128_SINNOH"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 38,
+      "y": 26,
+      "elevation": 3,
+      "dest_map": "MAP_UNDERWATER_MAP_9_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "secret_base",
+      "x": 38,
+      "y": 19,
+      "elevation": 3,
+      "secret_base_id": "0x0019003B"
+    },
+    {
+      "type": "secret_base",
+      "x": 69,
+      "y": 18,
+      "elevation": 3,
+      "secret_base_id": "0x001A006A"
+    }
+  ]
+}

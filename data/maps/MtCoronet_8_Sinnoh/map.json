@@ -1,0 +1,163 @@
+{
+  "id": "MAP_MT_CORONET_8_SINNOH",
+  "name": "MtCoronet_8_Sinnoh",
+  "layout": "LAYOUT_MT_CORONET_8_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_POKE_MANSION",
+  "region_map_section": "MAPSEC_SINNOH_MT_CORONET",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 35,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtCoronet_8_Sinnoh_EventScript_Obj1",
+      "flag": "16994"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 39,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtCoronet_8_Sinnoh_EventScript_Obj2",
+      "flag": "16995"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 6,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtCoronet_8_Sinnoh_EventScript_Obj3",
+      "flag": "17"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 5,
+      "y": 12,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtCoronet_8_Sinnoh_EventScript_Obj4",
+      "flag": "18"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 8,
+      "y": 11,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtCoronet_8_Sinnoh_EventScript_Obj5",
+      "flag": "19"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 26,
+      "y": 22,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtCoronet_8_Sinnoh_EventScript_Obj6",
+      "flag": "20"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 29,
+      "y": 26,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtCoronet_8_Sinnoh_EventScript_Obj7",
+      "flag": "21"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 30,
+      "y": 27,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtCoronet_8_Sinnoh_EventScript_Obj8",
+      "flag": "22"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 37,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_MT_CORONET_8_SINNOH",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 7,
+      "y": 28,
+      "elevation": 0,
+      "dest_map": "MAP_MT_CORONET_12_SINNOH",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 40,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_MT_CORONET_12_SINNOH",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 35,
+      "y": 27,
+      "elevation": 0,
+      "dest_map": "MAP_MT_CORONET_12_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 17,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_MT_CORONET_8_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

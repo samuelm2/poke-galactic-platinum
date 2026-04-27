@@ -1,0 +1,64 @@
+{
+  "id": "MAP_BATTLE_FRONTIER_INDOOR_36_SINNOH",
+  "name": "BattleFrontier_Indoor36_Sinnoh",
+  "layout": "LAYOUT_BATTLE_FRONTIER_INDOOR_36_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_B_TOWER_RS",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_219",
+      "x": 2,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BattleFrontier_Indoor36_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 5,
+      "y": 3,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BattleFrontier_Indoor36_Sinnoh_EventScript_Obj2",
+      "flag": "16679"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 2,
+      "y": 7,
+      "elevation": 3,
+      "dest_map": "MAP_BATTLE_FRONTIER_1_SINNOH",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 3,
+      "dest_map": "MAP_BATTLE_FRONTIER_1_SINNOH",
+      "dest_warp_id": "5"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

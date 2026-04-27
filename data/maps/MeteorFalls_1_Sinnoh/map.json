@@ -1,0 +1,257 @@
+{
+  "id": "MAP_METEOR_FALLS_1_SINNOH",
+  "name": "MeteorFalls_1_Sinnoh",
+  "layout": "LAYOUT_METEOR_FALLS_1_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_CAVE_OF_ORIGIN",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 2,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MeteorFalls_1_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_ITEM_METEOR_FALLS_1F_1R_TM_IRON_TAIL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 6,
+      "y": 12,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MeteorFalls_1_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_ITEM_METEOR_FALLS_1F_1R_MOON_STONE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 27,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MeteorFalls_1_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_ITEM_METEOR_FALLS_1F_1R_FULL_HEAL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 16,
+      "y": 39,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MeteorFalls_1_Sinnoh_EventScript_Obj4",
+      "flag": "FLAG_ITEM_METEOR_FALLS_1F_1R_PP_UP"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_119",
+      "x": 12,
+      "y": 20,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MeteorFalls_1_Sinnoh_EventScript_Obj5",
+      "flag": "FLAG_HIDE_METEOR_FALLS_TEAM_MAGMA"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_119",
+      "x": 14,
+      "y": 21,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MeteorFalls_1_Sinnoh_EventScript_Obj6",
+      "flag": "FLAG_HIDE_METEOR_FALLS_TEAM_MAGMA"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_195",
+      "x": 6,
+      "y": 20,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MeteorFalls_1_Sinnoh_EventScript_Obj7",
+      "flag": "FLAG_HIDE_METEOR_FALLS_TEAM_AQUA"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_117",
+      "x": 6,
+      "y": 20,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MeteorFalls_1_Sinnoh_EventScript_Obj8",
+      "flag": "FLAG_HIDE_METEOR_FALLS_TEAM_AQUA"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_117",
+      "x": 6,
+      "y": 21,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MeteorFalls_1_Sinnoh_EventScript_Obj9",
+      "flag": "FLAG_HIDE_METEOR_FALLS_TEAM_AQUA"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_46",
+      "x": 13,
+      "y": 23,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP_LEFT_AND_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MeteorFalls_1_Sinnoh_EventScript_Obj10",
+      "flag": "FLAG_HIDE_METEOR_FALLS_1F_1R_COZMO"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 1,
+      "y": 23,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MeteorFalls_1_Sinnoh_EventScript_Obj11",
+      "flag": "16432"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_166",
+      "x": 24,
+      "y": 33,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MeteorFalls_1_Sinnoh_EventScript_Obj13",
+      "flag": "16600"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 27,
+      "y": 18,
+      "elevation": 4,
+      "dest_map": "MAP_ROUTE_114_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 6,
+      "y": 39,
+      "elevation": 3,
+      "dest_map": "MAP_ROUTE_115_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "elevation": 3,
+      "dest_map": "MAP_METEOR_FALLS_2_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "elevation": 3,
+      "dest_map": "MAP_METEOR_FALLS_3_SINNOH",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 26,
+      "y": 28,
+      "elevation": 3,
+      "dest_map": "MAP_METEOR_FALLS_3_SINNOH",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_METEOR_FALLS_5_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 18,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_METEOR_FALLS_3_SINNOH",
+      "dest_warp_id": "6"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 18,
+      "elevation": 4,
+      "var": "VAR_METEOR_FALLS_STATE",
+      "var_value": "0",
+      "script": "MeteorFalls_1_Sinnoh_EventScript_Trigger0"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 3,
+      "elevation": 0,
+      "var": "16385",
+      "var_value": "0",
+      "script": "MeteorFalls_1_Sinnoh_EventScript_Trigger1"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 9,
+      "y": 58,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "MeteorFalls_1_Sinnoh_EventScript_Sign0"
+    }
+  ]
+}

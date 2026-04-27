@@ -1,0 +1,84 @@
+{
+  "id": "MAP_ABANDONED_SHIP_5_SINNOH",
+  "name": "AbandonedShip_5_Sinnoh",
+  "layout": "LAYOUT_ABANDONED_SHIP_5_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_ABANDONED_SHIP",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_SHADE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_17",
+      "x": 25,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "AbandonedShip_5_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 6,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "AbandonedShip_5_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_ITEM_ABANDONED_SHIP_ROOMS_B1F_ESCAPE_ROPE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_44",
+      "x": 1,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "AbandonedShip_5_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 4,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_ABANDONED_SHIP_4_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 13,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_ABANDONED_SHIP_4_SINNOH",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 22,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_ABANDONED_SHIP_4_SINNOH",
+      "dest_warp_id": "4"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

@@ -401,6 +401,238 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvi
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldMan2;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ApricornTree;
 
+// --- BEGIN WIRE_TO_DECOMP_SPRITES sinnoh ---
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh4;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh5;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh6;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh7;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh8;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh9;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh10;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh11;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh12;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh13;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh14;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh15;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh16;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh17;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh18;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh19;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh20;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh21;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh22;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh23;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh24;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh25;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh26;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh27;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh28;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh29;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh30;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh31;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh32;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh33;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh34;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh35;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh36;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh37;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh38;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh39;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh40;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh41;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh42;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh43;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh44;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh45;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh46;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh47;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh48;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh49;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh50;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh51;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh52;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh53;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh54;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh55;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh56;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh57;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh58;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh59;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh60;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh61;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh63;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh64;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh65;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh66;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh67;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh68;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh69;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh70;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh71;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh72;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh73;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh74;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh75;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh76;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh77;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh78;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh79;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh80;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh81;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh82;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh83;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh84;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh85;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh86;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh87;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh88;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh89;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh90;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh91;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh92;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh93;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh94;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh95;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh96;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh97;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh98;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh99;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh100;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh101;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh102;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh103;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh104;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh105;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh106;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh107;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh108;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh109;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh110;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh111;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh112;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh113;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh114;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh115;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh116;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh117;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh118;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh119;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh120;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh121;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh122;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh123;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh124;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh125;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh126;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh127;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh128;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh129;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh130;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh131;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh132;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh133;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh134;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh135;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh136;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh137;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh138;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh139;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh142;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh143;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh144;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh145;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh146;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh147;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh148;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh149;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh150;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh151;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh152;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh153;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh154;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh155;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh156;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh157;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh158;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh159;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh160;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh161;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh162;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh163;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh164;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh165;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh166;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh167;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh168;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh169;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh170;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh171;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh172;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh173;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh174;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh176;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh177;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh178;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh179;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh180;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh181;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh182;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh183;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh184;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh185;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh186;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh189;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh190;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh195;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh196;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh197;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh198;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh199;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh200;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh201;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh202;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh203;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh204;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh205;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh206;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh207;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh208;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh209;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh210;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh211;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh212;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh213;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh214;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh215;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh218;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh219;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh220;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh221;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh222;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh223;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh224;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh225;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh226;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh227;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh228;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh229;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh230;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh231;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh232;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh233;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh234;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh235;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh236;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh237;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh238;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh240;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh241;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh242;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh243;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh244;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sinnoh245;
+// --- END WIRE_TO_DECOMP_SPRITES sinnoh ---
+
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
     [OBJ_EVENT_GFX_BRENDAN_MACH_BIKE] =        &gObjectEventGraphicsInfo_BrendanMachBike,
@@ -791,6 +1023,237 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_DEOXYS_N]                 = &gObjectEventGraphicsInfo_DeoxysN,
     [OBJ_EVENT_GFX_SS_ANNE]                  = &gObjectEventGraphicsInfo_SSAnne,
 #endif // IS_FRLG
+    // --- BEGIN WIRE_TO_DECOMP_SPRITES_PTR sinnoh ---
+    [OBJ_EVENT_GFX_SINNOH_4] = &gObjectEventGraphicsInfo_Sinnoh4,
+    [OBJ_EVENT_GFX_SINNOH_5] = &gObjectEventGraphicsInfo_Sinnoh5,
+    [OBJ_EVENT_GFX_SINNOH_6] = &gObjectEventGraphicsInfo_Sinnoh6,
+    [OBJ_EVENT_GFX_SINNOH_7] = &gObjectEventGraphicsInfo_Sinnoh7,
+    [OBJ_EVENT_GFX_SINNOH_8] = &gObjectEventGraphicsInfo_Sinnoh8,
+    [OBJ_EVENT_GFX_SINNOH_9] = &gObjectEventGraphicsInfo_Sinnoh9,
+    [OBJ_EVENT_GFX_SINNOH_10] = &gObjectEventGraphicsInfo_Sinnoh10,
+    [OBJ_EVENT_GFX_SINNOH_11] = &gObjectEventGraphicsInfo_Sinnoh11,
+    [OBJ_EVENT_GFX_SINNOH_12] = &gObjectEventGraphicsInfo_Sinnoh12,
+    [OBJ_EVENT_GFX_SINNOH_13] = &gObjectEventGraphicsInfo_Sinnoh13,
+    [OBJ_EVENT_GFX_SINNOH_14] = &gObjectEventGraphicsInfo_Sinnoh14,
+    [OBJ_EVENT_GFX_SINNOH_15] = &gObjectEventGraphicsInfo_Sinnoh15,
+    [OBJ_EVENT_GFX_SINNOH_16] = &gObjectEventGraphicsInfo_Sinnoh16,
+    [OBJ_EVENT_GFX_SINNOH_17] = &gObjectEventGraphicsInfo_Sinnoh17,
+    [OBJ_EVENT_GFX_SINNOH_18] = &gObjectEventGraphicsInfo_Sinnoh18,
+    [OBJ_EVENT_GFX_SINNOH_19] = &gObjectEventGraphicsInfo_Sinnoh19,
+    [OBJ_EVENT_GFX_SINNOH_20] = &gObjectEventGraphicsInfo_Sinnoh20,
+    [OBJ_EVENT_GFX_SINNOH_21] = &gObjectEventGraphicsInfo_Sinnoh21,
+    [OBJ_EVENT_GFX_SINNOH_22] = &gObjectEventGraphicsInfo_Sinnoh22,
+    [OBJ_EVENT_GFX_SINNOH_23] = &gObjectEventGraphicsInfo_Sinnoh23,
+    [OBJ_EVENT_GFX_SINNOH_24] = &gObjectEventGraphicsInfo_Sinnoh24,
+    [OBJ_EVENT_GFX_SINNOH_25] = &gObjectEventGraphicsInfo_Sinnoh25,
+    [OBJ_EVENT_GFX_SINNOH_26] = &gObjectEventGraphicsInfo_Sinnoh26,
+    [OBJ_EVENT_GFX_SINNOH_27] = &gObjectEventGraphicsInfo_Sinnoh27,
+    [OBJ_EVENT_GFX_SINNOH_28] = &gObjectEventGraphicsInfo_Sinnoh28,
+    [OBJ_EVENT_GFX_SINNOH_29] = &gObjectEventGraphicsInfo_Sinnoh29,
+    [OBJ_EVENT_GFX_SINNOH_30] = &gObjectEventGraphicsInfo_Sinnoh30,
+    [OBJ_EVENT_GFX_SINNOH_31] = &gObjectEventGraphicsInfo_Sinnoh31,
+    [OBJ_EVENT_GFX_SINNOH_32] = &gObjectEventGraphicsInfo_Sinnoh32,
+    [OBJ_EVENT_GFX_SINNOH_33] = &gObjectEventGraphicsInfo_Sinnoh33,
+    [OBJ_EVENT_GFX_SINNOH_34] = &gObjectEventGraphicsInfo_Sinnoh34,
+    [OBJ_EVENT_GFX_SINNOH_35] = &gObjectEventGraphicsInfo_Sinnoh35,
+    [OBJ_EVENT_GFX_SINNOH_36] = &gObjectEventGraphicsInfo_Sinnoh36,
+    [OBJ_EVENT_GFX_SINNOH_37] = &gObjectEventGraphicsInfo_Sinnoh37,
+    [OBJ_EVENT_GFX_SINNOH_38] = &gObjectEventGraphicsInfo_Sinnoh38,
+    [OBJ_EVENT_GFX_SINNOH_39] = &gObjectEventGraphicsInfo_Sinnoh39,
+    [OBJ_EVENT_GFX_SINNOH_40] = &gObjectEventGraphicsInfo_Sinnoh40,
+    [OBJ_EVENT_GFX_SINNOH_41] = &gObjectEventGraphicsInfo_Sinnoh41,
+    [OBJ_EVENT_GFX_SINNOH_42] = &gObjectEventGraphicsInfo_Sinnoh42,
+    [OBJ_EVENT_GFX_SINNOH_43] = &gObjectEventGraphicsInfo_Sinnoh43,
+    [OBJ_EVENT_GFX_SINNOH_44] = &gObjectEventGraphicsInfo_Sinnoh44,
+    [OBJ_EVENT_GFX_SINNOH_45] = &gObjectEventGraphicsInfo_Sinnoh45,
+    [OBJ_EVENT_GFX_SINNOH_46] = &gObjectEventGraphicsInfo_Sinnoh46,
+    [OBJ_EVENT_GFX_SINNOH_47] = &gObjectEventGraphicsInfo_Sinnoh47,
+    [OBJ_EVENT_GFX_SINNOH_48] = &gObjectEventGraphicsInfo_Sinnoh48,
+    [OBJ_EVENT_GFX_SINNOH_49] = &gObjectEventGraphicsInfo_Sinnoh49,
+    [OBJ_EVENT_GFX_SINNOH_50] = &gObjectEventGraphicsInfo_Sinnoh50,
+    [OBJ_EVENT_GFX_SINNOH_51] = &gObjectEventGraphicsInfo_Sinnoh51,
+    [OBJ_EVENT_GFX_SINNOH_52] = &gObjectEventGraphicsInfo_Sinnoh52,
+    [OBJ_EVENT_GFX_SINNOH_53] = &gObjectEventGraphicsInfo_Sinnoh53,
+    [OBJ_EVENT_GFX_SINNOH_54] = &gObjectEventGraphicsInfo_Sinnoh54,
+    [OBJ_EVENT_GFX_SINNOH_55] = &gObjectEventGraphicsInfo_Sinnoh55,
+    [OBJ_EVENT_GFX_SINNOH_56] = &gObjectEventGraphicsInfo_Sinnoh56,
+    [OBJ_EVENT_GFX_SINNOH_57] = &gObjectEventGraphicsInfo_Sinnoh57,
+    [OBJ_EVENT_GFX_SINNOH_58] = &gObjectEventGraphicsInfo_Sinnoh58,
+    [OBJ_EVENT_GFX_SINNOH_59] = &gObjectEventGraphicsInfo_Sinnoh59,
+    [OBJ_EVENT_GFX_SINNOH_60] = &gObjectEventGraphicsInfo_Sinnoh60,
+    [OBJ_EVENT_GFX_SINNOH_61] = &gObjectEventGraphicsInfo_Sinnoh61,
+    [OBJ_EVENT_GFX_SINNOH_63] = &gObjectEventGraphicsInfo_Sinnoh63,
+    [OBJ_EVENT_GFX_SINNOH_64] = &gObjectEventGraphicsInfo_Sinnoh64,
+    [OBJ_EVENT_GFX_SINNOH_65] = &gObjectEventGraphicsInfo_Sinnoh65,
+    [OBJ_EVENT_GFX_SINNOH_66] = &gObjectEventGraphicsInfo_Sinnoh66,
+    [OBJ_EVENT_GFX_SINNOH_67] = &gObjectEventGraphicsInfo_Sinnoh67,
+    [OBJ_EVENT_GFX_SINNOH_68] = &gObjectEventGraphicsInfo_Sinnoh68,
+    [OBJ_EVENT_GFX_SINNOH_69] = &gObjectEventGraphicsInfo_Sinnoh69,
+    [OBJ_EVENT_GFX_SINNOH_70] = &gObjectEventGraphicsInfo_Sinnoh70,
+    [OBJ_EVENT_GFX_SINNOH_71] = &gObjectEventGraphicsInfo_Sinnoh71,
+    [OBJ_EVENT_GFX_SINNOH_72] = &gObjectEventGraphicsInfo_Sinnoh72,
+    [OBJ_EVENT_GFX_SINNOH_73] = &gObjectEventGraphicsInfo_Sinnoh73,
+    [OBJ_EVENT_GFX_SINNOH_74] = &gObjectEventGraphicsInfo_Sinnoh74,
+    [OBJ_EVENT_GFX_SINNOH_75] = &gObjectEventGraphicsInfo_Sinnoh75,
+    [OBJ_EVENT_GFX_SINNOH_76] = &gObjectEventGraphicsInfo_Sinnoh76,
+    [OBJ_EVENT_GFX_SINNOH_77] = &gObjectEventGraphicsInfo_Sinnoh77,
+    [OBJ_EVENT_GFX_SINNOH_78] = &gObjectEventGraphicsInfo_Sinnoh78,
+    [OBJ_EVENT_GFX_SINNOH_79] = &gObjectEventGraphicsInfo_Sinnoh79,
+    [OBJ_EVENT_GFX_SINNOH_80] = &gObjectEventGraphicsInfo_Sinnoh80,
+    [OBJ_EVENT_GFX_SINNOH_81] = &gObjectEventGraphicsInfo_Sinnoh81,
+    [OBJ_EVENT_GFX_SINNOH_82] = &gObjectEventGraphicsInfo_Sinnoh82,
+    [OBJ_EVENT_GFX_SINNOH_83] = &gObjectEventGraphicsInfo_Sinnoh83,
+    [OBJ_EVENT_GFX_SINNOH_84] = &gObjectEventGraphicsInfo_Sinnoh84,
+    [OBJ_EVENT_GFX_SINNOH_85] = &gObjectEventGraphicsInfo_Sinnoh85,
+    [OBJ_EVENT_GFX_SINNOH_86] = &gObjectEventGraphicsInfo_Sinnoh86,
+    [OBJ_EVENT_GFX_SINNOH_87] = &gObjectEventGraphicsInfo_Sinnoh87,
+    [OBJ_EVENT_GFX_SINNOH_88] = &gObjectEventGraphicsInfo_Sinnoh88,
+    [OBJ_EVENT_GFX_SINNOH_89] = &gObjectEventGraphicsInfo_Sinnoh89,
+    [OBJ_EVENT_GFX_SINNOH_90] = &gObjectEventGraphicsInfo_Sinnoh90,
+    [OBJ_EVENT_GFX_SINNOH_91] = &gObjectEventGraphicsInfo_Sinnoh91,
+    [OBJ_EVENT_GFX_SINNOH_92] = &gObjectEventGraphicsInfo_Sinnoh92,
+    [OBJ_EVENT_GFX_SINNOH_93] = &gObjectEventGraphicsInfo_Sinnoh93,
+    [OBJ_EVENT_GFX_SINNOH_94] = &gObjectEventGraphicsInfo_Sinnoh94,
+    [OBJ_EVENT_GFX_SINNOH_95] = &gObjectEventGraphicsInfo_Sinnoh95,
+    [OBJ_EVENT_GFX_SINNOH_96] = &gObjectEventGraphicsInfo_Sinnoh96,
+    [OBJ_EVENT_GFX_SINNOH_97] = &gObjectEventGraphicsInfo_Sinnoh97,
+    [OBJ_EVENT_GFX_SINNOH_98] = &gObjectEventGraphicsInfo_Sinnoh98,
+    [OBJ_EVENT_GFX_SINNOH_99] = &gObjectEventGraphicsInfo_Sinnoh99,
+    [OBJ_EVENT_GFX_SINNOH_100] = &gObjectEventGraphicsInfo_Sinnoh100,
+    [OBJ_EVENT_GFX_SINNOH_101] = &gObjectEventGraphicsInfo_Sinnoh101,
+    [OBJ_EVENT_GFX_SINNOH_102] = &gObjectEventGraphicsInfo_Sinnoh102,
+    [OBJ_EVENT_GFX_SINNOH_103] = &gObjectEventGraphicsInfo_Sinnoh103,
+    [OBJ_EVENT_GFX_SINNOH_104] = &gObjectEventGraphicsInfo_Sinnoh104,
+    [OBJ_EVENT_GFX_SINNOH_105] = &gObjectEventGraphicsInfo_Sinnoh105,
+    [OBJ_EVENT_GFX_SINNOH_106] = &gObjectEventGraphicsInfo_Sinnoh106,
+    [OBJ_EVENT_GFX_SINNOH_107] = &gObjectEventGraphicsInfo_Sinnoh107,
+    [OBJ_EVENT_GFX_SINNOH_108] = &gObjectEventGraphicsInfo_Sinnoh108,
+    [OBJ_EVENT_GFX_SINNOH_109] = &gObjectEventGraphicsInfo_Sinnoh109,
+    [OBJ_EVENT_GFX_SINNOH_110] = &gObjectEventGraphicsInfo_Sinnoh110,
+    [OBJ_EVENT_GFX_SINNOH_111] = &gObjectEventGraphicsInfo_Sinnoh111,
+    [OBJ_EVENT_GFX_SINNOH_112] = &gObjectEventGraphicsInfo_Sinnoh112,
+    [OBJ_EVENT_GFX_SINNOH_113] = &gObjectEventGraphicsInfo_Sinnoh113,
+    [OBJ_EVENT_GFX_SINNOH_114] = &gObjectEventGraphicsInfo_Sinnoh114,
+    [OBJ_EVENT_GFX_SINNOH_115] = &gObjectEventGraphicsInfo_Sinnoh115,
+    [OBJ_EVENT_GFX_SINNOH_116] = &gObjectEventGraphicsInfo_Sinnoh116,
+    [OBJ_EVENT_GFX_SINNOH_117] = &gObjectEventGraphicsInfo_Sinnoh117,
+    [OBJ_EVENT_GFX_SINNOH_118] = &gObjectEventGraphicsInfo_Sinnoh118,
+    [OBJ_EVENT_GFX_SINNOH_119] = &gObjectEventGraphicsInfo_Sinnoh119,
+    [OBJ_EVENT_GFX_SINNOH_120] = &gObjectEventGraphicsInfo_Sinnoh120,
+    [OBJ_EVENT_GFX_SINNOH_121] = &gObjectEventGraphicsInfo_Sinnoh121,
+    [OBJ_EVENT_GFX_SINNOH_122] = &gObjectEventGraphicsInfo_Sinnoh122,
+    [OBJ_EVENT_GFX_SINNOH_123] = &gObjectEventGraphicsInfo_Sinnoh123,
+    [OBJ_EVENT_GFX_SINNOH_124] = &gObjectEventGraphicsInfo_Sinnoh124,
+    [OBJ_EVENT_GFX_SINNOH_125] = &gObjectEventGraphicsInfo_Sinnoh125,
+    [OBJ_EVENT_GFX_SINNOH_126] = &gObjectEventGraphicsInfo_Sinnoh126,
+    [OBJ_EVENT_GFX_SINNOH_127] = &gObjectEventGraphicsInfo_Sinnoh127,
+    [OBJ_EVENT_GFX_SINNOH_128] = &gObjectEventGraphicsInfo_Sinnoh128,
+    [OBJ_EVENT_GFX_SINNOH_129] = &gObjectEventGraphicsInfo_Sinnoh129,
+    [OBJ_EVENT_GFX_SINNOH_130] = &gObjectEventGraphicsInfo_Sinnoh130,
+    [OBJ_EVENT_GFX_SINNOH_131] = &gObjectEventGraphicsInfo_Sinnoh131,
+    [OBJ_EVENT_GFX_SINNOH_132] = &gObjectEventGraphicsInfo_Sinnoh132,
+    [OBJ_EVENT_GFX_SINNOH_133] = &gObjectEventGraphicsInfo_Sinnoh133,
+    [OBJ_EVENT_GFX_SINNOH_134] = &gObjectEventGraphicsInfo_Sinnoh134,
+    [OBJ_EVENT_GFX_SINNOH_135] = &gObjectEventGraphicsInfo_Sinnoh135,
+    [OBJ_EVENT_GFX_SINNOH_136] = &gObjectEventGraphicsInfo_Sinnoh136,
+    [OBJ_EVENT_GFX_SINNOH_137] = &gObjectEventGraphicsInfo_Sinnoh137,
+    [OBJ_EVENT_GFX_SINNOH_138] = &gObjectEventGraphicsInfo_Sinnoh138,
+    [OBJ_EVENT_GFX_SINNOH_139] = &gObjectEventGraphicsInfo_Sinnoh139,
+    [OBJ_EVENT_GFX_SINNOH_142] = &gObjectEventGraphicsInfo_Sinnoh142,
+    [OBJ_EVENT_GFX_SINNOH_143] = &gObjectEventGraphicsInfo_Sinnoh143,
+    [OBJ_EVENT_GFX_SINNOH_144] = &gObjectEventGraphicsInfo_Sinnoh144,
+    [OBJ_EVENT_GFX_SINNOH_145] = &gObjectEventGraphicsInfo_Sinnoh145,
+    [OBJ_EVENT_GFX_SINNOH_146] = &gObjectEventGraphicsInfo_Sinnoh146,
+    [OBJ_EVENT_GFX_SINNOH_147] = &gObjectEventGraphicsInfo_Sinnoh147,
+    [OBJ_EVENT_GFX_SINNOH_148] = &gObjectEventGraphicsInfo_Sinnoh148,
+    [OBJ_EVENT_GFX_SINNOH_149] = &gObjectEventGraphicsInfo_Sinnoh149,
+    [OBJ_EVENT_GFX_SINNOH_150] = &gObjectEventGraphicsInfo_Sinnoh150,
+    [OBJ_EVENT_GFX_SINNOH_151] = &gObjectEventGraphicsInfo_Sinnoh151,
+    [OBJ_EVENT_GFX_SINNOH_152] = &gObjectEventGraphicsInfo_Sinnoh152,
+    [OBJ_EVENT_GFX_SINNOH_153] = &gObjectEventGraphicsInfo_Sinnoh153,
+    [OBJ_EVENT_GFX_SINNOH_154] = &gObjectEventGraphicsInfo_Sinnoh154,
+    [OBJ_EVENT_GFX_SINNOH_155] = &gObjectEventGraphicsInfo_Sinnoh155,
+    [OBJ_EVENT_GFX_SINNOH_156] = &gObjectEventGraphicsInfo_Sinnoh156,
+    [OBJ_EVENT_GFX_SINNOH_157] = &gObjectEventGraphicsInfo_Sinnoh157,
+    [OBJ_EVENT_GFX_SINNOH_158] = &gObjectEventGraphicsInfo_Sinnoh158,
+    [OBJ_EVENT_GFX_SINNOH_159] = &gObjectEventGraphicsInfo_Sinnoh159,
+    [OBJ_EVENT_GFX_SINNOH_160] = &gObjectEventGraphicsInfo_Sinnoh160,
+    [OBJ_EVENT_GFX_SINNOH_161] = &gObjectEventGraphicsInfo_Sinnoh161,
+    [OBJ_EVENT_GFX_SINNOH_162] = &gObjectEventGraphicsInfo_Sinnoh162,
+    [OBJ_EVENT_GFX_SINNOH_163] = &gObjectEventGraphicsInfo_Sinnoh163,
+    [OBJ_EVENT_GFX_SINNOH_164] = &gObjectEventGraphicsInfo_Sinnoh164,
+    [OBJ_EVENT_GFX_SINNOH_165] = &gObjectEventGraphicsInfo_Sinnoh165,
+    [OBJ_EVENT_GFX_SINNOH_166] = &gObjectEventGraphicsInfo_Sinnoh166,
+    [OBJ_EVENT_GFX_SINNOH_167] = &gObjectEventGraphicsInfo_Sinnoh167,
+    [OBJ_EVENT_GFX_SINNOH_168] = &gObjectEventGraphicsInfo_Sinnoh168,
+    [OBJ_EVENT_GFX_SINNOH_169] = &gObjectEventGraphicsInfo_Sinnoh169,
+    [OBJ_EVENT_GFX_SINNOH_170] = &gObjectEventGraphicsInfo_Sinnoh170,
+    [OBJ_EVENT_GFX_SINNOH_171] = &gObjectEventGraphicsInfo_Sinnoh171,
+    [OBJ_EVENT_GFX_SINNOH_172] = &gObjectEventGraphicsInfo_Sinnoh172,
+    [OBJ_EVENT_GFX_SINNOH_173] = &gObjectEventGraphicsInfo_Sinnoh173,
+    [OBJ_EVENT_GFX_SINNOH_174] = &gObjectEventGraphicsInfo_Sinnoh174,
+    [OBJ_EVENT_GFX_SINNOH_176] = &gObjectEventGraphicsInfo_Sinnoh176,
+    [OBJ_EVENT_GFX_SINNOH_177] = &gObjectEventGraphicsInfo_Sinnoh177,
+    [OBJ_EVENT_GFX_SINNOH_178] = &gObjectEventGraphicsInfo_Sinnoh178,
+    [OBJ_EVENT_GFX_SINNOH_179] = &gObjectEventGraphicsInfo_Sinnoh179,
+    [OBJ_EVENT_GFX_SINNOH_180] = &gObjectEventGraphicsInfo_Sinnoh180,
+    [OBJ_EVENT_GFX_SINNOH_181] = &gObjectEventGraphicsInfo_Sinnoh181,
+    [OBJ_EVENT_GFX_SINNOH_182] = &gObjectEventGraphicsInfo_Sinnoh182,
+    [OBJ_EVENT_GFX_SINNOH_183] = &gObjectEventGraphicsInfo_Sinnoh183,
+    [OBJ_EVENT_GFX_SINNOH_184] = &gObjectEventGraphicsInfo_Sinnoh184,
+    [OBJ_EVENT_GFX_SINNOH_185] = &gObjectEventGraphicsInfo_Sinnoh185,
+    [OBJ_EVENT_GFX_SINNOH_186] = &gObjectEventGraphicsInfo_Sinnoh186,
+    [OBJ_EVENT_GFX_SINNOH_189] = &gObjectEventGraphicsInfo_Sinnoh189,
+    [OBJ_EVENT_GFX_SINNOH_190] = &gObjectEventGraphicsInfo_Sinnoh190,
+    [OBJ_EVENT_GFX_SINNOH_195] = &gObjectEventGraphicsInfo_Sinnoh195,
+    [OBJ_EVENT_GFX_SINNOH_196] = &gObjectEventGraphicsInfo_Sinnoh196,
+    [OBJ_EVENT_GFX_SINNOH_197] = &gObjectEventGraphicsInfo_Sinnoh197,
+    [OBJ_EVENT_GFX_SINNOH_198] = &gObjectEventGraphicsInfo_Sinnoh198,
+    [OBJ_EVENT_GFX_SINNOH_199] = &gObjectEventGraphicsInfo_Sinnoh199,
+    [OBJ_EVENT_GFX_SINNOH_200] = &gObjectEventGraphicsInfo_Sinnoh200,
+    [OBJ_EVENT_GFX_SINNOH_201] = &gObjectEventGraphicsInfo_Sinnoh201,
+    [OBJ_EVENT_GFX_SINNOH_202] = &gObjectEventGraphicsInfo_Sinnoh202,
+    [OBJ_EVENT_GFX_SINNOH_203] = &gObjectEventGraphicsInfo_Sinnoh203,
+    [OBJ_EVENT_GFX_SINNOH_204] = &gObjectEventGraphicsInfo_Sinnoh204,
+    [OBJ_EVENT_GFX_SINNOH_205] = &gObjectEventGraphicsInfo_Sinnoh205,
+    [OBJ_EVENT_GFX_SINNOH_206] = &gObjectEventGraphicsInfo_Sinnoh206,
+    [OBJ_EVENT_GFX_SINNOH_207] = &gObjectEventGraphicsInfo_Sinnoh207,
+    [OBJ_EVENT_GFX_SINNOH_208] = &gObjectEventGraphicsInfo_Sinnoh208,
+    [OBJ_EVENT_GFX_SINNOH_209] = &gObjectEventGraphicsInfo_Sinnoh209,
+    [OBJ_EVENT_GFX_SINNOH_210] = &gObjectEventGraphicsInfo_Sinnoh210,
+    [OBJ_EVENT_GFX_SINNOH_211] = &gObjectEventGraphicsInfo_Sinnoh211,
+    [OBJ_EVENT_GFX_SINNOH_212] = &gObjectEventGraphicsInfo_Sinnoh212,
+    [OBJ_EVENT_GFX_SINNOH_213] = &gObjectEventGraphicsInfo_Sinnoh213,
+    [OBJ_EVENT_GFX_SINNOH_214] = &gObjectEventGraphicsInfo_Sinnoh214,
+    [OBJ_EVENT_GFX_SINNOH_215] = &gObjectEventGraphicsInfo_Sinnoh215,
+    [OBJ_EVENT_GFX_SINNOH_218] = &gObjectEventGraphicsInfo_Sinnoh218,
+    [OBJ_EVENT_GFX_SINNOH_219] = &gObjectEventGraphicsInfo_Sinnoh219,
+    [OBJ_EVENT_GFX_SINNOH_220] = &gObjectEventGraphicsInfo_Sinnoh220,
+    [OBJ_EVENT_GFX_SINNOH_221] = &gObjectEventGraphicsInfo_Sinnoh221,
+    [OBJ_EVENT_GFX_SINNOH_222] = &gObjectEventGraphicsInfo_Sinnoh222,
+    [OBJ_EVENT_GFX_SINNOH_223] = &gObjectEventGraphicsInfo_Sinnoh223,
+    [OBJ_EVENT_GFX_SINNOH_224] = &gObjectEventGraphicsInfo_Sinnoh224,
+    [OBJ_EVENT_GFX_SINNOH_225] = &gObjectEventGraphicsInfo_Sinnoh225,
+    [OBJ_EVENT_GFX_SINNOH_226] = &gObjectEventGraphicsInfo_Sinnoh226,
+    [OBJ_EVENT_GFX_SINNOH_227] = &gObjectEventGraphicsInfo_Sinnoh227,
+    [OBJ_EVENT_GFX_SINNOH_228] = &gObjectEventGraphicsInfo_Sinnoh228,
+    [OBJ_EVENT_GFX_SINNOH_229] = &gObjectEventGraphicsInfo_Sinnoh229,
+    [OBJ_EVENT_GFX_SINNOH_230] = &gObjectEventGraphicsInfo_Sinnoh230,
+    [OBJ_EVENT_GFX_SINNOH_231] = &gObjectEventGraphicsInfo_Sinnoh231,
+    [OBJ_EVENT_GFX_SINNOH_232] = &gObjectEventGraphicsInfo_Sinnoh232,
+    [OBJ_EVENT_GFX_SINNOH_233] = &gObjectEventGraphicsInfo_Sinnoh233,
+    [OBJ_EVENT_GFX_SINNOH_234] = &gObjectEventGraphicsInfo_Sinnoh234,
+    [OBJ_EVENT_GFX_SINNOH_235] = &gObjectEventGraphicsInfo_Sinnoh235,
+    [OBJ_EVENT_GFX_SINNOH_236] = &gObjectEventGraphicsInfo_Sinnoh236,
+    [OBJ_EVENT_GFX_SINNOH_237] = &gObjectEventGraphicsInfo_Sinnoh237,
+    [OBJ_EVENT_GFX_SINNOH_238] = &gObjectEventGraphicsInfo_Sinnoh238,
+    [OBJ_EVENT_GFX_SINNOH_240] = &gObjectEventGraphicsInfo_Sinnoh240,
+    [OBJ_EVENT_GFX_SINNOH_241] = &gObjectEventGraphicsInfo_Sinnoh241,
+    [OBJ_EVENT_GFX_SINNOH_242] = &gObjectEventGraphicsInfo_Sinnoh242,
+    [OBJ_EVENT_GFX_SINNOH_243] = &gObjectEventGraphicsInfo_Sinnoh243,
+    [OBJ_EVENT_GFX_SINNOH_244] = &gObjectEventGraphicsInfo_Sinnoh244,
+    [OBJ_EVENT_GFX_SINNOH_245] = &gObjectEventGraphicsInfo_Sinnoh245,
+    // --- END WIRE_TO_DECOMP_SPRITES_PTR sinnoh ---
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

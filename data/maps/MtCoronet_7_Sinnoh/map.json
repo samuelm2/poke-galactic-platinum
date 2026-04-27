@@ -1,0 +1,44 @@
+{
+  "id": "MAP_MT_CORONET_7_SINNOH",
+  "name": "MtCoronet_7_Sinnoh",
+  "layout": "LAYOUT_MT_CORONET_7_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_SEVII_CAVE",
+  "region_map_section": "MAPSEC_SINNOH_MT_CORONET",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 3,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_MT_CORONET_12_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 13,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_MT_CORONET_6_SINNOH",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 21,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_MT_CORONET_6_SINNOH",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

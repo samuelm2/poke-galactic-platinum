@@ -1,0 +1,113 @@
+{
+  "id": "MAP_RAINBOW_CASTLE_INDOOR_12_SINNOH",
+  "name": "RainbowCastle_Indoor12_Sinnoh",
+  "layout": "LAYOUT_RAINBOW_CASTLE_INDOOR_12_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_ROCKET_HIDEOUT",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 13,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RainbowCastle_Indoor12_Sinnoh_EventScript_Obj1",
+      "flag": "16558"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_46",
+      "x": 0,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_BERRY_TREE_GROWTH",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RainbowCastle_Indoor12_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 13,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RainbowCastle_Indoor12_Sinnoh_EventScript_Obj3",
+      "flag": "16635"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_225",
+      "x": 6,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RainbowCastle_Indoor12_Sinnoh_EventScript_Obj4",
+      "flag": "16853"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_4",
+      "x": 6,
+      "y": 0,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RainbowCastle_Indoor12_Sinnoh_EventScript_Obj5",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 6,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_RAINBOW_CASTLE_INDOOR_11_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_TEMPLE_OF_THE_END_INDOOR_1_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 2,
+      "elevation": 0,
+      "var": "16385",
+      "var_value": "0",
+      "script": "RainbowCastle_Indoor12_Sinnoh_EventScript_Trigger0"
+    }
+  ],
+  "bg_events": []
+}

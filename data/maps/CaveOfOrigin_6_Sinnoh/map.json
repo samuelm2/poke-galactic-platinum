@@ -1,0 +1,51 @@
+{
+  "id": "MAP_CAVE_OF_ORIGIN_6_SINNOH",
+  "name": "CaveOfOrigin_6_Sinnoh",
+  "layout": "LAYOUT_CAVE_OF_ORIGIN_6_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_NONE",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_FOG_HORIZONTAL",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_133",
+      "x": 9,
+      "y": 12,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CaveOfOrigin_6_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_CAVE_OF_ORIGIN_B1F_WALLACE"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 9,
+      "y": 3,
+      "elevation": 3,
+      "dest_map": "MAP_CAVE_OF_ORIGIN_2_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 9,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_EV_TRAINING_CAVE_INDOOR_3_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

@@ -1,0 +1,52 @@
+{
+  "id": "MAP_VERITY_LAKEFRONT_SINNOH",
+  "name": "VerityLakefront_Sinnoh",
+  "layout": "LAYOUT_VERITY_LAKEFRONT_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_ROUTE1",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "right",
+      "offset": 0,
+      "map": "MAP_ROUTE_201_SINNOH"
+    }
+  ],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 10,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_LAKE_VERITY_1_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_LAKE_VERITY_1_SINNOH",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 9,
+      "y": 8,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "VerityLakefront_Sinnoh_EventScript_Sign0"
+    }
+  ]
+}

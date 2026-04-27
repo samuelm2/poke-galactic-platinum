@@ -1,0 +1,22 @@
+{
+  "id": "MAP_AQUA_HIDEOUT_1_SINNOH",
+  "name": "AquaHideout_1_Sinnoh",
+  "layout": "LAYOUT_AQUA_HIDEOUT_1_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_AQUA_MAGMA_HIDEOUT",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [],
+  "warp_events": [],
+  "coord_events": [],
+  "bg_events": []
+}

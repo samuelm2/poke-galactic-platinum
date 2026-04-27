@@ -1,0 +1,287 @@
+{
+  "id": "MAP_FORTREE_CITY_SINNOH",
+  "name": "FortreeCity_Sinnoh",
+  "layout": "LAYOUT_FORTREE_CITY_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_FORTREE",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "left",
+      "offset": 0,
+      "map": "MAP_ROUTE_119_SINNOH"
+    },
+    {
+      "direction": "right",
+      "offset": 0,
+      "map": "MAP_ROUTE_120_SINNOH"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_23",
+      "x": 34,
+      "y": 5,
+      "elevation": 4,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "FortreeCity_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_8",
+      "x": 32,
+      "y": 16,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "FortreeCity_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_34",
+      "x": 32,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "FortreeCity_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_7",
+      "x": 11,
+      "y": 14,
+      "elevation": 4,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "FortreeCity_Sinnoh_EventScript_Obj4",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_29",
+      "x": 8,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "FortreeCity_Sinnoh_EventScript_Obj5",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_11",
+      "x": 8,
+      "y": 15,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "FortreeCity_Sinnoh_EventScript_Obj6",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_212",
+      "x": 25,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "FortreeCity_Sinnoh_EventScript_Obj7",
+      "flag": "FLAG_HIDE_FORTREE_CITY_KECLEON"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 19,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "FortreeCity_Sinnoh_EventScript_Obj8",
+      "flag": "16405"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_230",
+      "x": 19,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "FortreeCity_Sinnoh_EventScript_Obj9",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_163",
+      "x": 22,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "FortreeCity_Sinnoh_EventScript_Obj10",
+      "flag": "17071"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 5,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_FORTREE_CITY_INDOOR_3_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 10,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_FORTREE_CITY_INDOOR_1_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 22,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_FORTREE_CITY_INDOOR_2_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_FORTREE_CITY_INDOOR_5_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 17,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_FORTREE_CITY_INDOOR_6_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 25,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_FORTREE_CITY_INDOOR_7_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 32,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_FORTREE_CITY_INDOOR_8_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_FORTREE_CITY_INDOOR_9_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 37,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_FORTREE_CITY_INDOOR_10_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 22,
+      "y": 11,
+      "elevation": 0,
+      "var": "16394",
+      "var_value": "0",
+      "script": "FortreeCity_Sinnoh_EventScript_Trigger0"
+    }
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 9,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "FortreeCity_Sinnoh_EventScript_Sign0"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "1",
+      "script": "FortreeCity_Sinnoh_EventScript_Sign1"
+    },
+    {
+      "type": "sign",
+      "x": 5,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "1",
+      "script": "FortreeCity_Sinnoh_EventScript_Sign2"
+    },
+    {
+      "type": "sign",
+      "x": 26,
+      "y": 10,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "FortreeCity_Sinnoh_EventScript_Sign3"
+    },
+    {
+      "type": "sign",
+      "x": 6,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "1",
+      "script": "FortreeCity_Sinnoh_EventScript_Sign4"
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "1",
+      "script": "FortreeCity_Sinnoh_EventScript_Sign5"
+    }
+  ]
+}

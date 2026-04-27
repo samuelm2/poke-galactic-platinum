@@ -1,0 +1,51 @@
+{
+  "id": "MAP_MT_SILVER_2_SINNOH",
+  "name": "MtSilver_2_Sinnoh",
+  "layout": "LAYOUT_MT_SILVER_2_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_SEVII_CAVE",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_SHADE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 21,
+      "y": 33,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_1_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 17,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_3_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_3_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 27,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_4_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

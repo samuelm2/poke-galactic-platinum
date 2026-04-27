@@ -1,0 +1,105 @@
+{
+  "id": "MAP_MT_PYRE_INDOOR_1_SINNOH",
+  "name": "MtPyre_Indoor1_Sinnoh",
+  "layout": "LAYOUT_MT_PYRE_INDOOR_1_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_MT_PYRE",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_30",
+      "x": 21,
+      "y": 2,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtPyre_Indoor1_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_18",
+      "x": 17,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtPyre_Indoor1_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_65",
+      "x": 13,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtPyre_Indoor1_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 17,
+      "y": 18,
+      "elevation": 3,
+      "dest_map": "MAP_ROUTE_122_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_1_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 18,
+      "y": 18,
+      "elevation": 3,
+      "dest_map": "MAP_ROUTE_122_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_1_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 11,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_INDOOR_2_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 20,
+      "y": 9,
+      "elevation": 3,
+      "dest_map": "MAP_MT_PYRE_INDOOR_2_SINNOH",
+      "dest_warp_id": "4"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

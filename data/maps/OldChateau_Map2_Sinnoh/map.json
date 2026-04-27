@@ -1,0 +1,122 @@
+{
+  "id": "MAP_OLD_CHATEAU_MAP_2_SINNOH",
+  "name": "OldChateau_Map2_Sinnoh",
+  "layout": "LAYOUT_OLD_CHATEAU_MAP_2_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_LAVENDER",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_29",
+      "x": 12,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "OldChateau_Map2_Sinnoh_EventScript_Obj1",
+      "flag": "16999"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 2,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "OldChateau_Map2_Sinnoh_EventScript_Obj2",
+      "flag": "17004"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_46",
+      "x": 3,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "OldChateau_Map2_Sinnoh_EventScript_Obj3",
+      "flag": "17000"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 37,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "OldChateau_Map2_Sinnoh_EventScript_Obj4",
+      "flag": "17005"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 15,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "OldChateau_Map2_Sinnoh_EventScript_Obj5",
+      "flag": "17006"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 19,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_OLD_CHATEAU_INDOOR_1_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 20,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_OLD_CHATEAU_INDOOR_1_SINNOH",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 4,
+      "elevation": 0,
+      "var": "16385",
+      "var_value": "0",
+      "script": "OldChateau_Map2_Sinnoh_EventScript_Trigger0"
+    },
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 6,
+      "elevation": 0,
+      "var": "16386",
+      "var_value": "0",
+      "script": "OldChateau_Map2_Sinnoh_EventScript_Trigger1"
+    }
+  ],
+  "bg_events": []
+}

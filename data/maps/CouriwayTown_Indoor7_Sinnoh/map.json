@@ -1,0 +1,245 @@
+{
+  "id": "MAP_COURIWAY_TOWN_INDOOR_7_SINNOH",
+  "name": "CouriwayTown_Indoor7_Sinnoh",
+  "layout": "LAYOUT_COURIWAY_TOWN_INDOOR_7_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_LAVENDER",
+  "region_map_section": "MAPSEC_SINNOH_COURIWAY_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_29",
+      "x": 32,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CouriwayTown_Indoor7_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_17",
+      "x": 3,
+      "y": 16,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CouriwayTown_Indoor7_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_33",
+      "x": 5,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CouriwayTown_Indoor7_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_45",
+      "x": 1,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CouriwayTown_Indoor7_Sinnoh_EventScript_Obj4",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_19",
+      "x": 20,
+      "y": 34,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CouriwayTown_Indoor7_Sinnoh_EventScript_Obj5",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_39",
+      "x": 27,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CouriwayTown_Indoor7_Sinnoh_EventScript_Obj6",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_22",
+      "x": 29,
+      "y": 22,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CouriwayTown_Indoor7_Sinnoh_EventScript_Obj7",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_24",
+      "x": 35,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CouriwayTown_Indoor7_Sinnoh_EventScript_Obj8",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 27,
+      "y": 37,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CouriwayTown_Indoor7_Sinnoh_EventScript_Obj9",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 36,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "CouriwayTown_Indoor7_Sinnoh_EventScript_Obj10",
+      "flag": "16621"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 26,
+      "y": 36,
+      "elevation": 0,
+      "dest_map": "MAP_COURIWAY_TOWN_INDOOR_7_SINNOH",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 20,
+      "y": 28,
+      "elevation": 0,
+      "dest_map": "MAP_COURIWAY_TOWN_INDOOR_4_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_COURIWAY_TOWN_INDOOR_7_SINNOH",
+      "dest_warp_id": "12"
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_COURIWAY_TOWN_INDOOR_7_SINNOH",
+      "dest_warp_id": "12"
+    },
+    {
+      "x": 2,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_COURIWAY_TOWN_INDOOR_7_SINNOH",
+      "dest_warp_id": "7"
+    },
+    {
+      "x": 4,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_COURIWAY_TOWN_INDOOR_7_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 5,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_COURIWAY_TOWN_INDOOR_7_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 31,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_COURIWAY_TOWN_INDOOR_7_SINNOH",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 32,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_COURIWAY_TOWN_INDOOR_7_SINNOH",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 32,
+      "y": 24,
+      "elevation": 0,
+      "dest_map": "MAP_COURIWAY_TOWN_INDOOR_7_SINNOH",
+      "dest_warp_id": "10"
+    },
+    {
+      "x": 8,
+      "y": 36,
+      "elevation": 0,
+      "dest_map": "MAP_COURIWAY_TOWN_INDOOR_7_SINNOH",
+      "dest_warp_id": "9"
+    },
+    {
+      "x": 17,
+      "y": 28,
+      "elevation": 0,
+      "dest_map": "MAP_COURIWAY_TOWN_INDOOR_2_SINNOH",
+      "dest_warp_id": "8"
+    },
+    {
+      "x": 31,
+      "y": 36,
+      "elevation": 0,
+      "dest_map": "MAP_COURIWAY_TOWN_INDOOR_7_SINNOH",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

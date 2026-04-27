@@ -1,0 +1,140 @@
+{
+  "id": "MAP_REMOTE_ISLAND_11_SINNOH",
+  "name": "RemoteIsland_11_Sinnoh",
+  "layout": "LAYOUT_REMOTE_ISLAND_11_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_SEVII_CAVE",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_SHADE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 13,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RemoteIsland_11_Sinnoh_EventScript_Obj1",
+      "flag": "16779"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 13,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RemoteIsland_11_Sinnoh_EventScript_Obj2",
+      "flag": "16780"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 13,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RemoteIsland_11_Sinnoh_EventScript_Obj3",
+      "flag": "16779"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 4,
+      "y": 72,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RemoteIsland_11_Sinnoh_EventScript_Obj4",
+      "flag": "16800"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 24,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RemoteIsland_11_Sinnoh_EventScript_Obj5",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 12,
+      "y": 83,
+      "elevation": 0,
+      "dest_map": "MAP_REMOTE_ISLAND_8_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 22,
+      "y": 64,
+      "elevation": 0,
+      "dest_map": "MAP_EV_TRAINING_CAVE_INDOOR_2_SINNOH",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 14,
+      "elevation": 0,
+      "var": "16385",
+      "var_value": "0",
+      "script": "RemoteIsland_11_Sinnoh_EventScript_Trigger0"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 14,
+      "elevation": 0,
+      "var": "16385",
+      "var_value": "0",
+      "script": "RemoteIsland_11_Sinnoh_EventScript_Trigger1"
+    },
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 14,
+      "elevation": 0,
+      "var": "16385",
+      "var_value": "0",
+      "script": "RemoteIsland_11_Sinnoh_EventScript_Trigger2"
+    },
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 82,
+      "elevation": 0,
+      "var": "16385",
+      "var_value": "0",
+      "script": "RemoteIsland_11_Sinnoh_EventScript_Trigger3"
+    }
+  ],
+  "bg_events": []
+}

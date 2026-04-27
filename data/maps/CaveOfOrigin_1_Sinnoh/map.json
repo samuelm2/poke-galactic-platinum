@@ -1,0 +1,37 @@
+{
+  "id": "MAP_CAVE_OF_ORIGIN_1_SINNOH",
+  "name": "CaveOfOrigin_1_Sinnoh",
+  "layout": "LAYOUT_CAVE_OF_ORIGIN_1_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_CAVE_OF_ORIGIN",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 9,
+      "y": 20,
+      "elevation": 3,
+      "dest_map": "MAP_SOOTOPOLIS_CITY_1_SINNOH",
+      "dest_warp_id": "3"
+    },
+    {
+      "x": 9,
+      "y": 5,
+      "elevation": 3,
+      "dest_map": "MAP_CAVE_OF_ORIGIN_2_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

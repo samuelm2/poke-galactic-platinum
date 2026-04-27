@@ -1,0 +1,37 @@
+{
+  "id": "MAP_CAVE_OF_ORIGIN_5_SINNOH",
+  "name": "CaveOfOrigin_5_Sinnoh",
+  "layout": "LAYOUT_CAVE_OF_ORIGIN_5_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_CAVE_OF_ORIGIN",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_FOG_HORIZONTAL",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 7,
+      "y": 14,
+      "elevation": 3,
+      "dest_map": "MAP_CAVE_OF_ORIGIN_4_SINNOH",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 12,
+      "y": 6,
+      "elevation": 3,
+      "dest_map": "MAP_CAVE_OF_ORIGIN_6_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

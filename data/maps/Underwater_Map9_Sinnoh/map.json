@@ -1,0 +1,83 @@
+{
+  "id": "MAP_UNDERWATER_MAP_9_SINNOH",
+  "name": "Underwater_Map9_Sinnoh",
+  "layout": "LAYOUT_UNDERWATER_MAP_9_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_UNDERWATER",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_UNDERWATER_BUBBLES",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_100",
+      "x": 5,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Underwater_Map9_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_UNDERWATER_SEA_FLOOR_CAVERN_STOLEN_SUBMARINE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_100",
+      "x": 6,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Underwater_Map9_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_UNDERWATER_SEA_FLOOR_CAVERN_STOLEN_SUBMARINE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_100",
+      "x": 7,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Underwater_Map9_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_UNDERWATER_SEA_FLOOR_CAVERN_STOLEN_SUBMARINE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_100",
+      "x": 8,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Underwater_Map9_Sinnoh_EventScript_Obj4",
+      "flag": "FLAG_HIDE_UNDERWATER_SEA_FLOOR_CAVERN_STOLEN_SUBMARINE"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 6,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_UNDERWATER_MAP_4_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

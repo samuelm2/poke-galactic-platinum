@@ -1,0 +1,88 @@
+{
+  "id": "MAP_UNKNOWN_57_INDOOR_4_SINNOH",
+  "name": "Unknown57_Indoor4_Sinnoh",
+  "layout": "LAYOUT_UNKNOWN_57_INDOOR_4_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_EVER_GRANDE",
+  "region_map_section": "MAPSEC_NONE",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 5,
+      "y": 8,
+      "elevation": 3,
+      "dest_map": "MAP_DYNAMIC",
+      "dest_warp_id": "127"
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "elevation": 3,
+      "dest_map": "MAP_DYNAMIC",
+      "dest_warp_id": "127"
+    },
+    {
+      "x": 7,
+      "y": 8,
+      "elevation": 3,
+      "dest_map": "MAP_DYNAMIC",
+      "dest_warp_id": "127"
+    },
+    {
+      "x": 8,
+      "y": 8,
+      "elevation": 3,
+      "dest_map": "MAP_DYNAMIC",
+      "dest_warp_id": "127"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 4,
+      "elevation": 3,
+      "var": "16384",
+      "var_value": "0",
+      "script": "Unknown57_Indoor4_Sinnoh_EventScript_Trigger0"
+    },
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 6,
+      "elevation": 3,
+      "var": "16384",
+      "var_value": "0",
+      "script": "Unknown57_Indoor4_Sinnoh_EventScript_Trigger1"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 4,
+      "elevation": 3,
+      "var": "16384",
+      "var_value": "0",
+      "script": "Unknown57_Indoor4_Sinnoh_EventScript_Trigger2"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 6,
+      "elevation": 3,
+      "var": "16384",
+      "var_value": "0",
+      "script": "Unknown57_Indoor4_Sinnoh_EventScript_Trigger3"
+    }
+  ],
+  "bg_events": []
+}

@@ -1,0 +1,91 @@
+{
+  "id": "MAP_NAVEL_ROCK_3_SINNOH",
+  "name": "NavelRock_3_Sinnoh",
+  "layout": "LAYOUT_NAVEL_ROCK_3_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_SEVII_CAVE",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 3,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NavelRock_3_Sinnoh_EventScript_Obj1",
+      "flag": "16496"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 23,
+      "y": 13,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "2103",
+      "script": "NavelRock_3_Sinnoh_EventScript_Obj2",
+      "flag": "16497"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 13,
+      "y": 3,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NavelRock_3_Sinnoh_EventScript_Obj3",
+      "flag": "16498"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 3,
+      "y": 16,
+      "elevation": 3,
+      "dest_map": "MAP_NAVEL_ROCK_4_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 81,
+      "elevation": 3,
+      "dest_map": "MAP_NAVEL_ROCK_1_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 13,
+      "y": 6,
+      "elevation": 3,
+      "dest_map": "MAP_NAVEL_ROCK_9_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 23,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_NAVEL_ROCK_2_SINNOH",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

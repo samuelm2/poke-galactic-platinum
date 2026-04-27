@@ -1,0 +1,92 @@
+{
+  "id": "MAP_REMOTE_ISLAND_5_SINNOH",
+  "name": "RemoteIsland_5_Sinnoh",
+  "layout": "LAYOUT_REMOTE_ISLAND_5_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_MT_PYRE",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_60",
+      "x": 22,
+      "y": 19,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RemoteIsland_5_Sinnoh_EventScript_Obj1",
+      "flag": "16774"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_55",
+      "x": 9,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 2,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "6",
+      "script": "RemoteIsland_5_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_87",
+      "x": 15,
+      "y": 14,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RemoteIsland_5_Sinnoh_EventScript_Obj3",
+      "flag": "23"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 29,
+      "y": 23,
+      "elevation": 3,
+      "dest_map": "MAP_REMOTE_ISLAND_3_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 7,
+      "y": 21,
+      "elevation": 3,
+      "dest_map": "MAP_REMOTE_ISLAND_7_SINNOH",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "secret_base",
+      "x": 17,
+      "y": 12,
+      "elevation": 3,
+      "secret_base_id": "0x003000C3"
+    },
+    {
+      "type": "secret_base",
+      "x": 27,
+      "y": 3,
+      "elevation": 3,
+      "secret_base_id": "0x003100CC"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "id": "MAP_MAGIC_WOODS_2_SINNOH",
+  "name": "MagicWoods_2_Sinnoh",
+  "layout": "LAYOUT_MAGIC_WOODS_2_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_LAVENDER",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_FOG_HORIZONTAL",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 12,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MagicWoods_2_Sinnoh_EventScript_Obj1",
+      "flag": "17094"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 13,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MagicWoods_2_Sinnoh_EventScript_Obj2",
+      "flag": "17071"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_81",
+      "x": 12,
+      "y": 18,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MagicWoods_2_Sinnoh_EventScript_Obj3",
+      "flag": "17071"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_96",
+      "x": 13,
+      "y": 18,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MagicWoods_2_Sinnoh_EventScript_Obj4",
+      "flag": "17071"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_177",
+      "x": 21,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MagicWoods_2_Sinnoh_EventScript_Obj5",
+      "flag": "17071"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_196",
+      "x": 21,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MagicWoods_2_Sinnoh_EventScript_Obj6",
+      "flag": "17071"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_178",
+      "x": 4,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MagicWoods_2_Sinnoh_EventScript_Obj7",
+      "flag": "17071"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_195",
+      "x": 4,
+      "y": 10,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MagicWoods_2_Sinnoh_EventScript_Obj8",
+      "flag": "17071"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_161",
+      "x": 13,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MagicWoods_2_Sinnoh_EventScript_Obj9",
+      "flag": "17071"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_209",
+      "x": 13,
+      "y": 3,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MagicWoods_2_Sinnoh_EventScript_Obj10",
+      "flag": "17071"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 12,
+      "y": 4,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MagicWoods_2_Sinnoh_EventScript_Obj11",
+      "flag": "17071"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 13,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MagicWoods_2_Sinnoh_EventScript_Obj12",
+      "flag": "17071"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 12,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MagicWoods_2_Sinnoh_EventScript_Obj13",
+      "flag": "17133"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 12,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_MAGIC_WOODS_1_SINNOH",
+      "dest_warp_id": "86"
+    },
+    {
+      "x": 13,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_MAGIC_WOODS_1_SINNOH",
+      "dest_warp_id": "87"
+    },
+    {
+      "x": 12,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_MIRAGE_TOWER_2_SINNOH",
+      "dest_warp_id": "2"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 18,
+      "elevation": 0,
+      "var": "16394",
+      "var_value": "0",
+      "script": "MagicWoods_2_Sinnoh_EventScript_Trigger0"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 18,
+      "elevation": 0,
+      "var": "16394",
+      "var_value": "0",
+      "script": "MagicWoods_2_Sinnoh_EventScript_Trigger1"
+    }
+  ],
+  "bg_events": []
+}

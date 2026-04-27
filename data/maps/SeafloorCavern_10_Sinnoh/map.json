@@ -1,0 +1,145 @@
+{
+  "id": "MAP_SEAFLOOR_CAVERN_10_SINNOH",
+  "name": "SeafloorCavern_10_Sinnoh",
+  "layout": "LAYOUT_SEAFLOOR_CAVERN_10_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_MT_CHIMNEY",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_FOG_HORIZONTAL",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_197",
+      "x": 17,
+      "y": 37,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SeafloorCavern_10_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_195",
+      "x": 9,
+      "y": 42,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SeafloorCavern_10_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_196",
+      "x": 9,
+      "y": 42,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SeafloorCavern_10_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_119",
+      "x": 8,
+      "y": 41,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SeafloorCavern_10_Sinnoh_EventScript_Obj4",
+      "flag": "FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_120",
+      "x": 8,
+      "y": 42,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SeafloorCavern_10_Sinnoh_EventScript_Obj5",
+      "flag": "FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 16,
+      "y": 16,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SeafloorCavern_10_Sinnoh_EventScript_Obj6",
+      "flag": "FLAG_ITEM_SEAFLOOR_CAVERN_ROOM_9_TM_EARTHQUAKE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_205",
+      "x": 17,
+      "y": 37,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SeafloorCavern_10_Sinnoh_EventScript_Obj7",
+      "flag": "FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 18,
+      "y": 16,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "SeafloorCavern_10_Sinnoh_EventScript_Obj8",
+      "flag": "16439"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 5,
+      "y": 4,
+      "elevation": 3,
+      "dest_map": "MAP_SEAFLOOR_CAVERN_9_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 42,
+      "elevation": 3,
+      "var": "VAR_SEAFLOOR_CAVERN_STATE",
+      "var_value": "0",
+      "script": "SeafloorCavern_10_Sinnoh_EventScript_Trigger0"
+    }
+  ],
+  "bg_events": []
+}

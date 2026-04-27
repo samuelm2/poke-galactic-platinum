@@ -1,0 +1,37 @@
+{
+  "id": "MAP_MT_SILVER_5_SINNOH",
+  "name": "MtSilver_5_Sinnoh",
+  "layout": "LAYOUT_MT_SILVER_5_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_VICTORY_ROAD",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_SHADE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 17,
+      "y": 33,
+      "elevation": 3,
+      "dest_map": "MAP_MT_SILVER_INDOOR_2_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 17,
+      "y": 2,
+      "elevation": 3,
+      "dest_map": "MAP_MT_SILVER_INDOOR_3_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

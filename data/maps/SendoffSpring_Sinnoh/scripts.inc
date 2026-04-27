@@ -1,0 +1,32 @@
+@ Auto-generated stub scripts for SendoffSpring_Sinnoh
+@ Replace these with real scripts as needed
+
+SendoffSpring_Sinnoh_MapScripts::
+    .byte 0
+
+SendoffSpring_Sinnoh_EventScript_Obj1::
+    lock
+    msgbox SendoffSpring_Sinnoh_EventScript_Obj1_Text, MSGBOX_DEFAULT
+    release
+    end
+
+SendoffSpring_Sinnoh_EventScript_Obj1_Text:
+    .string "TODO: Stub script\nSendoffSpring_Sinnoh_EventScript_Obj1$"
+
+SendoffSpring_Sinnoh_EventScript_Obj2::
+    lock
+    msgbox SendoffSpring_Sinnoh_EventScript_Obj2_Text, MSGBOX_DEFAULT
+    release
+    end
+
+SendoffSpring_Sinnoh_EventScript_Obj2_Text:
+    .string "TODO: Stub script\nSendoffSpring_Sinnoh_EventScript_Obj2$"
+
+SendoffSpring_Sinnoh_EventScript_Obj3::
+    lock
+    msgbox SendoffSpring_Sinnoh_EventScript_Obj3_Text, MSGBOX_DEFAULT
+    release
+    end
+
+SendoffSpring_Sinnoh_EventScript_Obj3_Text:
+    .string "TODO: Stub script\nSendoffSpring_Sinnoh_EventScript_Obj3$"

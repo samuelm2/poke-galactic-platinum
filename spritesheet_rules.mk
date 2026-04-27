@@ -5383,3 +5383,464 @@ $(BATINTGFXDIR)/healthbox_singles_opponent.4bpp: %.4bpp: %.png
 
 $(BATINTGFXDIR)/healthbox_singles_player.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 8 -mheight 8
+
+# --- BEGIN sinnoh sprite rules ---
+graphics/object_events/pics/sinnoh/gfx_004.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_005.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_006.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_007.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_008.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_009.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_010.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_011.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_012.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_013.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_014.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_015.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_016.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_017.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_018.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_019.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_020.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_021.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_022.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_023.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_024.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_025.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_026.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_027.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_028.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_029.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_030.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_031.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_032.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_033.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_034.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_035.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_036.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_037.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_038.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_039.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_040.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_041.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8
+graphics/object_events/pics/sinnoh/gfx_042.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_043.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_044.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_045.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_046.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_047.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_048.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_049.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_050.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_051.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_052.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_053.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_054.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_055.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_056.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_057.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_058.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_059.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_060.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_061.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_063.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_064.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_065.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_066.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_067.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_068.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_069.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_070.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_071.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_072.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_073.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_074.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_075.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_076.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_077.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_078.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_079.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_080.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_081.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_082.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_083.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_084.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_085.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_086.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_087.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_088.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_089.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_090.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_091.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_092.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_093.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_094.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 6 -mheight 6
+graphics/object_events/pics/sinnoh/gfx_095.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_096.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_097.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_098.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_099.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_100.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_101.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_102.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_103.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_104.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_105.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_106.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_107.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_108.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_109.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_110.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_111.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_112.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_113.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_114.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8
+graphics/object_events/pics/sinnoh/gfx_115.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_116.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_117.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_118.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_119.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_120.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_121.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_122.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_123.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_124.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_125.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_126.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_127.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_128.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_129.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_130.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_131.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_132.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_133.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_134.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_135.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_136.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_137.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_138.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_139.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_142.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_143.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_144.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_145.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_146.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_147.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_148.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_149.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_150.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_151.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_152.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_153.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_154.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_155.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_156.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_157.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_158.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_159.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_160.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_161.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_162.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_163.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_164.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_165.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_166.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_167.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_168.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_169.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_170.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_171.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_172.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_173.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_174.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_176.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_177.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_178.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_179.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_180.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_181.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_182.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_183.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_184.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_185.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_186.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_189.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_190.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_195.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_196.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_197.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8
+graphics/object_events/pics/sinnoh/gfx_198.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8
+graphics/object_events/pics/sinnoh/gfx_199.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_200.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_201.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_202.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_203.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_204.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_205.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8
+graphics/object_events/pics/sinnoh/gfx_206.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8
+graphics/object_events/pics/sinnoh/gfx_207.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8
+graphics/object_events/pics/sinnoh/gfx_208.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_209.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_210.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_211.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_212.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_213.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_214.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 2
+graphics/object_events/pics/sinnoh/gfx_215.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_218.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_219.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_220.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_221.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8
+graphics/object_events/pics/sinnoh/gfx_222.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8
+graphics/object_events/pics/sinnoh/gfx_223.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_224.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_225.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_226.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_227.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_228.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_229.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_230.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_231.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_232.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_233.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_234.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_235.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_236.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_237.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8
+graphics/object_events/pics/sinnoh/gfx_238.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8
+graphics/object_events/pics/sinnoh/gfx_240.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_241.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_242.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_243.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_244.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+graphics/object_events/pics/sinnoh/gfx_245.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+# --- END sinnoh sprite rules ---

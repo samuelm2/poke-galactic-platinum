@@ -1,0 +1,261 @@
+{
+  "id": "MAP_RUSTURF_TUNNEL_SINNOH",
+  "name": "RusturfTunnel_Sinnoh",
+  "layout": "LAYOUT_RUSTURF_TUNNEL_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_PETALBURG_WOODS",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_FOG_HORIZONTAL",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_44",
+      "x": 23,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RusturfTunnel_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_RUSTURF_TUNNEL_WANDAS_BOYFRIEND"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 24,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RusturfTunnel_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_RUSTURF_TUNNEL_ROCK_1"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 17,
+      "y": 18,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RusturfTunnel_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_ITEM_ROUTE_123_REVIVAL_HERB"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_59",
+      "x": 30,
+      "y": 2,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RusturfTunnel_Sinnoh_EventScript_Obj4",
+      "flag": "FLAG_ITEM_RUSTURF_TUNNEL_MAX_ETHER"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_21",
+      "x": 5,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RusturfTunnel_Sinnoh_EventScript_Obj5",
+      "flag": "FLAG_HIDE_RUSTURF_TUNNEL_BRINEY"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_117",
+      "x": 14,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RusturfTunnel_Sinnoh_EventScript_Obj6",
+      "flag": "FLAG_HIDE_RUSTURF_TUNNEL_AQUA_GRUNT"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_211",
+      "x": 14,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RusturfTunnel_Sinnoh_EventScript_Obj7",
+      "flag": "FLAG_HIDE_RUSTURF_TUNNEL_PEEKO"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_86",
+      "x": 24,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RusturfTunnel_Sinnoh_EventScript_Obj8",
+      "flag": "FLAG_HIDE_RUSTURF_TUNNEL_ROCK_2"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_55",
+      "x": 32,
+      "y": 13,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "RusturfTunnel_Sinnoh_EventScript_Obj9",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_20",
+      "x": 25,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RusturfTunnel_Sinnoh_EventScript_Obj10",
+      "flag": "FLAG_HIDE_RUSTURF_TUNNEL_WANDA"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 24,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RusturfTunnel_Sinnoh_EventScript_Obj11",
+      "flag": "16434"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_44",
+      "x": 7,
+      "y": 9,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RusturfTunnel_Sinnoh_EventScript_Obj12",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 4,
+      "y": 10,
+      "elevation": 3,
+      "dest_map": "MAP_ROUTE_116_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 29,
+      "y": 16,
+      "elevation": 3,
+      "dest_map": "MAP_VERDANTURF_TOWN_SINNOH",
+      "dest_warp_id": "4"
+    },
+    {
+      "x": 18,
+      "y": 20,
+      "elevation": 3,
+      "dest_map": "MAP_ROUTE_116_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 12,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE_116_SINNOH",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_PETALBURG_CITY_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 4,
+      "elevation": 3,
+      "var": "0",
+      "var_value": "0",
+      "script": "RusturfTunnel_Sinnoh_EventScript_Trigger0"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 4,
+      "elevation": 3,
+      "var": "VAR_RUSTURF_TUNNEL_STATE",
+      "var_value": "2",
+      "script": "RusturfTunnel_Sinnoh_EventScript_Trigger1"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 5,
+      "elevation": 3,
+      "var": "VAR_RUSTURF_TUNNEL_STATE",
+      "var_value": "2",
+      "script": "RusturfTunnel_Sinnoh_EventScript_Trigger2"
+    },
+    {
+      "type": "trigger",
+      "x": 25,
+      "y": 4,
+      "elevation": 3,
+      "var": "0",
+      "var_value": "0",
+      "script": "RusturfTunnel_Sinnoh_EventScript_Trigger3"
+    },
+    {
+      "type": "trigger",
+      "x": 25,
+      "y": 5,
+      "elevation": 3,
+      "var": "0",
+      "var_value": "0",
+      "script": "RusturfTunnel_Sinnoh_EventScript_Trigger4"
+    }
+  ],
+  "bg_events": []
+}

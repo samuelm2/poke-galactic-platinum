@@ -1,0 +1,44 @@
+{
+  "id": "MAP_SEAFLOOR_CAVERN_7_SINNOH",
+  "name": "SeafloorCavern_7_Sinnoh",
+  "layout": "LAYOUT_SEAFLOOR_CAVERN_7_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_MT_CHIMNEY",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [],
+  "object_events": [],
+  "warp_events": [
+    {
+      "x": 11,
+      "y": 21,
+      "elevation": 3,
+      "dest_map": "MAP_SEAFLOOR_CAVERN_3_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "elevation": 3,
+      "dest_map": "MAP_SEAFLOOR_CAVERN_4_SINNOH",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 14,
+      "y": 8,
+      "elevation": 1,
+      "dest_map": "MAP_SEAFLOOR_CAVERN_1_SINNOH",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": []
+}

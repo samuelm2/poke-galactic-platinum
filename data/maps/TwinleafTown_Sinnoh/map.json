@@ -1,0 +1,135 @@
+{
+  "id": "MAP_TWINLEAF_TOWN_SINNOH",
+  "name": "TwinleafTown_Sinnoh",
+  "layout": "LAYOUT_TWINLEAF_TOWN_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_RG_SLOW_PALLET",
+  "region_map_section": "MAPSEC_SINNOH_TWINLEAF_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "up",
+      "offset": 0,
+      "map": "MAP_ROUTE_201_SINNOH"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_17",
+      "x": 14,
+      "y": 27,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "TwinleafTown_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_20",
+      "x": 23,
+      "y": 17,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "TwinleafTown_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_33",
+      "x": 14,
+      "y": 12,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "TwinleafTown_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 15,
+      "y": 16,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "TwinleafTown_Sinnoh_EventScript_Obj4",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 9,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_TWINLEAF_TOWN_INDOOR_1_SINNOH",
+      "dest_warp_id": "5"
+    },
+    {
+      "x": 21,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_TWINLEAF_TOWN_INDOOR_1_SINNOH",
+      "dest_warp_id": "11"
+    },
+    {
+      "x": 10,
+      "y": 24,
+      "elevation": 0,
+      "dest_map": "MAP_TWINLEAF_TOWN_INDOOR_1_SINNOH",
+      "dest_warp_id": "8"
+    },
+    {
+      "x": 20,
+      "y": 24,
+      "elevation": 0,
+      "dest_map": "MAP_TWINLEAF_TOWN_INDOOR_1_SINNOH",
+      "dest_warp_id": "1"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "TwinleafTown_Sinnoh_EventScript_Sign0"
+    },
+    {
+      "type": "sign",
+      "x": 16,
+      "y": 16,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "TwinleafTown_Sinnoh_EventScript_Sign1"
+    },
+    {
+      "type": "sign",
+      "x": 24,
+      "y": 24,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "TwinleafTown_Sinnoh_EventScript_Sign2"
+    }
+  ]
+}

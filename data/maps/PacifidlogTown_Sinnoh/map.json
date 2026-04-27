@@ -1,0 +1,200 @@
+{
+  "id": "MAP_PACIFIDLOG_TOWN_SINNOH",
+  "name": "PacifidlogTown_Sinnoh",
+  "layout": "LAYOUT_PACIFIDLOG_TOWN_SINNOH",
+  "region": "REGION_HOENN",
+  "music": "MUS_LILYCOVE",
+  "region_map_section": "MAPSEC_SINNOH_DUNGEON",
+  "requires_flash": false,
+  "weather": "WEATHER_SUNNY",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "floor_number": 0,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "left",
+      "offset": 0,
+      "map": "MAP_ROUTE_132_SINNOH"
+    },
+    {
+      "direction": "right",
+      "offset": 0,
+      "map": "MAP_ROUTE_131_SINNOH"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_8",
+      "x": 10,
+      "y": 25,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PacifidlogTown_Sinnoh_EventScript_Obj1",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_50",
+      "x": 4,
+      "y": 13,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PacifidlogTown_Sinnoh_EventScript_Obj2",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_5",
+      "x": 7,
+      "y": 11,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PacifidlogTown_Sinnoh_EventScript_Obj3",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 11,
+      "y": 8,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PacifidlogTown_Sinnoh_EventScript_Obj4",
+      "flag": "16408"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_7",
+      "x": 9,
+      "y": 5,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_INVISIBLE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PacifidlogTown_Sinnoh_EventScript_Obj5",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_78",
+      "x": 12,
+      "y": 16,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PacifidlogTown_Sinnoh_EventScript_Obj6",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SINNOH_9",
+      "x": 11,
+      "y": 16,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "PacifidlogTown_Sinnoh_EventScript_Obj7",
+      "flag": "FLAG_HIDE_BULBASAUR_BALL"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 9,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_PACIFIDLOG_TOWN_INDOOR_1_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 17,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_PACIFIDLOG_TOWN_INDOOR_3_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 3,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_PACIFIDLOG_TOWN_INDOOR_4_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_PACIFIDLOG_TOWN_INDOOR_5_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 2,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_PACIFIDLOG_TOWN_INDOOR_6_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 17,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_PACIFIDLOG_TOWN_INDOOR_7_SINNOH",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_EV_TRAINING_CAVE_SINNOH",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 10,
+      "elevation": 0,
+      "player_facing_dir": "1",
+      "script": "PacifidlogTown_Sinnoh_EventScript_Sign0"
+    },
+    {
+      "type": "sign",
+      "x": 9,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "0",
+      "script": "PacifidlogTown_Sinnoh_EventScript_Sign1"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 10,
+      "elevation": 0,
+      "player_facing_dir": "1",
+      "script": "PacifidlogTown_Sinnoh_EventScript_Sign2"
+    }
+  ]
+}
