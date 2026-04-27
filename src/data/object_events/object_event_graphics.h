@@ -872,231 +872,231 @@ const u32 gObjectEventPic_Sinnoh245[] = INCBIN_U32("graphics/object_events/pics/
 // Sinnoh per-sprite palettes
 const u16 gObjectEventPal_Sinnoh4[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_4.gbapal");
 const u16 gObjectEventPal_Sinnoh5[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_5.gbapal");
-const u16 gObjectEventPal_Sinnoh6[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_6.gbapal");
+#define gObjectEventPal_Sinnoh6 gObjectEventPal_Sinnoh5
 const u16 gObjectEventPal_Sinnoh7[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_7.gbapal");
-const u16 gObjectEventPal_Sinnoh8[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_8.gbapal");
-const u16 gObjectEventPal_Sinnoh9[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_9.gbapal");
-const u16 gObjectEventPal_Sinnoh10[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_10.gbapal");
+#define gObjectEventPal_Sinnoh8 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh9 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh10 gObjectEventPal_Sinnoh4
 const u16 gObjectEventPal_Sinnoh11[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_11.gbapal");
-const u16 gObjectEventPal_Sinnoh12[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_12.gbapal");
-const u16 gObjectEventPal_Sinnoh13[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_13.gbapal");
-const u16 gObjectEventPal_Sinnoh14[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_14.gbapal");
-const u16 gObjectEventPal_Sinnoh15[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_15.gbapal");
-const u16 gObjectEventPal_Sinnoh16[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_16.gbapal");
-const u16 gObjectEventPal_Sinnoh17[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_17.gbapal");
-const u16 gObjectEventPal_Sinnoh18[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_18.gbapal");
-const u16 gObjectEventPal_Sinnoh19[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_19.gbapal");
-const u16 gObjectEventPal_Sinnoh20[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_20.gbapal");
-const u16 gObjectEventPal_Sinnoh21[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_21.gbapal");
-const u16 gObjectEventPal_Sinnoh22[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_22.gbapal");
-const u16 gObjectEventPal_Sinnoh23[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_23.gbapal");
-const u16 gObjectEventPal_Sinnoh24[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_24.gbapal");
-const u16 gObjectEventPal_Sinnoh25[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_25.gbapal");
-const u16 gObjectEventPal_Sinnoh26[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_26.gbapal");
-const u16 gObjectEventPal_Sinnoh27[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_27.gbapal");
-const u16 gObjectEventPal_Sinnoh28[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_28.gbapal");
-const u16 gObjectEventPal_Sinnoh29[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_29.gbapal");
-const u16 gObjectEventPal_Sinnoh30[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_30.gbapal");
-const u16 gObjectEventPal_Sinnoh31[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_31.gbapal");
-const u16 gObjectEventPal_Sinnoh32[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_32.gbapal");
-const u16 gObjectEventPal_Sinnoh33[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_33.gbapal");
-const u16 gObjectEventPal_Sinnoh34[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_34.gbapal");
-const u16 gObjectEventPal_Sinnoh35[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_35.gbapal");
-const u16 gObjectEventPal_Sinnoh36[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_36.gbapal");
-const u16 gObjectEventPal_Sinnoh37[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_37.gbapal");
-const u16 gObjectEventPal_Sinnoh38[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_38.gbapal");
-const u16 gObjectEventPal_Sinnoh39[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_39.gbapal");
-const u16 gObjectEventPal_Sinnoh40[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_40.gbapal");
-const u16 gObjectEventPal_Sinnoh41[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_41.gbapal");
-const u16 gObjectEventPal_Sinnoh42[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_42.gbapal");
-const u16 gObjectEventPal_Sinnoh43[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_43.gbapal");
-const u16 gObjectEventPal_Sinnoh44[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_44.gbapal");
-const u16 gObjectEventPal_Sinnoh45[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_45.gbapal");
-const u16 gObjectEventPal_Sinnoh46[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_46.gbapal");
-const u16 gObjectEventPal_Sinnoh47[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_47.gbapal");
-const u16 gObjectEventPal_Sinnoh48[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_48.gbapal");
-const u16 gObjectEventPal_Sinnoh49[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_49.gbapal");
-const u16 gObjectEventPal_Sinnoh50[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_50.gbapal");
-const u16 gObjectEventPal_Sinnoh51[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_51.gbapal");
-const u16 gObjectEventPal_Sinnoh52[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_52.gbapal");
-const u16 gObjectEventPal_Sinnoh53[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_53.gbapal");
-const u16 gObjectEventPal_Sinnoh54[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_54.gbapal");
-const u16 gObjectEventPal_Sinnoh55[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_55.gbapal");
-const u16 gObjectEventPal_Sinnoh56[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_56.gbapal");
-const u16 gObjectEventPal_Sinnoh57[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_57.gbapal");
-const u16 gObjectEventPal_Sinnoh58[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_58.gbapal");
-const u16 gObjectEventPal_Sinnoh59[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_59.gbapal");
-const u16 gObjectEventPal_Sinnoh60[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_60.gbapal");
-const u16 gObjectEventPal_Sinnoh61[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_61.gbapal");
+#define gObjectEventPal_Sinnoh12 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh13 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh14 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh15 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh16 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh17 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh18 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh19 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh20 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh21 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh22 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh23 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh24 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh25 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh26 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh27 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh28 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh29 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh30 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh31 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh32 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh33 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh34 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh35 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh36 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh37 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh38 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh39 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh40 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh41 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh42 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh43 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh44 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh45 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh46 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh47 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh48 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh49 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh50 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh51 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh52 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh53 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh54 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh55 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh56 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh57 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh58 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh59 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh60 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh61 gObjectEventPal_Sinnoh7
 const u16 gObjectEventPal_Sinnoh63[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_63.gbapal");
-const u16 gObjectEventPal_Sinnoh64[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_64.gbapal");
-const u16 gObjectEventPal_Sinnoh65[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_65.gbapal");
-const u16 gObjectEventPal_Sinnoh66[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_66.gbapal");
-const u16 gObjectEventPal_Sinnoh67[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_67.gbapal");
-const u16 gObjectEventPal_Sinnoh68[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_68.gbapal");
-const u16 gObjectEventPal_Sinnoh69[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_69.gbapal");
-const u16 gObjectEventPal_Sinnoh70[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_70.gbapal");
-const u16 gObjectEventPal_Sinnoh71[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_71.gbapal");
-const u16 gObjectEventPal_Sinnoh72[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_72.gbapal");
-const u16 gObjectEventPal_Sinnoh73[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_73.gbapal");
-const u16 gObjectEventPal_Sinnoh74[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_74.gbapal");
-const u16 gObjectEventPal_Sinnoh75[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_75.gbapal");
+#define gObjectEventPal_Sinnoh64 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh65 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh66 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh67 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh68 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh69 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh70 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh71 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh72 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh73 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh74 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh75 gObjectEventPal_Sinnoh4
 const u16 gObjectEventPal_Sinnoh76[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_76.gbapal");
 const u16 gObjectEventPal_Sinnoh77[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_77.gbapal");
-const u16 gObjectEventPal_Sinnoh78[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_78.gbapal");
-const u16 gObjectEventPal_Sinnoh79[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_79.gbapal");
-const u16 gObjectEventPal_Sinnoh80[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_80.gbapal");
-const u16 gObjectEventPal_Sinnoh81[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_81.gbapal");
-const u16 gObjectEventPal_Sinnoh82[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_82.gbapal");
-const u16 gObjectEventPal_Sinnoh83[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_83.gbapal");
-const u16 gObjectEventPal_Sinnoh84[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_84.gbapal");
-const u16 gObjectEventPal_Sinnoh85[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_85.gbapal");
-const u16 gObjectEventPal_Sinnoh86[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_86.gbapal");
-const u16 gObjectEventPal_Sinnoh87[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_87.gbapal");
-const u16 gObjectEventPal_Sinnoh88[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_88.gbapal");
-const u16 gObjectEventPal_Sinnoh89[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_89.gbapal");
-const u16 gObjectEventPal_Sinnoh90[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_90.gbapal");
-const u16 gObjectEventPal_Sinnoh91[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_91.gbapal");
-const u16 gObjectEventPal_Sinnoh92[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_92.gbapal");
-const u16 gObjectEventPal_Sinnoh93[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_93.gbapal");
+#define gObjectEventPal_Sinnoh78 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh79 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh80 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh81 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh82 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh83 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh84 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh85 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh86 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh87 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh88 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh89 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh90 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh91 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh92 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh93 gObjectEventPal_Sinnoh63
 const u16 gObjectEventPal_Sinnoh94[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_94.gbapal");
 const u16 gObjectEventPal_Sinnoh95[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_95.gbapal");
-const u16 gObjectEventPal_Sinnoh96[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_96.gbapal");
-const u16 gObjectEventPal_Sinnoh97[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_97.gbapal");
-const u16 gObjectEventPal_Sinnoh98[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_98.gbapal");
-const u16 gObjectEventPal_Sinnoh99[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_99.gbapal");
-const u16 gObjectEventPal_Sinnoh100[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_100.gbapal");
-const u16 gObjectEventPal_Sinnoh101[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_101.gbapal");
-const u16 gObjectEventPal_Sinnoh102[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_102.gbapal");
-const u16 gObjectEventPal_Sinnoh103[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_103.gbapal");
-const u16 gObjectEventPal_Sinnoh104[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_104.gbapal");
-const u16 gObjectEventPal_Sinnoh105[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_105.gbapal");
-const u16 gObjectEventPal_Sinnoh106[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_106.gbapal");
-const u16 gObjectEventPal_Sinnoh107[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_107.gbapal");
-const u16 gObjectEventPal_Sinnoh108[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_108.gbapal");
-const u16 gObjectEventPal_Sinnoh109[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_109.gbapal");
-const u16 gObjectEventPal_Sinnoh110[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_110.gbapal");
-const u16 gObjectEventPal_Sinnoh111[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_111.gbapal");
-const u16 gObjectEventPal_Sinnoh112[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_112.gbapal");
+#define gObjectEventPal_Sinnoh96 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh97 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh98 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh99 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh100 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh101 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh102 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh103 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh104 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh105 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh106 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh107 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh108 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh109 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh110 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh111 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh112 gObjectEventPal_Sinnoh63
 const u16 gObjectEventPal_Sinnoh113[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_113.gbapal");
 const u16 gObjectEventPal_Sinnoh114[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_114.gbapal");
-const u16 gObjectEventPal_Sinnoh115[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_115.gbapal");
-const u16 gObjectEventPal_Sinnoh116[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_116.gbapal");
-const u16 gObjectEventPal_Sinnoh117[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_117.gbapal");
-const u16 gObjectEventPal_Sinnoh118[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_118.gbapal");
-const u16 gObjectEventPal_Sinnoh119[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_119.gbapal");
-const u16 gObjectEventPal_Sinnoh120[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_120.gbapal");
-const u16 gObjectEventPal_Sinnoh121[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_121.gbapal");
-const u16 gObjectEventPal_Sinnoh122[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_122.gbapal");
+#define gObjectEventPal_Sinnoh115 gObjectEventPal_Sinnoh76
+#define gObjectEventPal_Sinnoh116 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh117 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh118 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh119 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh120 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh121 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh122 gObjectEventPal_Sinnoh11
 const u16 gObjectEventPal_Sinnoh123[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_123.gbapal");
-const u16 gObjectEventPal_Sinnoh124[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_124.gbapal");
-const u16 gObjectEventPal_Sinnoh125[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_125.gbapal");
-const u16 gObjectEventPal_Sinnoh126[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_126.gbapal");
-const u16 gObjectEventPal_Sinnoh127[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_127.gbapal");
-const u16 gObjectEventPal_Sinnoh128[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_128.gbapal");
-const u16 gObjectEventPal_Sinnoh129[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_129.gbapal");
-const u16 gObjectEventPal_Sinnoh130[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_130.gbapal");
-const u16 gObjectEventPal_Sinnoh131[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_131.gbapal");
-const u16 gObjectEventPal_Sinnoh132[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_132.gbapal");
-const u16 gObjectEventPal_Sinnoh133[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_133.gbapal");
-const u16 gObjectEventPal_Sinnoh134[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_134.gbapal");
-const u16 gObjectEventPal_Sinnoh135[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_135.gbapal");
-const u16 gObjectEventPal_Sinnoh136[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_136.gbapal");
-const u16 gObjectEventPal_Sinnoh137[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_137.gbapal");
-const u16 gObjectEventPal_Sinnoh138[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_138.gbapal");
-const u16 gObjectEventPal_Sinnoh139[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_139.gbapal");
-const u16 gObjectEventPal_Sinnoh142[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_142.gbapal");
-const u16 gObjectEventPal_Sinnoh143[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_143.gbapal");
+#define gObjectEventPal_Sinnoh124 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh125 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh126 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh127 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh128 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh129 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh130 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh131 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh132 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh133 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh134 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh135 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh136 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh137 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh138 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh139 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh142 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh143 gObjectEventPal_Sinnoh7
 const u16 gObjectEventPal_Sinnoh144[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_144.gbapal");
-const u16 gObjectEventPal_Sinnoh145[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_145.gbapal");
-const u16 gObjectEventPal_Sinnoh146[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_146.gbapal");
-const u16 gObjectEventPal_Sinnoh147[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_147.gbapal");
-const u16 gObjectEventPal_Sinnoh148[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_148.gbapal");
-const u16 gObjectEventPal_Sinnoh149[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_149.gbapal");
-const u16 gObjectEventPal_Sinnoh150[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_150.gbapal");
-const u16 gObjectEventPal_Sinnoh151[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_151.gbapal");
-const u16 gObjectEventPal_Sinnoh152[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_152.gbapal");
-const u16 gObjectEventPal_Sinnoh153[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_153.gbapal");
-const u16 gObjectEventPal_Sinnoh154[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_154.gbapal");
-const u16 gObjectEventPal_Sinnoh155[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_155.gbapal");
-const u16 gObjectEventPal_Sinnoh156[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_156.gbapal");
-const u16 gObjectEventPal_Sinnoh157[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_157.gbapal");
-const u16 gObjectEventPal_Sinnoh158[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_158.gbapal");
-const u16 gObjectEventPal_Sinnoh159[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_159.gbapal");
-const u16 gObjectEventPal_Sinnoh160[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_160.gbapal");
-const u16 gObjectEventPal_Sinnoh161[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_161.gbapal");
+#define gObjectEventPal_Sinnoh145 gObjectEventPal_Sinnoh144
+#define gObjectEventPal_Sinnoh146 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh147 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh148 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh149 gObjectEventPal_Sinnoh144
+#define gObjectEventPal_Sinnoh150 gObjectEventPal_Sinnoh144
+#define gObjectEventPal_Sinnoh151 gObjectEventPal_Sinnoh77
+#define gObjectEventPal_Sinnoh152 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh153 gObjectEventPal_Sinnoh77
+#define gObjectEventPal_Sinnoh154 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh155 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh156 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh157 gObjectEventPal_Sinnoh77
+#define gObjectEventPal_Sinnoh158 gObjectEventPal_Sinnoh77
+#define gObjectEventPal_Sinnoh159 gObjectEventPal_Sinnoh77
+#define gObjectEventPal_Sinnoh160 gObjectEventPal_Sinnoh77
+#define gObjectEventPal_Sinnoh161 gObjectEventPal_Sinnoh77
 const u16 gObjectEventPal_Sinnoh162[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_162.gbapal");
-const u16 gObjectEventPal_Sinnoh163[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_163.gbapal");
-const u16 gObjectEventPal_Sinnoh164[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_164.gbapal");
+#define gObjectEventPal_Sinnoh163 gObjectEventPal_Sinnoh162
+#define gObjectEventPal_Sinnoh164 gObjectEventPal_Sinnoh7
 const u16 gObjectEventPal_Sinnoh165[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_165.gbapal");
-const u16 gObjectEventPal_Sinnoh166[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_166.gbapal");
-const u16 gObjectEventPal_Sinnoh167[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_167.gbapal");
-const u16 gObjectEventPal_Sinnoh168[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_168.gbapal");
-const u16 gObjectEventPal_Sinnoh169[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_169.gbapal");
-const u16 gObjectEventPal_Sinnoh170[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_170.gbapal");
-const u16 gObjectEventPal_Sinnoh171[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_171.gbapal");
-const u16 gObjectEventPal_Sinnoh172[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_172.gbapal");
-const u16 gObjectEventPal_Sinnoh173[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_173.gbapal");
-const u16 gObjectEventPal_Sinnoh174[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_174.gbapal");
-const u16 gObjectEventPal_Sinnoh176[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_176.gbapal");
-const u16 gObjectEventPal_Sinnoh177[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_177.gbapal");
-const u16 gObjectEventPal_Sinnoh178[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_178.gbapal");
-const u16 gObjectEventPal_Sinnoh179[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_179.gbapal");
-const u16 gObjectEventPal_Sinnoh180[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_180.gbapal");
-const u16 gObjectEventPal_Sinnoh181[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_181.gbapal");
-const u16 gObjectEventPal_Sinnoh182[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_182.gbapal");
-const u16 gObjectEventPal_Sinnoh183[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_183.gbapal");
-const u16 gObjectEventPal_Sinnoh184[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_184.gbapal");
-const u16 gObjectEventPal_Sinnoh185[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_185.gbapal");
-const u16 gObjectEventPal_Sinnoh186[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_186.gbapal");
-const u16 gObjectEventPal_Sinnoh189[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_189.gbapal");
-const u16 gObjectEventPal_Sinnoh190[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_190.gbapal");
-const u16 gObjectEventPal_Sinnoh195[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_195.gbapal");
-const u16 gObjectEventPal_Sinnoh196[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_196.gbapal");
-const u16 gObjectEventPal_Sinnoh197[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_197.gbapal");
-const u16 gObjectEventPal_Sinnoh198[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_198.gbapal");
-const u16 gObjectEventPal_Sinnoh199[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_199.gbapal");
-const u16 gObjectEventPal_Sinnoh200[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_200.gbapal");
-const u16 gObjectEventPal_Sinnoh201[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_201.gbapal");
-const u16 gObjectEventPal_Sinnoh202[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_202.gbapal");
-const u16 gObjectEventPal_Sinnoh203[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_203.gbapal");
-const u16 gObjectEventPal_Sinnoh204[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_204.gbapal");
+#define gObjectEventPal_Sinnoh166 gObjectEventPal_Sinnoh165
+#define gObjectEventPal_Sinnoh167 gObjectEventPal_Sinnoh113
+#define gObjectEventPal_Sinnoh168 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh169 gObjectEventPal_Sinnoh113
+#define gObjectEventPal_Sinnoh170 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh171 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh172 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh173 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh174 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh176 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh177 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh178 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh179 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh180 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh181 gObjectEventPal_Sinnoh113
+#define gObjectEventPal_Sinnoh182 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh183 gObjectEventPal_Sinnoh95
+#define gObjectEventPal_Sinnoh184 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh185 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh186 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh189 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh190 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh195 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh196 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh197 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh198 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh199 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh200 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh201 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh202 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh203 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh204 gObjectEventPal_Sinnoh144
 const u16 gObjectEventPal_Sinnoh205[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_205.gbapal");
-const u16 gObjectEventPal_Sinnoh206[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_206.gbapal");
-const u16 gObjectEventPal_Sinnoh207[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_207.gbapal");
-const u16 gObjectEventPal_Sinnoh208[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_208.gbapal");
-const u16 gObjectEventPal_Sinnoh209[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_209.gbapal");
-const u16 gObjectEventPal_Sinnoh210[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_210.gbapal");
-const u16 gObjectEventPal_Sinnoh211[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_211.gbapal");
-const u16 gObjectEventPal_Sinnoh212[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_212.gbapal");
-const u16 gObjectEventPal_Sinnoh213[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_213.gbapal");
-const u16 gObjectEventPal_Sinnoh214[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_214.gbapal");
-const u16 gObjectEventPal_Sinnoh215[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_215.gbapal");
-const u16 gObjectEventPal_Sinnoh218[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_218.gbapal");
-const u16 gObjectEventPal_Sinnoh219[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_219.gbapal");
-const u16 gObjectEventPal_Sinnoh220[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_220.gbapal");
-const u16 gObjectEventPal_Sinnoh221[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_221.gbapal");
-const u16 gObjectEventPal_Sinnoh222[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_222.gbapal");
-const u16 gObjectEventPal_Sinnoh223[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_223.gbapal");
-const u16 gObjectEventPal_Sinnoh224[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_224.gbapal");
-const u16 gObjectEventPal_Sinnoh225[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_225.gbapal");
-const u16 gObjectEventPal_Sinnoh226[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_226.gbapal");
-const u16 gObjectEventPal_Sinnoh227[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_227.gbapal");
-const u16 gObjectEventPal_Sinnoh228[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_228.gbapal");
-const u16 gObjectEventPal_Sinnoh229[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_229.gbapal");
-const u16 gObjectEventPal_Sinnoh230[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_230.gbapal");
-const u16 gObjectEventPal_Sinnoh231[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_231.gbapal");
-const u16 gObjectEventPal_Sinnoh232[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_232.gbapal");
+#define gObjectEventPal_Sinnoh206 gObjectEventPal_Sinnoh205
+#define gObjectEventPal_Sinnoh207 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh208 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh209 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh210 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh211 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh212 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh213 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh214 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh215 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh218 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh219 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh220 gObjectEventPal_Sinnoh95
+#define gObjectEventPal_Sinnoh221 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh222 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh223 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh224 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh225 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh226 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh227 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh228 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh229 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh230 gObjectEventPal_Sinnoh63
+#define gObjectEventPal_Sinnoh231 gObjectEventPal_Sinnoh144
+#define gObjectEventPal_Sinnoh232 gObjectEventPal_Sinnoh7
 const u16 gObjectEventPal_Sinnoh233[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_233.gbapal");
-const u16 gObjectEventPal_Sinnoh234[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_234.gbapal");
-const u16 gObjectEventPal_Sinnoh235[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_235.gbapal");
-const u16 gObjectEventPal_Sinnoh236[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_236.gbapal");
-const u16 gObjectEventPal_Sinnoh237[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_237.gbapal");
-const u16 gObjectEventPal_Sinnoh238[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_238.gbapal");
-const u16 gObjectEventPal_Sinnoh240[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_240.gbapal");
-const u16 gObjectEventPal_Sinnoh241[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_241.gbapal");
-const u16 gObjectEventPal_Sinnoh242[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_242.gbapal");
-const u16 gObjectEventPal_Sinnoh243[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_243.gbapal");
-const u16 gObjectEventPal_Sinnoh244[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_244.gbapal");
-const u16 gObjectEventPal_Sinnoh245[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_245.gbapal");
+#define gObjectEventPal_Sinnoh234 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh235 gObjectEventPal_Sinnoh233
+#define gObjectEventPal_Sinnoh236 gObjectEventPal_Sinnoh233
+#define gObjectEventPal_Sinnoh237 gObjectEventPal_Sinnoh4
+#define gObjectEventPal_Sinnoh238 gObjectEventPal_Sinnoh113
+#define gObjectEventPal_Sinnoh240 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh241 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh242 gObjectEventPal_Sinnoh11
+#define gObjectEventPal_Sinnoh243 gObjectEventPal_Sinnoh5
+#define gObjectEventPal_Sinnoh244 gObjectEventPal_Sinnoh7
+#define gObjectEventPal_Sinnoh245 gObjectEventPal_Sinnoh4
 // --- END WIRE_TO_DECOMP_SPRITES sinnoh ---

@@ -140,13 +140,20 @@ SpearPillar_Indoor1_Sinnoh_EventScript_Obj15_Text:
     .string "TODO: Stub script\nSpearPillar_Indoor1_Sinnoh_EventScript_Obj15$"
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0::
+    goto_if_set FLAG_RECEIVED_GIRATINA, SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0_Done
     lock
     msgbox SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0_Text, MSGBOX_DEFAULT
+    closemessage
+    givemon SPECIES_BULBASAUR, 5
+    setflag FLAG_SYS_POKEMON_GET
+    setflag FLAG_SYS_POKEDEX_GET
+    setflag FLAG_RECEIVED_GIRATINA
     release
+SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0_Done:
     end
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0_Text:
-    .string "TODO: Stub script\nSpearPillar_Indoor1_Sinnoh_EventScript_Trigger0$"
+    .string "Hello world3$"
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Trigger1::
     lock
