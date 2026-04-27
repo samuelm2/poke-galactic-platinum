@@ -148,12 +148,13 @@ SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0::
     setflag FLAG_SYS_POKEMON_GET
     setflag FLAG_SYS_POKEDEX_GET
     setflag FLAG_RECEIVED_GIRATINA
+    callnative UpdateFollowingPokemon
     release
 SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0_Done:
     end
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0_Text:
-    .string "Hello world3$"
+    .string "Hello world4$"
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Trigger1::
     lock
