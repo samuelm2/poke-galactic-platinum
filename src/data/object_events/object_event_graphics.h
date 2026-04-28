@@ -943,7 +943,7 @@ const u16 gObjectEventPal_Sinnoh63[] = INCBIN_U16("graphics/object_events/palett
 #define gObjectEventPal_Sinnoh75 gObjectEventPal_Sinnoh4
 const u16 gObjectEventPal_Sinnoh76[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_76.gbapal");
 const u16 gObjectEventPal_Sinnoh77[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_77.gbapal");
-#define gObjectEventPal_Sinnoh78 gObjectEventPal_Sinnoh63
+const u16 gObjectEventPal_Sinnoh78[] = INCBIN_U16("graphics/object_events/palettes/sinnoh_78.gbapal");
 #define gObjectEventPal_Sinnoh79 gObjectEventPal_Sinnoh5
 #define gObjectEventPal_Sinnoh80 gObjectEventPal_Sinnoh5
 #define gObjectEventPal_Sinnoh81 gObjectEventPal_Sinnoh4
