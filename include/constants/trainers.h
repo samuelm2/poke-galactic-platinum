@@ -224,6 +224,7 @@ enum __attribute__((packed)) TrainerPicID
     TRAINER_PIC_FRONT_SINNOH_48,
     TRAINER_PIC_FRONT_SINNOH_49,
     // --- END WIRE_TO_DECOMP_TRAINER_PIC_FRONT sinnoh ---
+    TRAINER_PIC_FRONT_CYNTHIA,
     TRAINER_PIC_FRONT_COUNT,
     TRAINER_PIC_BACK_BRENDAN = TRAINER_PIC_FRONT_COUNT, // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
     TRAINER_PIC_BACK_MAY,

@@ -16873,3 +16873,68 @@ Double Battle: No
 Kyogre
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+=== TRAINER_CYNTHIA ===
+Name: CYNTHIA
+Class: Champion
+Pic: Cynthia
+Gender: Female
+Music: Female
+Items: Full Restore / Full Restore / Full Restore / Full Restore
+Double Battle: No
+AI: Basic Trainer / Try To Faint
+Mugshot: Yellow
+
+Spiritomb @ Sitrus Berry
+Level: 58
+Ability: Pressure
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dark Pulse
+- Psychic
+- Silver Wind
+- Embargo
+
+Roserade @ White Herb
+Level: 58
+Ability: Natural Cure
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Energy Ball
+- Sludge Bomb
+- Shadow Ball
+- Extrasensory
+
+Togekiss @ Sitrus Berry
+Level: 60
+Ability: Serene Grace
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aura Sphere
+- Air Slash
+- Water Pulse
+- Thunder Wave
+
+Lucario @ Wise Glasses
+Level: 60
+Ability: Inner Focus
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Aura Sphere
+- Psychic
+- Earthquake
+- Stone Edge
+
+Milotic @ Flame Orb
+Level: 58
+Ability: Marvel Scale
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Surf
+- Ice Beam
+- Aqua Ring
+- Mirror Coat
+
+Garchomp @ Sitrus Berry
+Level: 62
+Ability: Sand Veil
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake
+- Giga Impact
+- Brick Break
+- Dragon Rush

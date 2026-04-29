@@ -88,11 +88,21 @@ SpearPillar_Indoor1_Sinnoh_EventScript_Obj9_Text:
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj10::
     lock
     msgbox SpearPillar_Indoor1_Sinnoh_EventScript_Obj10_Text, MSGBOX_DEFAULT
+    closemessage
+    trainerbattle_no_intro TRAINER_CYNTHIA, SpearPillar_Indoor1_Sinnoh_EventScript_Obj10_DefeatText
     release
     end
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj10_Text:
-    .string "TODO: Stub script\nSpearPillar_Indoor1_Sinnoh_EventScript_Obj10$"
+    .string "Hello Saturn. You've finally come.\p"
+    .string "Even with everything we've been\n"
+    .string "through together, you still chose\l"
+    .string "to betray me.\p"
+    .string "For that, I'll have to stop you here.\p"
+    .string "Taste my wrath!$"
+
+SpearPillar_Indoor1_Sinnoh_EventScript_Obj10_DefeatText:
+    .string "How could you…$"
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj11::
     lock
@@ -144,10 +154,18 @@ SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0::
     lock
     msgbox SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0_Text, MSGBOX_DEFAULT
     closemessage
-    givemon SPECIES_BULBASAUR, 5
+    givemon SPECIES_GIRATINA, 85
     setflag FLAG_SYS_POKEMON_GET
     setflag FLAG_SYS_POKEDEX_GET
     setflag FLAG_RECEIVED_GIRATINA
+    setflag FLAG_BADGE01_GET
+    setflag FLAG_BADGE02_GET
+    setflag FLAG_BADGE03_GET
+    setflag FLAG_BADGE04_GET
+    setflag FLAG_BADGE05_GET
+    setflag FLAG_BADGE06_GET
+    setflag FLAG_BADGE07_GET
+    setflag FLAG_BADGE08_GET
     callnative UpdateFollowingPokemon
     release
 SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0_Done:

@@ -5805,6 +5805,8 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_LEADER:
             return MUS_VS_GYM_LEADER;
         case TRAINER_CLASS_CHAMPION:
+            if (TRAINER_BATTLE_PARAM.opponentA == TRAINER_CYNTHIA)
+                return MUS_VS_CYNTHIA;
             return MUS_VS_CHAMPION;
         case TRAINER_CLASS_RIVAL:
             if (gBattleTypeFlags & BATTLE_TYPE_FRONTIER)
