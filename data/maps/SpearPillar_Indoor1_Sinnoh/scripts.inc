@@ -99,6 +99,7 @@ SpearPillar_Indoor1_Sinnoh_EventScript_Obj10_Text:
     .string "through together, you still chose\l"
     .string "to betray me.\p"
     .string "For that, I'll have to stop you here.\p"
+    .string "I have no other words for you.\p"
     .string "Taste my wrath!$"
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj10_DefeatText:
