@@ -153,9 +153,13 @@ SpearPillar_Indoor1_Sinnoh_EventScript_Obj15_Text:
 SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0::
     goto_if_set FLAG_RECEIVED_GIRATINA, SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0_Done
     lock
+    playfanfare MUS_OBTAIN_ITEM
     msgbox SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0_Text, MSGBOX_DEFAULT
+    waitfanfare
     closemessage
-    givemon SPECIES_GIRATINA, 85
+    givemon SPECIES_ALAKAZAM, 100, ITEM_ALAKAZITE
+    givemon SPECIES_TOXICROAK, 100
+    additem ITEM_MEGA_RING, 1
     setflag FLAG_SYS_POKEMON_GET
     setflag FLAG_SYS_POKEDEX_GET
     setflag FLAG_RECEIVED_GIRATINA
@@ -168,12 +172,13 @@ SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0::
     setflag FLAG_BADGE07_GET
     setflag FLAG_BADGE08_GET
     callnative UpdateFollowingPokemon
+    removeobject VAR_LAST_TALKED
     release
 SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0_Done:
     end
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0_Text:
-    .string "Hello world4$"
+    .string "You found your Pokémon party!$"
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Trigger1::
     lock
