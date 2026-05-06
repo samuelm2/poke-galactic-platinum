@@ -14199,6 +14199,7 @@ void BS_HandleFormChange(void)
         UpdateHealthboxAttribute(gHealthboxSpriteIds[battler], GetBattlerMon(battler), HEALTHBOX_ALL);
         if (!IsOnPlayerSide(battler))
             SetBattlerShadowSpriteCallback(battler, gBattleMons[battler].species);
+        gBattleStruct->gimmick.formChangePending &= ~(1u << battler);
     }
     gBattlescriptCurrInstr = cmd->nextInstr;
 }
@@ -14419,16 +14420,33 @@ void BS_HandleTrainerSlideMsg(void)
     }
     else if (cmd->case_ == RESTORE_BATTLER_SLIDE_CONTROL)
     {
-        if (IsBattlerAlive(battler))
+        // Reload the on-field Pokemon's sprite/palette to clean up the slide.
+        // If a form change is pending (e.g. mega evolution), the party mon's
+        // species was already updated to the post-form species. Reloading with
+        // that would prematurely show the new form. Temporarily revert the
+        // party mon's species to its pre-form value for the reload.
+        for (u32 i = 0; i < 2; i++)
         {
-            SetBattlerShadowSpriteCallback(battler, gBattleMons[battler].species);
-            BattleLoadMonSpriteGfx(GetBattlerMon(battler), battler);
-        }
-        enum BattlerId partner = BATTLE_PARTNER(battler);
-        if (IsBattlerAlive(partner))
-        {
-            SetBattlerShadowSpriteCallback(partner, gBattleMons[partner].species);
-            BattleLoadMonSpriteGfx(GetBattlerMon(partner), partner);
+            enum BattlerId b = (i == 0) ? battler : BATTLE_PARTNER(battler);
+            if (!IsBattlerAlive(b))
+                continue;
+            struct Pokemon *mon = GetBattlerMon(b);
+            struct PartyState *partyState = GetBattlerPartyState(b);
+            u32 origSpecies = GetMonData(mon, MON_DATA_SPECIES);
+            bool32 swapped = FALSE;
+            if ((gBattleStruct->gimmick.formChangePending & (1u << b))
+                && partyState != NULL
+                && partyState->changedSpecies != SPECIES_NONE
+                && partyState->changedSpecies != origSpecies)
+            {
+                u32 preFormSpecies = partyState->changedSpecies;
+                SetMonData(mon, MON_DATA_SPECIES, &preFormSpecies);
+                swapped = TRUE;
+            }
+            SetBattlerShadowSpriteCallback(b, GetMonData(mon, MON_DATA_SPECIES));
+            BattleLoadMonSpriteGfx(mon, b);
+            if (swapped)
+                SetMonData(mon, MON_DATA_SPECIES, &origSpecies);
         }
     }
     gBattlescriptCurrInstr = cmd->nextInstr;

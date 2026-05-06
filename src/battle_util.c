@@ -8689,6 +8689,7 @@ void ActivateMegaEvolution(enum BattlerId battler)
     gLastUsedItem = gBattleMons[battler].item;
     SetActiveGimmick(battler, GIMMICK_MEGA);
     SetGimmickAsActivated(battler, GIMMICK_MEGA);
+    gBattleStruct->gimmick.formChangePending |= (1u << battler);
 
     if (TryBattleFormChange(battler, FORM_CHANGE_BATTLE_MEGA_EVOLUTION_MOVE, ability))
     {
