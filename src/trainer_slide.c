@@ -60,6 +60,16 @@ static const u8* const sTrainerSlides[DIFFICULTY_COUNT][TRAINER_PARTNER(PARTNER_
 {
     [DIFFICULTY_NORMAL] =
     {
+        [TRAINER_CYNTHIA] =
+        {
+            [TRAINER_SLIDE_PLAYER_LANDS_FIRST_CRITICAL_HIT] = COMPOUND_STRING("Cynthia: You haven't lost your edge…{PAUSE_UNTIL_PRESS}"),
+            [TRAINER_SLIDE_PLAYER_LANDS_FIRST_SUPER_EFFECTIVE_HIT] = COMPOUND_STRING("Cynthia: A keen read. Always thinking\nthree moves ahead.{PAUSE_UNTIL_PRESS}"),
+            [TRAINER_SLIDE_PLAYER_LANDS_FIRST_DOWN] = COMPOUND_STRING("Cynthia: You've grown\nstronger than I remembered.{PAUSE_UNTIL_PRESS}"),
+            [TRAINER_SLIDE_LAST_SWITCHIN] = COMPOUND_STRING("Cynthia: It's down to my last partner.\nWe won't go quietly, Saturn.{PAUSE_UNTIL_PRESS}"),
+            [TRAINER_SLIDE_LAST_HALF_HP] = COMPOUND_STRING("Cynthia: I won't fall here, Saturn.\nNot to you. Not after everything.{PAUSE_UNTIL_PRESS}"),
+            [TRAINER_SLIDE_LAST_LOW_HP] = COMPOUND_STRING("Cynthia: I refuse… to let you walk\naway from what you've done!{PAUSE_UNTIL_PRESS}"),
+            [TRAINER_SLIDE_MEGA_EVOLUTION] = COMPOUND_STRING("Cynthia: Garchomp! Our bond cannot\nbe broken. Answer my call!{PAUSE_UNTIL_PRESS}"),
+        },
     },
 };
 

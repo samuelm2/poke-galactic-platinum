@@ -17,9 +17,9 @@ import os
 import struct
 import sys
 
-ROM_PATH = 'AllInstruments.gba'
-BIN_PATH = 'All Instruments.bin'
-VOICEGROUP_OFFSET = 0x071A240
+ROM_PATH = 'AllInstrumentsV1.gba'
+BIN_PATH = None  # No separate BIN for V1; voicegroup is in ROM at VOICEGROUP_OFFSET
+VOICEGROUP_OFFSET = 0x00B30C5C
 GBA_BASE = 0x08000000
 
 # Voice type bytes
@@ -37,9 +37,10 @@ TYPE_NOISE_ALT            = 0x0C
 TYPE_KEYSPLIT             = 0x40
 TYPE_KEYSPLIT_ALL         = 0x80
 
-OUT_SAMPLE_DIR = 'sound/direct_sound_samples/all_inst'
-OUT_VOICEGROUP = 'sound/voicegroups/all_instruments.inc'
-OUT_DECLS = 'sound/direct_sound_data_all_inst.inc'
+OUT_SAMPLE_DIR = 'sound/direct_sound_samples/all_inst_v1'
+OUT_VOICEGROUP = 'sound/voicegroups/all_instruments_v1.inc'
+OUT_DECLS = 'sound/direct_sound_data_all_inst_v1.inc'
+VOICEGROUP_LABEL = 'all_instruments_v1'
 
 # Globals (populated during run)
 extracted_samples = {}      # rom_addr -> sample_label
@@ -68,7 +69,7 @@ def extract_sample(rom, rom_addr):
         return None
 
     sample_bytes = rom[file_off:file_off + total_size]
-    label = f'all_inst_{rom_addr:08x}'
+    label = f'all_inst_v1_{rom_addr:08x}'
     out_path = f'{OUT_SAMPLE_DIR}/{label}.bin'
     os.makedirs(OUT_SAMPLE_DIR, exist_ok=True)
     with open(out_path, 'wb') as f:
@@ -82,7 +83,7 @@ def queue_voicegroup(rom_addr):
     """Register a sub-voicegroup for processing if not already known. Returns its label."""
     if rom_addr in voicegroup_blocks:
         return voicegroup_blocks[rom_addr][0]
-    label = f'voicegroup_all_inst_sub_{rom_addr:08x}'
+    label = f'voicegroup_all_inst_v1_sub_{rom_addr:08x}'
     voicegroup_blocks[rom_addr] = (label, None)  # mark as queued
     voicegroup_queue.append((rom_addr, label))
     return label
@@ -96,7 +97,7 @@ def queue_keysplit_table(rom, rom_addr):
     if file_off is None or file_off + 256 > len(rom):
         return None
     table_bytes = rom[file_off:file_off + 256]
-    label = f'KeySplitTable_all_inst_{rom_addr:08x}'
+    label = f'KeySplitTable_all_inst_v1_{rom_addr:08x}'
     keysplit_tables[rom_addr] = (label, table_bytes)
     return label
 
@@ -194,23 +195,24 @@ def main():
     with open(ROM_PATH, 'rb') as f:
         rom = f.read()
     rom_global = rom
-    with open(BIN_PATH, 'rb') as f:
-        bin_data = f.read()
 
-    rom_table = rom[VOICEGROUP_OFFSET:VOICEGROUP_OFFSET + 1536]
-    if rom_table != bin_data:
-        print('ERROR: BIN does not match ROM at expected offset', file=sys.stderr)
-        sys.exit(1)
+    if BIN_PATH:
+        with open(BIN_PATH, 'rb') as f:
+            bin_data = f.read()
+        rom_table = rom[VOICEGROUP_OFFSET:VOICEGROUP_OFFSET + 1536]
+        if rom_table != bin_data:
+            print('ERROR: BIN does not match ROM at expected offset', file=sys.stderr)
+            sys.exit(1)
 
     # Clean output sample dir
     if os.path.isdir(OUT_SAMPLE_DIR):
         for f in os.listdir(OUT_SAMPLE_DIR):
             os.remove(os.path.join(OUT_SAMPLE_DIR, f))
 
-    # Bootstrap: main voicegroup uses label "all_instruments"
+    # Bootstrap: main voicegroup uses VOICEGROUP_LABEL
     main_addr = GBA_BASE + VOICEGROUP_OFFSET
-    voicegroup_blocks[main_addr] = ('all_instruments', None)
-    voicegroup_queue.append((main_addr, 'all_instruments'))
+    voicegroup_blocks[main_addr] = (VOICEGROUP_LABEL, None)
+    voicegroup_queue.append((main_addr, VOICEGROUP_LABEL))
 
     # Worklist: process queued voicegroups, which may queue more
     while voicegroup_queue:
@@ -224,7 +226,7 @@ def main():
     with open(OUT_VOICEGROUP, 'w') as f:
         # Main
         main_lines = voicegroup_blocks[main_addr][1]
-        f.write('voice_group all_instruments\n')
+        f.write(f'voice_group {VOICEGROUP_LABEL}\n')
         for line in main_lines:
             f.write(line + '\n')
         # Subs (sorted by addr for stable output)

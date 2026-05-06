@@ -141,6 +141,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 ### Sprites
 - **Cynthia battle sprite** — lichen
 - **Many Sinnoh sprites** — extracted from Hyper Emerald v5.7 – Lost Artifacts
+- **Lucas battle sprite** — Sacredgbc123
 
 ### Maps
 - **Many Sinnoh maps** — extracted from Hyper Emerald v5.7 – Lost Artifacts

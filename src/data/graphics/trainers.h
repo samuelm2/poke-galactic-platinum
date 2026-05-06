@@ -220,6 +220,12 @@ const u16 gTrainerPalette_Brendan[] = INCGFX_U16("graphics/trainers/palettes/bre
 const u32 gTrainerFrontPic_Saturn[] = INCGFX_U32("graphics/trainers/front_pics/saturn.png", ".4bpp.smol");
 const u16 gTrainerPalette_Saturn[] = INCGFX_U16("graphics/trainers/front_pics/saturn.png", ".gbapal");
 
+const u32 gTrainerFrontPic_Cyrus[] = INCGFX_U32("graphics/trainers/front_pics/cyrus.png", ".4bpp.smol");
+const u16 gTrainerPalette_Cyrus[] = INCGFX_U16("graphics/trainers/front_pics/cyrus.png", ".gbapal");
+
+const u32 gTrainerFrontPic_Lucas[] = INCGFX_U32("graphics/trainers/front_pics/lucas.png", ".4bpp.smol");
+const u16 gTrainerPalette_Lucas[] = INCGFX_U16("graphics/trainers/front_pics/lucas.png", ".gbapal");
+
 const u32 gTrainerFrontPic_May[] = INCGFX_U32("graphics/trainers/front_pics/may.png", ".4bpp.smol");
 const u16 gTrainerPalette_May[] = INCGFX_U16("graphics/trainers/palettes/may.pal", ".gbapal");
 
@@ -815,6 +821,8 @@ const struct TrainerSprite gTrainerSprites[] =
     TRAINER_SPRITE(TRAINER_PIC_FRONT_SINNOH_49, gTrainerFrontPic_Sinnoh49, gTrainerPalette_Sinnoh49),
     // --- END WIRE_TO_DECOMP_TRAINER_SPRITES sinnoh ---
     TRAINER_SPRITE(TRAINER_PIC_FRONT_CYNTHIA, gTrainerFrontPic_Cynthia, gTrainerPalette_Cynthia),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_CYRUS, gTrainerFrontPic_Cyrus, gTrainerPalette_Cyrus),
+    TRAINER_SPRITE(TRAINER_PIC_FRONT_LUCAS, gTrainerFrontPic_Lucas, gTrainerPalette_Lucas),
 };
 
 static const union AnimCmd sAnimCmd_Hoenn[] =
