@@ -5795,11 +5795,10 @@ u16 GetBattleBGM(void)
         switch (trainerClass)
         {
         case TRAINER_CLASS_AQUA_LEADER:
-            if (TRAINER_BATTLE_PARAM.opponentA == TRAINER_CYRUS)
-                return MUS_VS_CYRUS;
-            return MUS_VS_AQUA_MAGMA_LEADER;
         case TRAINER_CLASS_MAGMA_LEADER:
             return MUS_VS_AQUA_MAGMA_LEADER;
+        case TRAINER_CLASS_GALACTIC_LEADER:
+            return MUS_VS_CYRUS;
         case TRAINER_CLASS_TEAM_AQUA:
         case TRAINER_CLASS_TEAM_MAGMA:
         case TRAINER_CLASS_AQUA_ADMIN:
