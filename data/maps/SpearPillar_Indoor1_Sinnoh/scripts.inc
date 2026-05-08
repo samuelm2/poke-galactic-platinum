@@ -2,17 +2,7 @@
 @ Replace these with real scripts as needed
 
 SpearPillar_Indoor1_Sinnoh_MapScripts::
-    map_script MAP_SCRIPT_ON_FRAME_TABLE, SpearPillar_Indoor1_Sinnoh_OnFrameTable
     .byte 0
-
-SpearPillar_Indoor1_Sinnoh_OnFrameTable:
-    map_script_2 VAR_TEMP_1, 0, SpearPillar_Indoor1_Sinnoh_OnFrame_FireTrigger0
-    .2byte 0
-
-SpearPillar_Indoor1_Sinnoh_OnFrame_FireTrigger0::
-    setvar VAR_TEMP_1, 1
-    goto SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0
-    end
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj1::
     lock
@@ -21,16 +11,19 @@ SpearPillar_Indoor1_Sinnoh_EventScript_Obj1::
     end
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj1_Text:
-    .string "TODO: Stub script\nSpearPillar_Indoor1_Sinnoh_EventScript_Obj1$"
+    .string "I'm gonna sneak around and\ntake her out!\p"
+    .string "My WURMPLE is the strongest\naround!\p"
+    .string "It should take her out easily.$"
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj2::
     lock
+    faceplayer
     msgbox SpearPillar_Indoor1_Sinnoh_EventScript_Obj2_Text, MSGBOX_DEFAULT
     release
     end
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj2_Text:
-    .string "TODO: Stub script\nSpearPillar_Indoor1_Sinnoh_EventScript_Obj2$"
+    .string "I'm hiding over here.\pHopefully she doesn't notice me.\pI don't want to fight her…$"
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj3::
     lock
@@ -48,58 +41,19 @@ SpearPillar_Indoor1_Sinnoh_EventScript_Obj4::
     end
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj4_Text:
-    .string "TODO: Stub script\nSpearPillar_Indoor1_Sinnoh_EventScript_Obj4$"
-
-SpearPillar_Indoor1_Sinnoh_EventScript_Obj5::
-    lock
-    msgbox SpearPillar_Indoor1_Sinnoh_EventScript_Obj5_Text, MSGBOX_DEFAULT
-    release
-    end
-
-SpearPillar_Indoor1_Sinnoh_EventScript_Obj5_Text:
-    .string "TODO: Stub script\nSpearPillar_Indoor1_Sinnoh_EventScript_Obj5$"
+    .string "We have you surrounded!\pStand down and nobody\ngets hurt!$"
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj6::
     lock
     faceplayer
-    goto_if_defeated TRAINER_CYRUS, SpearPillar_Indoor1_Sinnoh_EventScript_Obj6_AlreadyDefeated
     msgbox SpearPillar_Indoor1_Sinnoh_EventScript_Obj6_Text, MSGBOX_DEFAULT
-    closemessage
-    trainerbattle_no_intro TRAINER_CYRUS, SpearPillar_Indoor1_Sinnoh_EventScript_Obj6_DefeatText
-    msgbox SpearPillar_Indoor1_Sinnoh_EventScript_Obj6_PostDefeatText, MSGBOX_DEFAULT
-    closemessage
-    applymovement VAR_LAST_TALKED, SpearPillar_Indoor1_Sinnoh_Movement_CyrusStepAside
-    waitmovement 0
-    setobjectxyperm 6, 14, 9
-    setobjectmovementtype 6, MOVEMENT_TYPE_FACE_RIGHT
-    release
-    end
-
-SpearPillar_Indoor1_Sinnoh_Movement_CyrusStepAside:
-    walk_left
-    delay_8
-    face_right
-    step_end
-    waitmovement
-
-SpearPillar_Indoor1_Sinnoh_EventScript_Obj6_AlreadyDefeated:
-    msgbox SpearPillar_Indoor1_Sinnoh_EventScript_Obj6_PostDefeatText, MSGBOX_DEFAULT
     release
     end
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj6_Text:
-    .string "Saturn. My most trusted confidant.\p"
-    .string "All this time we spent together\nbuilding Team Galactic.\p"
-    .string "All this trust I put into you.\p"
-    .string "Only for you to betray me when\nI needed you most.\p"
-    .string "This world really does deserve\nnothingness.\p"
-    .string "It's time for me to end you.$"
-
-SpearPillar_Indoor1_Sinnoh_EventScript_Obj6_DefeatText:
-    .string "Impossible…$"
-
-SpearPillar_Indoor1_Sinnoh_EventScript_Obj6_PostDefeatText:
-    .string "I never thought it would end\nlike this, Saturn.$"
+    .string "That woman's power is beyond my\ncomprehension.\p"
+    .string "She defeated me with almost no\neffort at all.\p"
+    .string "Saturn… it's up to you now.$"
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj7::
     lock
@@ -108,16 +62,17 @@ SpearPillar_Indoor1_Sinnoh_EventScript_Obj7::
     end
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj7_Text:
-    .string "TODO: Stub script\nSpearPillar_Indoor1_Sinnoh_EventScript_Obj7$"
+    .string "Master Cyrus! Let me help with\nyour injuries!$"
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj8::
     lock
+    faceplayer
     msgbox SpearPillar_Indoor1_Sinnoh_EventScript_Obj8_Text, MSGBOX_DEFAULT
     release
     end
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj8_Text:
-    .string "TODO: Stub script\nSpearPillar_Indoor1_Sinnoh_EventScript_Obj8$"
+    .string "Saturn… you're our last hope.\pPlease, you have to stop her!$"
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj9::
     lock
@@ -126,13 +81,11 @@ SpearPillar_Indoor1_Sinnoh_EventScript_Obj9::
     end
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj9_Text:
-    .string "TODO: Stub script\nSpearPillar_Indoor1_Sinnoh_EventScript_Obj9$"
+    .string "Stay with us, Master Cyrus!\nWe'll get you out of here!$"
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj10::
     lock
     goto_if_defeated TRAINER_CYNTHIA, SpearPillar_Indoor1_Sinnoh_EventScript_Obj10_AlreadyDefeated
-    fadeoutbgm 1
-    playbgm MUS_CYNTHIA_THEME, FALSE
     msgbox SpearPillar_Indoor1_Sinnoh_EventScript_Obj10_Text, MSGBOX_DEFAULT
     closemessage
     trainerbattle_no_intro TRAINER_CYNTHIA, SpearPillar_Indoor1_Sinnoh_EventScript_Obj10_DefeatText
@@ -191,42 +144,33 @@ SpearPillar_Indoor1_Sinnoh_EventScript_Obj11_Text:
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj12::
     lock
+    faceplayer
     msgbox SpearPillar_Indoor1_Sinnoh_EventScript_Obj12_Text, MSGBOX_DEFAULT
     release
     end
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj12_Text:
-    .string "TODO: Stub script\nSpearPillar_Indoor1_Sinnoh_EventScript_Obj12$"
+    .string "Commander Saturn!\pYou're the only one strong\nenough to take her down!$"
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj13::
-    trainerbattle_single TRAINER_GALACTIC_GRUNT_SPEAR_PILLAR, SpearPillar_Indoor1_Sinnoh_EventScript_Obj13_Intro, SpearPillar_Indoor1_Sinnoh_EventScript_Obj13_Defeat
-    msgbox SpearPillar_Indoor1_Sinnoh_EventScript_Obj13_PostDefeat, MSGBOX_DEFAULT
+    lock
+    msgbox SpearPillar_Indoor1_Sinnoh_EventScript_Obj13_Text, MSGBOX_DEFAULT
     release
     end
 
-SpearPillar_Indoor1_Sinnoh_EventScript_Obj13_Intro:
-    .string "Halt! Commander Saturn or not,\nno traitor passes us!$"
-
-SpearPillar_Indoor1_Sinnoh_EventScript_Obj13_Defeat:
-    .string "How… for Cyrus…$"
-
-SpearPillar_Indoor1_Sinnoh_EventScript_Obj13_PostDefeat:
-    .string "Saturn…you were the best boss\nI ever had. Why would you betray us?$"
+SpearPillar_Indoor1_Sinnoh_EventScript_Obj13_Text:
+    .string "We've got the intruder and her\npartner surrounded…\p"
+    .string "but nobody's been able to lay\na finger on her!$"
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj14::
-    trainerbattle_single TRAINER_GALACTIC_GRUNT_SPEAR_PILLAR_2, SpearPillar_Indoor1_Sinnoh_EventScript_Obj14_Intro, SpearPillar_Indoor1_Sinnoh_EventScript_Obj14_Defeat
-    msgbox SpearPillar_Indoor1_Sinnoh_EventScript_Obj14_PostDefeat, MSGBOX_DEFAULT
+    lock
+    msgbox SpearPillar_Indoor1_Sinnoh_EventScript_Obj14_Text, MSGBOX_DEFAULT
     release
     end
 
-SpearPillar_Indoor1_Sinnoh_EventScript_Obj14_Intro:
-    .string "Saturn?! You don't get to walk\nin here like nothing happened!$"
-
-SpearPillar_Indoor1_Sinnoh_EventScript_Obj14_Defeat:
-    .string "Curse you, Saturn…$"
-
-SpearPillar_Indoor1_Sinnoh_EventScript_Obj14_PostDefeat:
-    .string "I knew you were a traitor.\nWhy did Cyrus trust you?$"
+SpearPillar_Indoor1_Sinnoh_EventScript_Obj14_Text:
+    .string "Wow… she destroyed all our\npeople like butter.\p"
+    .string "Maybe I'm on the wrong side\nof things…$"
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj15::
     lock
@@ -235,7 +179,7 @@ SpearPillar_Indoor1_Sinnoh_EventScript_Obj15::
     end
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Obj15_Text:
-    .string "TODO: Stub script\nSpearPillar_Indoor1_Sinnoh_EventScript_Obj15$"
+    .string "There's nowhere left to run!\pGive yourselves up before\nthis gets worse!$"
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0::
     goto_if_set FLAG_RECEIVED_GIRATINA, SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0_Done
@@ -254,6 +198,7 @@ SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0::
     setflag FLAG_SYS_POKEMON_GET
     setflag FLAG_SYS_POKEDEX_GET
     setflag FLAG_RECEIVED_GIRATINA
+    removeobject VAR_LAST_TALKED
     setflag FLAG_BADGE01_GET
     setflag FLAG_BADGE02_GET
     setflag FLAG_BADGE03_GET
@@ -262,8 +207,6 @@ SpearPillar_Indoor1_Sinnoh_EventScript_Trigger0::
     setflag FLAG_BADGE06_GET
     setflag FLAG_BADGE07_GET
     setflag FLAG_BADGE08_GET
-    settrainerflag TRAINER_GALACTIC_GRUNT_SPEAR_PILLAR
-    settrainerflag TRAINER_GALACTIC_GRUNT_SPEAR_PILLAR_2
     settrainerflag TRAINER_SINNOH_MC
     callnative UpdateFollowingPokemon
     release
@@ -281,6 +224,11 @@ SpearPillar_Indoor1_Sinnoh_EventScript_Trigger1::
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Trigger1_Text:
     .string "TODO: Stub script\nSpearPillar_Indoor1_Sinnoh_EventScript_Trigger1$"
+
+SpearPillar_Indoor1_Sinnoh_EventScript_Trigger2::
+    setvar VAR_TEMP_1, 1
+    fadenewbgm MUS_CYNTHIA_THEME
+    end
 
 SpearPillar_Indoor1_Sinnoh_EventScript_Sign0::
     lock

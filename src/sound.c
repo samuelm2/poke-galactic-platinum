@@ -554,6 +554,20 @@ static void RestoreBGMVolumeAfterPokemonCry(void)
         CreateTask(Task_DuckBGMForPokemonCry, 80);
 }
 
+// Per-song BGM volume overrides. 0x100 = full, 0xC0 ≈ 75%, 0x80 = 50%.
+// Songs not listed here play at full volume.
+static const struct { u16 songNum; u16 volume; } sBGMVolumeOverrides[] = {
+    { MUS_CYNTHIA_THEME, 0xC0 },
+};
+
+static u16 GetBGMVolume(u16 songNum)
+{
+    for (u32 i = 0; i < ARRAY_COUNT(sBGMVolumeOverrides); i++)
+        if (sBGMVolumeOverrides[i].songNum == songNum)
+            return sBGMVolumeOverrides[i].volume;
+    return 0x100;
+}
+
 void PlayBGM(u16 songNum)
 {
     if (gDisableMusic)
@@ -561,6 +575,8 @@ void PlayBGM(u16 songNum)
     if (songNum == MUS_NONE)
         songNum = 0;
     m4aSongNumStart(songNum);
+    if (songNum != 0)
+        m4aMPlayVolumeControl(&gMPlayInfo_BGM, TRACKS_ALL, GetBGMVolume(songNum));
 }
 
 void PlaySE(u16 songNum)
