@@ -568,6 +568,18 @@ static u16 GetBGMVolume(u16 songNum)
     return 0x100;
 }
 
+// The m4a mixer resets track->volX to 64 on the first audio tick after a
+// song starts (clears MPT_FLG_START), which clobbers any volume override
+// applied immediately after m4aSongNumStart. Deferring re-apply by one
+// frame via a task lets the START tick run first.
+static u16 sPendingBGMVolume;
+
+static void Task_ApplyBGMVolumeOverride(u8 taskId)
+{
+    m4aMPlayVolumeControl(&gMPlayInfo_BGM, TRACKS_ALL, sPendingBGMVolume);
+    DestroyTask(taskId);
+}
+
 void PlayBGM(u16 songNum)
 {
     if (gDisableMusic)
@@ -576,7 +588,14 @@ void PlayBGM(u16 songNum)
         songNum = 0;
     m4aSongNumStart(songNum);
     if (songNum != 0)
-        m4aMPlayVolumeControl(&gMPlayInfo_BGM, TRACKS_ALL, GetBGMVolume(songNum));
+    {
+        u16 volume = GetBGMVolume(songNum);
+        if (volume != 0x100)
+        {
+            sPendingBGMVolume = volume;
+            CreateTask(Task_ApplyBGMVolumeOverride, 80);
+        }
+    }
 }
 
 void PlaySE(u16 songNum)
